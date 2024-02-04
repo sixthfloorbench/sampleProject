@@ -1,9 +1,9 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
-import "tailwindcss/tailwind.css";
 
-// import "./index.css";
-// import reportWebVitals from "./reportWebVitals";
+//Common Css files
+import "tailwindcss/tailwind.css";
+import "antd/dist/antd.css";
 
 const rootNode = document.getElementById("root");
 const root = ReactDOM.createRoot(rootNode);

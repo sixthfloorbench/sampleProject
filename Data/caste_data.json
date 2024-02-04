@@ -1,0 +1,2986 @@
+[
+    {
+        "value": "Caste_00",
+        "caption": "- Select -"
+    },
+    {
+        "value": "Caste_766",
+        "caption": "24 Manai Telugu Chettiar"
+    },
+    {
+        "value": "Caste_797",
+        "caption": "96 Kuli Maratha"
+    },
+    {
+        "value": "Caste_963",
+        "caption": "Aaru Nattu Vellala"
+    },
+    {
+        "value": "Caste_890",
+        "caption": "Achirapakkam Chettiar"
+    },
+    {
+        "value": "Caste_1",
+        "caption": "Ad Dharmi"
+    },
+    {
+        "value": "Caste_692",
+        "caption": "Adi Andhra"
+    },
+    {
+        "value": "Caste_2",
+        "caption": "Adi Dravida"
+    },
+    {
+        "value": "Caste_693",
+        "caption": "Adi Karnataka"
+    },
+    {
+        "value": "Caste_935",
+        "caption": "Agamudayar / Arcot / Thuluva Vellala"
+    },
+    {
+        "value": "Caste_891",
+        "caption": "Agaram Vellan Chettiar"
+    },
+    {
+        "value": "Caste_3",
+        "caption": "Agarwal"
+    },
+    {
+        "value": "Caste_4",
+        "caption": "Agnikula Kshatriya"
+    },
+    {
+        "value": "Caste_862",
+        "caption": "Agrahari"
+    },
+    {
+        "value": "Caste_5",
+        "caption": "Agri"
+    },
+    {
+        "value": "Caste_1025",
+        "caption": "Aguri / Ugra Kshatriya"
+    },
+    {
+        "value": "Caste_1034",
+        "caption": "Aheriya"
+    },
+    {
+        "value": "Caste_741",
+        "caption": "Ahir Shimpi"
+    },
+    {
+        "value": "Caste_977",
+        "caption": "Ahirwar"
+    },
+    {
+        "value": "Caste_6",
+        "caption": "Ahom"
+    },
+    {
+        "value": "Caste_7",
+        "caption": "Ambalavasi"
+    },
+    {
+        "value": "Caste_181",
+        "caption": "Amil Sindhi  "
+    },
+    {
+        "value": "Caste_1038",
+        "caption": "Amma Kodava"
+    },
+    {
+        "value": "Caste_260",
+        "caption": "Anavil Brahmin  "
+    },
+    {
+        "value": "Caste_839",
+        "caption": "Anjana (Chowdary) Patel"
+    },
+    {
+        "value": "Caste_1010",
+        "caption": "Arakh / Arakvanshiya"
+    },
+    {
+        "value": "Caste_800",
+        "caption": "Aramari / Gabit"
+    },
+    {
+        "value": "Caste_294",
+        "caption": "Arekatica"
+    },
+    {
+        "value": "Caste_281",
+        "caption": "Arora"
+    },
+    {
+        "value": "Caste_8",
+        "caption": "Arunthathiyar"
+    },
+    {
+        "value": "Caste_9",
+        "caption": "Arya Vysya"
+    },
+    {
+        "value": "Caste_863",
+        "caption": "Asathi"
+    },
+    {
+        "value": "Caste_261",
+        "caption": "Audichya Brahmin  "
+    },
+    {
+        "value": "Caste_892",
+        "caption": "Ayira Vysya"
+    },
+    {
+        "value": "Caste_923",
+        "caption": "Ayodhyavasi"
+    },
+    {
+        "value": "Caste_685",
+        "caption": "Ayyaraka"
+    },
+    {
+        "value": "Caste_673",
+        "caption": "Badaga"
+    },
+    {
+        "value": "Caste_698",
+        "caption": "Bagdi"
+    },
+    {
+        "value": "Caste_182",
+        "caption": "Baibhand Sindhi  "
+    },
+    {
+        "value": "Caste_10",
+        "caption": "Baidya"
+    },
+    {
+        "value": "Caste_978",
+        "caption": "Bairwa"
+    },
+    {
+        "value": "Caste_11",
+        "caption": "Baishnab"
+    },
+    {
+        "value": "Caste_12",
+        "caption": "Baishya"
+    },
+    {
+        "value": "Caste_699",
+        "caption": "Bajantri"
+    },
+    {
+        "value": "Caste_979",
+        "caption": "Balai"
+    },
+    {
+        "value": "Caste_13",
+        "caption": "Balija"
+    },
+    {
+        "value": "Caste_742",
+        "caption": "Balija Naidu"
+    },
+    {
+        "value": "Caste_755",
+        "caption": "Balija Reddy"
+    },
+    {
+        "value": "Caste_700",
+        "caption": "Banayat Oriya"
+    },
+    {
+        "value": "Caste_14",
+        "caption": "Banik"
+    },
+    {
+        "value": "Caste_15",
+        "caption": "Baniya"
+    },
+    {
+        "value": "Caste_701",
+        "caption": "Baniya - Bania"
+    },
+    {
+        "value": "Caste_702",
+        "caption": "Baniya - Kumuti"
+    },
+    {
+        "value": "Caste_295",
+        "caption": "Banjara"
+    },
+    {
+        "value": "Caste_296",
+        "caption": "Barai"
+    },
+    {
+        "value": "Caste_254",
+        "caption": "Barendra Brahmin   "
+    },
+    {
+        "value": "Caste_297",
+        "caption": "Bari"
+    },
+    {
+        "value": "Caste_703",
+        "caption": "Baria"
+    },
+    {
+        "value": "Caste_864",
+        "caption": "Barnwal"
+    },
+    {
+        "value": "Caste_16",
+        "caption": "Barujibi"
+    },
+    {
+        "value": "Caste_893",
+        "caption": "Beri Chettiar"
+    },
+    {
+        "value": "Caste_17",
+        "caption": "Besta"
+    },
+    {
+        "value": "Caste_18",
+        "caption": "Bhandari"
+    },
+    {
+        "value": "Caste_183",
+        "caption": "Bhanusali Sindhi  "
+    },
+    {
+        "value": "Caste_19",
+        "caption": "Bhatia"
+    },
+    {
+        "value": "Caste_184",
+        "caption": "Bhatia Sindhi  "
+    },
+    {
+        "value": "Caste_298",
+        "caption": "Bhatraju"
+    },
+    {
+        "value": "Caste_267",
+        "caption": "Bhatt Brahmin  "
+    },
+    {
+        "value": "Caste_20",
+        "caption": "Bhavasar Kshatriya"
+    },
+    {
+        "value": "Caste_1031",
+        "caption": "Bhil"
+    },
+    {
+        "value": "Caste_704",
+        "caption": "Bhoi"
+    },
+    {
+        "value": "Caste_21",
+        "caption": "Bhovi"
+    },
+    {
+        "value": "Caste_737",
+        "caption": "Bhoyar"
+    },
+    {
+        "value": "Caste_1014",
+        "caption": "Bhulia / Meher"
+    },
+    {
+        "value": "Caste_240",
+        "caption": "Bhumihar Brahmin  "
+    },
+    {
+        "value": "Caste_22",
+        "caption": "Billava"
+    },
+    {
+        "value": "Caste_690",
+        "caption": "Bishnoi/Vishnoi"
+    },
+    {
+        "value": "Caste_705",
+        "caption": "Bondili"
+    },
+    {
+        "value": "Caste_23",
+        "caption": "Boyar"
+    },
+    {
+        "value": "Caste_1028",
+        "caption": "Brahmakshtriya"
+    },
+    {
+        "value": "Caste_24",
+        "caption": "Brahmbatt"
+    },
+    {
+        "value": "Caste_1000",
+        "caption": "Brahmin - All"
+    },
+    {
+        "value": "Caste_260",
+        "caption": "Brahmin - Anavil"
+    },
+    {
+        "value": "Caste_823",
+        "caption": "Brahmin - Anaviln Desai"
+    },
+    {
+        "value": "Caste_261",
+        "caption": "Brahmin - Audichya"
+    },
+    {
+        "value": "Caste_834",
+        "caption": "Brahmin - Baidhiki/Vaidhiki"
+    },
+    {
+        "value": "Caste_943",
+        "caption": "Brahmin - Bardai"
+    },
+    {
+        "value": "Caste_254",
+        "caption": "Brahmin - Barendra"
+    },
+    {
+        "value": "Caste_944",
+        "caption": "Brahmin - Bhargav"
+    },
+    {
+        "value": "Caste_267",
+        "caption": "Brahmin - Bhatt"
+    },
+    {
+        "value": "Caste_240",
+        "caption": "Brahmin - Bhumihar"
+    },
+    {
+        "value": "Caste_762",
+        "caption": "Brahmin - Dadhich"
+    },
+    {
+        "value": "Caste_269",
+        "caption": "Brahmin - Daivadnya"
+    },
+    {
+        "value": "Caste_286",
+        "caption": "Brahmin - Danua"
+    },
+    {
+        "value": "Caste_270",
+        "caption": "Brahmin - Deshastha"
+    },
+    {
+        "value": "Caste_290",
+        "caption": "Brahmin - Dhiman"
+    },
+    {
+        "value": "Caste_291",
+        "caption": "Brahmin - Dravida"
+    },
+    {
+        "value": "Caste_734",
+        "caption": "Brahmin - Embrandiri"
+    },
+    {
+        "value": "Caste_245",
+        "caption": "Brahmin - Garhwali"
+    },
+    {
+        "value": "Caste_242",
+        "caption": "Brahmin - Gaur"
+    },
+    {
+        "value": "Caste_262",
+        "caption": "Brahmin - Goswami/Gosavi"
+    },
+    {
+        "value": "Caste_680",
+        "caption": "Brahmin - Gujar Gaur"
+    },
+    {
+        "value": "Caste_26",
+        "caption": "Brahmin - Gurukkal"
+    },
+    {
+        "value": "Caste_287",
+        "caption": "Brahmin - Halua"
+    },
+    {
+        "value": "Caste_271",
+        "caption": "Brahmin - Havyaka"
+    },
+    {
+        "value": "Caste_272",
+        "caption": "Brahmin - Hoysala"
+    },
+    {
+        "value": "Caste_27",
+        "caption": "Brahmin - Iyengar"
+    },
+    {
+        "value": "Caste_28",
+        "caption": "Brahmin - Iyer"
+    },
+    {
+        "value": "Caste_299",
+        "caption": "Brahmin - Jangid"
+    },
+    {
+        "value": "Caste_288",
+        "caption": "Brahmin - Jhadua"
+    },
+    {
+        "value": "Caste_707",
+        "caption": "Brahmin - Jyotish"
+    },
+    {
+        "value": "Caste_241",
+        "caption": "Brahmin - Kanyakubj"
+    },
+    {
+        "value": "Caste_273",
+        "caption": "Brahmin - Karhade"
+    },
+    {
+        "value": "Caste_945",
+        "caption": "Brahmin - Khadayata"
+    },
+    {
+        "value": "Caste_706",
+        "caption": "Brahmin - Khandelwal"
+    },
+    {
+        "value": "Caste_835",
+        "caption": "Brahmin - Khedaval"
+    },
+    {
+        "value": "Caste_283",
+        "caption": "Brahmin - Kokanastha"
+    },
+    {
+        "value": "Caste_274",
+        "caption": "Brahmin - Kota"
+    },
+    {
+        "value": "Caste_763",
+        "caption": "Brahmin - Koteshwara / Kota (Madhwa )"
+    },
+    {
+        "value": "Caste_255",
+        "caption": "Brahmin - Kulin"
+    },
+    {
+        "value": "Caste_248",
+        "caption": "Brahmin - Kumaoni"
+    },
+    {
+        "value": "Caste_275",
+        "caption": "Brahmin - Madhwa"
+    },
+    {
+        "value": "Caste_243",
+        "caption": "Brahmin - Maithil"
+    },
+    {
+        "value": "Caste_946",
+        "caption": "Brahmin - Mevada"
+    },
+    {
+        "value": "Caste_263",
+        "caption": "Brahmin - Modh"
+    },
+    {
+        "value": "Caste_282",
+        "caption": "Brahmin - Mohyal"
+    },
+    {
+        "value": "Caste_264",
+        "caption": "Brahmin - Nagar"
+    },
+    {
+        "value": "Caste_258",
+        "caption": "Brahmin - Namboodiri"
+    },
+    {
+        "value": "Caste_332",
+        "caption": "Brahmin - Narmadiya "
+    },
+    {
+        "value": "Caste_292",
+        "caption": "Brahmin - Niyogi"
+    },
+    {
+        "value": "Caste_25",
+        "caption": "Brahmin - Others"
+    },
+    {
+        "value": "Caste_694",
+        "caption": "Brahmin - Paliwal"
+    },
+    {
+        "value": "Caste_289",
+        "caption": "Brahmin - Panda"
+    },
+    {
+        "value": "Caste_246",
+        "caption": "Brahmin - Pandit"
+    },
+    {
+        "value": "Caste_962",
+        "caption": "Brahmin - Panicker"
+    },
+    {
+        "value": "Caste_708",
+        "caption": "Brahmin - Pareek"
+    },
+    {
+        "value": "Caste_337",
+        "caption": "Brahmin - Pushkarna"
+    },
+    {
+        "value": "Caste_947",
+        "caption": "Brahmin - Rajgor"
+    },
+    {
+        "value": "Caste_256",
+        "caption": "Brahmin - Rarhi"
+    },
+    {
+        "value": "Caste_832",
+        "caption": "Brahmin - Rarhi/Radhi"
+    },
+    {
+        "value": "Caste_284",
+        "caption": "Brahmin - Rigvedi"
+    },
+    {
+        "value": "Caste_257",
+        "caption": "Brahmin - Rudraj"
+    },
+    {
+        "value": "Caste_268",
+        "caption": "Brahmin - Sakaldwipi"
+    },
+    {
+        "value": "Caste_247",
+        "caption": "Brahmin - Sanadya"
+    },
+    {
+        "value": "Caste_276",
+        "caption": "Brahmin - Sanketi"
+    },
+    {
+        "value": "Caste_259",
+        "caption": "Brahmin - Saraswat"
+    },
+    {
+        "value": "Caste_948",
+        "caption": "Brahmin - Sarua"
+    },
+    {
+        "value": "Caste_244",
+        "caption": "Brahmin - Saryuparin"
+    },
+    {
+        "value": "Caste_764",
+        "caption": "Brahmin - Shivalli (Madhva)"
+    },
+    {
+        "value": "Caste_277",
+        "caption": "Brahmin - Shivhalli"
+    },
+    {
+        "value": "Caste_827",
+        "caption": "Brahmin - Shri Gaud"
+    },
+    {
+        "value": "Caste_942",
+        "caption": "Brahmin - Shri Mali"
+    },
+    {
+        "value": "Caste_265",
+        "caption": "Brahmin - Shrimali"
+    },
+    {
+        "value": "Caste_765",
+        "caption": "Brahmin - Shukla Yajurvedi"
+    },
+    {
+        "value": "Caste_681",
+        "caption": "Brahmin - Sikhwal"
+    },
+    {
+        "value": "Caste_278",
+        "caption": "Brahmin - Smartha"
+    },
+    {
+        "value": "Caste_279",
+        "caption": "Brahmin - Sri Vaishnava"
+    },
+    {
+        "value": "Caste_280",
+        "caption": "Brahmin - Stanika"
+    },
+    {
+        "value": "Caste_949",
+        "caption": "Brahmin - Tapodhan"
+    },
+    {
+        "value": "Caste_249",
+        "caption": "Brahmin - Tyagi"
+    },
+    {
+        "value": "Caste_285",
+        "caption": "Brahmin - Vaidiki"
+    },
+    {
+        "value": "Caste_687",
+        "caption": "Brahmin - Vaikhanasa"
+    },
+    {
+        "value": "Caste_950",
+        "caption": "Brahmin - Valam"
+    },
+    {
+        "value": "Caste_354",
+        "caption": "Brahmin - Velanadu"
+    },
+    {
+        "value": "Caste_266",
+        "caption": "Brahmin - Vyas"
+    },
+    {
+        "value": "Caste_951",
+        "caption": "Brahmin - Zalora"
+    },
+    {
+        "value": "Caste_731",
+        "caption": "Brahmin Jijhotia  "
+    },
+    {
+        "value": "Caste_733",
+        "caption": "Brahmin Malviya  "
+    },
+    {
+        "value": "Caste_710",
+        "caption": "Brajastha Maithil"
+    },
+    {
+        "value": "Caste_709",
+        "caption": "Brajastha Maithil"
+    },
+    {
+        "value": "Caste_178",
+        "caption": "Bunt (Shetty)"
+    },
+    {
+        "value": "Caste_37",
+        "caption": "CKP"
+    },
+    {
+        "value": "Caste_1042",
+        "caption": "Chakkala Nair"
+    },
+    {
+        "value": "Caste_738",
+        "caption": "Chalawadi and Holeya"
+    },
+    {
+        "value": "Caste_30",
+        "caption": "Chambhar"
+    },
+    {
+        "value": "Caste_31",
+        "caption": "Chandravanshi Kahar"
+    },
+    {
+        "value": "Caste_1026",
+        "caption": "Charan"
+    },
+    {
+        "value": "Caste_32",
+        "caption": "Chasa"
+    },
+    {
+        "value": "Caste_339",
+        "caption": "Chattada Sri Vaishnava "
+    },
+    {
+        "value": "Caste_924",
+        "caption": "Chaturth"
+    },
+    {
+        "value": "Caste_33",
+        "caption": "Chaudary"
+    },
+    {
+        "value": "Caste_34",
+        "caption": "Chaurasia"
+    },
+    {
+        "value": "Caste_711",
+        "caption": "Chennadasar"
+    },
+    {
+        "value": "Caste_965",
+        "caption": "Cherakula Vellalar"
+    },
+    {
+        "value": "Caste_35",
+        "caption": "Chettiar"
+    },
+    {
+        "value": "Caste_185",
+        "caption": "Chhapru Sindhi  "
+    },
+    {
+        "value": "Caste_36",
+        "caption": "Chhetri"
+    },
+    {
+        "value": "Caste_301",
+        "caption": "Chippolu (Mera)"
+    },
+    {
+        "value": "Caste_880",
+        "caption": "Choudhary"
+    },
+    {
+        "value": "Caste_38",
+        "caption": "Coorgi"
+    },
+    {
+        "value": "Caste_186",
+        "caption": "Dadu Sindhi  "
+    },
+    {
+        "value": "Caste_269",
+        "caption": "Daivadnya Brahmin  "
+    },
+    {
+        "value": "Caste_286",
+        "caption": "Danua Brahmin  "
+    },
+    {
+        "value": "Caste_129",
+        "caption": "Darji  "
+    },
+    {
+        "value": "Caste_1062",
+        "caption": "Dasapalanjika / Kannada Saineegar"
+    },
+    {
+        "value": "Caste_270",
+        "caption": "Deshastha Brahmin  "
+    },
+    {
+        "value": "Caste_801",
+        "caption": "Deshmukh"
+    },
+    {
+        "value": "Caste_840",
+        "caption": "Desikar"
+    },
+    {
+        "value": "Caste_844",
+        "caption": "Desikar Thanjavur"
+    },
+    {
+        "value": "Caste_39",
+        "caption": "Devadiga"
+    },
+    {
+        "value": "Caste_40",
+        "caption": "Devandra Kula Vellalar"
+    },
+    {
+        "value": "Caste_41",
+        "caption": "Devang Koshthi"
+    },
+    {
+        "value": "Caste_42",
+        "caption": "Devanga"
+    },
+    {
+        "value": "Caste_886",
+        "caption": "Devanga Chettiar"
+    },
+    {
+        "value": "Caste_135",
+        "caption": "Devar/Thevar/Mukkulathor"
+    },
+    {
+        "value": "Caste_740",
+        "caption": "Devrukhe Brahmin"
+    },
+    {
+        "value": "Caste_980",
+        "caption": "Dhanak"
+    },
+    {
+        "value": "Caste_43",
+        "caption": "Dhangar"
+    },
+    {
+        "value": "Caste_44",
+        "caption": "Dheevara"
+    },
+    {
+        "value": "Caste_45",
+        "caption": "Dhiman"
+    },
+    {
+        "value": "Caste_290",
+        "caption": "Dhiman Brahmin  "
+    },
+    {
+        "value": "Caste_46",
+        "caption": "Dhoba"
+    },
+    {
+        "value": "Caste_47",
+        "caption": "Dhobi"
+    },
+    {
+        "value": "Caste_732",
+        "caption": "Dhor / Kakkayya"
+    },
+    {
+        "value": "Caste_712",
+        "caption": "Dommala"
+    },
+    {
+        "value": "Caste_865",
+        "caption": "Dosar / Dusra"
+    },
+    {
+        "value": "Caste_291",
+        "caption": "Dravida Brahmin  "
+    },
+    {
+        "value": "Caste_302",
+        "caption": "Dumal"
+    },
+    {
+        "value": "Caste_303",
+        "caption": "Dusadh (Paswan)"
+    },
+    {
+        "value": "Caste_48",
+        "caption": "Ediga"
+    },
+    {
+        "value": "Caste_743",
+        "caption": "Ediga /Goud (Balija)"
+    },
+    {
+        "value": "Caste_894",
+        "caption": "Elur Chetty"
+    },
+    {
+        "value": "Caste_734",
+        "caption": "Embrandiri Brahmin  "
+    },
+    {
+        "value": "Caste_49",
+        "caption": "Ezhava"
+    },
+    {
+        "value": "Caste_775",
+        "caption": "Ezhava Panicker"
+    },
+    {
+        "value": "Caste_776",
+        "caption": "Ezhava Thandan"
+    },
+    {
+        "value": "Caste_50",
+        "caption": "Ezhuthachan"
+    },
+    {
+        "value": "Caste_51",
+        "caption": "Gabit"
+    },
+    {
+        "value": "Caste_866",
+        "caption": "Gahoi"
+    },
+    {
+        "value": "Caste_744",
+        "caption": "Gajula / Kavarai"
+    },
+    {
+        "value": "Caste_684",
+        "caption": "Ganda"
+    },
+    {
+        "value": "Caste_881",
+        "caption": "Gandha Vanika"
+    },
+    {
+        "value": "Caste_52",
+        "caption": "Gandla"
+    },
+    {
+        "value": "Caste_768",
+        "caption": "Gandla / Ganiga"
+    },
+    {
+        "value": "Caste_53",
+        "caption": "Ganiga"
+    },
+    {
+        "value": "Caste_54",
+        "caption": "Garhwali"
+    },
+    {
+        "value": "Caste_245",
+        "caption": "Garhwali Brahmin  "
+    },
+    {
+        "value": "Caste_713",
+        "caption": "Gatti"
+    },
+    {
+        "value": "Caste_242",
+        "caption": "Gaur Brahmin  "
+    },
+    {
+        "value": "Caste_1013",
+        "caption": "Gavandi"
+    },
+    {
+        "value": "Caste_55",
+        "caption": "Gavara"
+    },
+    {
+        "value": "Caste_304",
+        "caption": "Gawali"
+    },
+    {
+        "value": "Caste_305",
+        "caption": "Ghisadi"
+    },
+    {
+        "value": "Caste_56",
+        "caption": "Ghumar"
+    },
+    {
+        "value": "Caste_57",
+        "caption": "Goala"
+    },
+    {
+        "value": "Caste_58",
+        "caption": "Goan"
+    },
+    {
+        "value": "Caste_306",
+        "caption": "Gomantak"
+    },
+    {
+        "value": "Caste_1024",
+        "caption": "Gond"
+    },
+    {
+        "value": "Caste_307",
+        "caption": "Gondhali"
+    },
+    {
+        "value": "Caste_1055",
+        "caption": "Gopal / Gopala"
+    },
+    {
+        "value": "Caste_262",
+        "caption": "Goswami/Gosavi Brahmin  "
+    },
+    {
+        "value": "Caste_250",
+        "caption": "Goud"
+    },
+    {
+        "value": "Caste_59",
+        "caption": "Gounder"
+    },
+    {
+        "value": "Caste_777",
+        "caption": "Gounder - Kongu Vellala Gounder"
+    },
+    {
+        "value": "Caste_778",
+        "caption": "Gounder - Nattu Gounder"
+    },
+    {
+        "value": "Caste_904",
+        "caption": "Gounder - Others"
+    },
+    {
+        "value": "Caste_779",
+        "caption": "Gounder - Urali Gounder"
+    },
+    {
+        "value": "Caste_780",
+        "caption": "Gounder - Vanniya Kula Kshatriyar"
+    },
+    {
+        "value": "Caste_781",
+        "caption": "Gounder - Vettuva Gounder"
+    },
+    {
+        "value": "Caste_60",
+        "caption": "Gowda"
+    },
+    {
+        "value": "Caste_782",
+        "caption": "Gowda - Kuruba Gowda"
+    },
+    {
+        "value": "Caste_308",
+        "caption": "Gramani"
+    },
+    {
+        "value": "Caste_61",
+        "caption": "Gudia"
+    },
+    {
+        "value": "Caste_680",
+        "caption": "Gujar Gaur Brahmin  "
+    },
+    {
+        "value": "Caste_310",
+        "caption": "Gujjar"
+    },
+    {
+        "value": "Caste_925",
+        "caption": "Gulahre"
+    },
+    {
+        "value": "Caste_62",
+        "caption": "Gupta"
+    },
+    {
+        "value": "Caste_311",
+        "caption": "Guptan"
+    },
+    {
+        "value": "Caste_309",
+        "caption": "Gurav"
+    },
+    {
+        "value": "Caste_312",
+        "caption": "Gurjar"
+    },
+    {
+        "value": "Caste_26",
+        "caption": "Gurukkal Brahmin  "
+    },
+    {
+        "value": "Caste_792",
+        "caption": "Haihaivanshi"
+    },
+    {
+        "value": "Caste_714",
+        "caption": "Halba Koshti"
+    },
+    {
+        "value": "Caste_287",
+        "caption": "Halua Brahmin  "
+    },
+    {
+        "value": "Caste_271",
+        "caption": "Havyaka Brahmin  "
+    },
+    {
+        "value": "Caste_1040",
+        "caption": "Heggade"
+    },
+    {
+        "value": "Caste_715",
+        "caption": "Helava"
+    },
+    {
+        "value": "Caste_1048",
+        "caption": "Holar"
+    },
+    {
+        "value": "Caste_272",
+        "caption": "Hoysala Brahmin  "
+    },
+    {
+        "value": "Caste_313",
+        "caption": "Hugar (Jeer)"
+    },
+    {
+        "value": "Caste_187",
+        "caption": "Hyderabadi Sindhi  "
+    },
+    {
+        "value": "Caste_966",
+        "caption": "Illaththu Pillai"
+    },
+    {
+        "value": "Caste_63",
+        "caption": "Intercaste"
+    },
+    {
+        "value": "Caste_64",
+        "caption": "Irani"
+    },
+    {
+        "value": "Caste_936",
+        "caption": "Isai Vellalar"
+    },
+    {
+        "value": "Caste_27",
+        "caption": "Iyengar Brahmin  "
+    },
+    {
+        "value": "Caste_28",
+        "caption": "Iyer Brahmin  "
+    },
+    {
+        "value": "Caste_314",
+        "caption": "Jaalari"
+    },
+    {
+        "value": "Caste_65",
+        "caption": "Jaiswal"
+    },
+    {
+        "value": "Caste_315",
+        "caption": "Jandra"
+    },
+    {
+        "value": "Caste_66",
+        "caption": "Jangam"
+    },
+    {
+        "value": "Caste_299",
+        "caption": "Jangid Brahmin  "
+    },
+    {
+        "value": "Caste_316",
+        "caption": "Jangra - Brahmin"
+    },
+    {
+        "value": "Caste_67",
+        "caption": "Jat"
+    },
+    {
+        "value": "Caste_29",
+        "caption": "Jatav"
+    },
+    {
+        "value": "Caste_313",
+        "caption": "Jeer  "
+    },
+    {
+        "value": "Caste_716",
+        "caption": "Jetty/Malla"
+    },
+    {
+        "value": "Caste_802",
+        "caption": "Jhadav"
+    },
+    {
+        "value": "Caste_288",
+        "caption": "Jhadua Brahmin  "
+    },
+    {
+        "value": "Caste_731",
+        "caption": "Jijhotia Brahmin"
+    },
+    {
+        "value": "Caste_317",
+        "caption": "Jogi (Nath)"
+    },
+    {
+        "value": "Caste_981",
+        "caption": "Julaha"
+    },
+    {
+        "value": "Caste_318",
+        "caption": "Kachara"
+    },
+    {
+        "value": "Caste_251",
+        "caption": "Kadava Patel"
+    },
+    {
+        "value": "Caste_1030",
+        "caption": "Kadia"
+    },
+    {
+        "value": "Caste_691",
+        "caption": "Kahar"
+    },
+    {
+        "value": "Caste_68",
+        "caption": "Kaibarta"
+    },
+    {
+        "value": "Caste_955",
+        "caption": "Kaikaala"
+    },
+    {
+        "value": "Caste_695",
+        "caption": "Kalal"
+    },
+    {
+        "value": "Caste_739",
+        "caption": "Kalanji"
+    },
+    {
+        "value": "Caste_69",
+        "caption": "Kalar"
+    },
+    {
+        "value": "Caste_70",
+        "caption": "Kalinga"
+    },
+    {
+        "value": "Caste_319",
+        "caption": "Kalinga Vysya"
+    },
+    {
+        "value": "Caste_71",
+        "caption": "Kalita"
+    },
+    {
+        "value": "Caste_72",
+        "caption": "Kalwar"
+    },
+    {
+        "value": "Caste_73",
+        "caption": "Kamboj"
+    },
+    {
+        "value": "Caste_74",
+        "caption": "Kamma"
+    },
+    {
+        "value": "Caste_816",
+        "caption": "Kamma Naidu"
+    },
+    {
+        "value": "Caste_982",
+        "caption": "Kanakkan Padanna"
+    },
+    {
+        "value": "Caste_983",
+        "caption": "Kandara"
+    },
+    {
+        "value": "Caste_75",
+        "caption": "Kansari"
+    },
+    {
+        "value": "Caste_1035",
+        "caption": "Kansyakaar"
+    },
+    {
+        "value": "Caste_241",
+        "caption": "Kanyakubj Brahmin  "
+    },
+    {
+        "value": "Caste_783",
+        "caption": "Kanykubj Bania"
+    },
+    {
+        "value": "Caste_76",
+        "caption": "Kapu"
+    },
+    {
+        "value": "Caste_785",
+        "caption": "Kapu Naidu"
+    },
+    {
+        "value": "Caste_928",
+        "caption": "Kapu Reddy"
+    },
+    {
+        "value": "Caste_956",
+        "caption": "Karakala Bhakthula"
+    },
+    {
+        "value": "Caste_77",
+        "caption": "Karana"
+    },
+    {
+        "value": "Caste_273",
+        "caption": "Karhade Brahmin  "
+    },
+    {
+        "value": "Caste_841",
+        "caption": "Karkathar"
+    },
+    {
+        "value": "Caste_78",
+        "caption": "Karmakar"
+    },
+    {
+        "value": "Caste_957",
+        "caption": "Karni Bhakthula"
+    },
+    {
+        "value": "Caste_79",
+        "caption": "Karuneegar"
+    },
+    {
+        "value": "Caste_80",
+        "caption": "Kasar"
+    },
+    {
+        "value": "Caste_867",
+        "caption": "Kasaundhan"
+    },
+    {
+        "value": "Caste_81",
+        "caption": "Kashyap"
+    },
+    {
+        "value": "Caste_895",
+        "caption": "Kasukara"
+    },
+    {
+        "value": "Caste_320",
+        "caption": "Katiya"
+    },
+    {
+        "value": "Caste_750",
+        "caption": "Kavara"
+    },
+    {
+        "value": "Caste_717",
+        "caption": "Kavuthiyya/Ezhavathy"
+    },
+    {
+        "value": "Caste_82",
+        "caption": "Kayastha"
+    },
+    {
+        "value": "Caste_787",
+        "caption": "Kayastha (Bengali)"
+    },
+    {
+        "value": "Caste_938",
+        "caption": "Kerala Mudali"
+    },
+    {
+        "value": "Caste_868",
+        "caption": "Keshri (Kesarwani)"
+    },
+    {
+        "value": "Caste_83",
+        "caption": "Khandayat"
+    },
+    {
+        "value": "Caste_84",
+        "caption": "Khandelwal"
+    },
+    {
+        "value": "Caste_718",
+        "caption": "Kharwa"
+    },
+    {
+        "value": "Caste_321",
+        "caption": "Kharwar"
+    },
+    {
+        "value": "Caste_984",
+        "caption": "Khatik"
+    },
+    {
+        "value": "Caste_85",
+        "caption": "Khatri"
+    },
+    {
+        "value": "Caste_719",
+        "caption": "Kirar"
+    },
+    {
+        "value": "Caste_1041",
+        "caption": "Kodava"
+    },
+    {
+        "value": "Caste_968",
+        "caption": "Kodikal Pillai"
+    },
+    {
+        "value": "Caste_326",
+        "caption": "Koiri  "
+    },
+    {
+        "value": "Caste_283",
+        "caption": "Kokanastha Brahmin  "
+    },
+    {
+        "value": "Caste_322",
+        "caption": "Kokanastha Maratha"
+    },
+    {
+        "value": "Caste_86",
+        "caption": "Koli"
+    },
+    {
+        "value": "Caste_689",
+        "caption": "Koli Mahadev"
+    },
+    {
+        "value": "Caste_720",
+        "caption": "Koli Patel"
+    },
+    {
+        "value": "Caste_757",
+        "caption": "Komti /Arya Vaishya"
+    },
+    {
+        "value": "Caste_896",
+        "caption": "Kongu Chettiar"
+    },
+    {
+        "value": "Caste_813",
+        "caption": "Kongu Nadar"
+    },
+    {
+        "value": "Caste_87",
+        "caption": "Kongu Vellala Gounder"
+    },
+    {
+        "value": "Caste_88",
+        "caption": "Konkani"
+    },
+    {
+        "value": "Caste_721",
+        "caption": "Korama"
+    },
+    {
+        "value": "Caste_89",
+        "caption": "Kori"
+    },
+    {
+        "value": "Caste_849",
+        "caption": "Kori/Koli"
+    },
+    {
+        "value": "Caste_722",
+        "caption": "Kosthi"
+    },
+    {
+        "value": "Caste_274",
+        "caption": "Kota Brahmin  "
+    },
+    {
+        "value": "Caste_723",
+        "caption": "Krishnavaka"
+    },
+    {
+        "value": "Caste_90",
+        "caption": "Kshatriya"
+    },
+    {
+        "value": "Caste_793",
+        "caption": "Kshatriya Kurmi"
+    },
+    {
+        "value": "Caste_929",
+        "caption": "Kshatriya Raju"
+    },
+    {
+        "value": "Caste_91",
+        "caption": "Kudumbi"
+    },
+    {
+        "value": "Caste_92",
+        "caption": "Kulal"
+    },
+    {
+        "value": "Caste_93",
+        "caption": "Kulalar"
+    },
+    {
+        "value": "Caste_255",
+        "caption": "Kulin Brahmin  "
+    },
+    {
+        "value": "Caste_94",
+        "caption": "Kulita"
+    },
+    {
+        "value": "Caste_248",
+        "caption": "Kumaoni Brahmin  "
+    },
+    {
+        "value": "Caste_974",
+        "caption": "Kumaoni Rajput"
+    },
+    {
+        "value": "Caste_323",
+        "caption": "Kumawat"
+    },
+    {
+        "value": "Caste_95",
+        "caption": "Kumbhakar"
+    },
+    {
+        "value": "Caste_96",
+        "caption": "Kumbhar"
+    },
+    {
+        "value": "Caste_97",
+        "caption": "Kumhar"
+    },
+    {
+        "value": "Caste_98",
+        "caption": "Kummari"
+    },
+    {
+        "value": "Caste_99",
+        "caption": "Kunbi"
+    },
+    {
+        "value": "Caste_804",
+        "caption": "Kunbi Lonari"
+    },
+    {
+        "value": "Caste_805",
+        "caption": "Kunbi Maratha"
+    },
+    {
+        "value": "Caste_806",
+        "caption": "Kunbi Tirale"
+    },
+    {
+        "value": "Caste_324",
+        "caption": "Kuravan"
+    },
+    {
+        "value": "Caste_325",
+        "caption": "Kurmi"
+    },
+    {
+        "value": "Caste_100",
+        "caption": "Kurmi/Kurmi Kshatriya"
+    },
+    {
+        "value": "Caste_958",
+        "caption": "Kurni"
+    },
+    {
+        "value": "Caste_101",
+        "caption": "Kuruba"
+    },
+    {
+        "value": "Caste_102",
+        "caption": "Kuruhina Shetty"
+    },
+    {
+        "value": "Caste_887",
+        "caption": "Kuruhini Chetty"
+    },
+    {
+        "value": "Caste_103",
+        "caption": "Kurumbar"
+    },
+    {
+        "value": "Caste_850",
+        "caption": "Kuruva"
+    },
+    {
+        "value": "Caste_326",
+        "caption": "Kushwaha (Koiri)"
+    },
+    {
+        "value": "Caste_104",
+        "caption": "Kutchi"
+    },
+    {
+        "value": "Caste_882",
+        "caption": "Lad"
+    },
+    {
+        "value": "Caste_105",
+        "caption": "Lambadi"
+    },
+    {
+        "value": "Caste_188",
+        "caption": "Larai Sindhi  "
+    },
+    {
+        "value": "Caste_189",
+        "caption": "Larkana Sindhi  "
+    },
+    {
+        "value": "Caste_1056",
+        "caption": "Laxminarayan gola"
+    },
+    {
+        "value": "Caste_252",
+        "caption": "Leva patel"
+    },
+    {
+        "value": "Caste_253",
+        "caption": "Leva patil"
+    },
+    {
+        "value": "Caste_751",
+        "caption": "Linga Balija"
+    },
+    {
+        "value": "Caste_106",
+        "caption": "Lingayath"
+    },
+    {
+        "value": "Caste_327",
+        "caption": "Lodhi Rajput"
+    },
+    {
+        "value": "Caste_107",
+        "caption": "Lohana"
+    },
+    {
+        "value": "Caste_190",
+        "caption": "Lohana Sindhi  "
+    },
+    {
+        "value": "Caste_677",
+        "caption": "Lohar"
+    },
+    {
+        "value": "Caste_724",
+        "caption": "Loniya"
+    },
+    {
+        "value": "Caste_108",
+        "caption": "Lubana"
+    },
+    {
+        "value": "Caste_759",
+        "caption": "Madhesiya/Kanu/Halwai"
+    },
+    {
+        "value": "Caste_275",
+        "caption": "Madhwa Brahmin  "
+    },
+    {
+        "value": "Caste_109",
+        "caption": "Madiga"
+    },
+    {
+        "value": "Caste_110",
+        "caption": "Mahajan"
+    },
+    {
+        "value": "Caste_111",
+        "caption": "Mahar"
+    },
+    {
+        "value": "Caste_112",
+        "caption": "Mahendra"
+    },
+    {
+        "value": "Caste_113",
+        "caption": "Maheshwari"
+    },
+    {
+        "value": "Caste_869",
+        "caption": "Maheshwari / Meshri"
+    },
+    {
+        "value": "Caste_114",
+        "caption": "Mahishya"
+    },
+    {
+        "value": "Caste_926",
+        "caption": "Mahor"
+    },
+    {
+        "value": "Caste_870",
+        "caption": "Mahuri"
+    },
+    {
+        "value": "Caste_975",
+        "caption": "Mair Rajput Swarnkar"
+    },
+    {
+        "value": "Caste_243",
+        "caption": "Maithil Brahmin  "
+    },
+    {
+        "value": "Caste_115",
+        "caption": "Majabi"
+    },
+    {
+        "value": "Caste_116",
+        "caption": "Mala"
+    },
+    {
+        "value": "Caste_117",
+        "caption": "Mali"
+    },
+    {
+        "value": "Caste_118",
+        "caption": "Mallah"
+    },
+    {
+        "value": "Caste_733",
+        "caption": "Malviya Brahmin"
+    },
+    {
+        "value": "Caste_807",
+        "caption": "Malwani"
+    },
+    {
+        "value": "Caste_119",
+        "caption": "Mangalorean"
+    },
+    {
+        "value": "Caste_120",
+        "caption": "Manipuri"
+    },
+    {
+        "value": "Caste_897",
+        "caption": "Manjapudur Chettiar"
+    },
+    {
+        "value": "Caste_1045",
+        "caption": "Mannadiyar"
+    },
+    {
+        "value": "Caste_985",
+        "caption": "Mannan / Velan / Vannan"
+    },
+    {
+        "value": "Caste_122",
+        "caption": "Mapila"
+    },
+    {
+        "value": "Caste_123",
+        "caption": "Maratha"
+    },
+    {
+        "value": "Caste_803",
+        "caption": "Maratha Kshatriya"
+    },
+    {
+        "value": "Caste_124",
+        "caption": "Maruthuvar"
+    },
+    {
+        "value": "Caste_125",
+        "caption": "Matang"
+    },
+    {
+        "value": "Caste_328",
+        "caption": "Mathur"
+    },
+    {
+        "value": "Caste_927",
+        "caption": "Mathur Vaishya"
+    },
+    {
+        "value": "Caste_1029",
+        "caption": "Matia Patel"
+    },
+    {
+        "value": "Caste_735",
+        "caption": "Maurya / Shakya"
+    },
+    {
+        "value": "Caste_126",
+        "caption": "Meena"
+    },
+    {
+        "value": "Caste_127",
+        "caption": "Meenavar"
+    },
+    {
+        "value": "Caste_986",
+        "caption": "Meghwal"
+    },
+    {
+        "value": "Caste_128",
+        "caption": "Mehra"
+    },
+    {
+        "value": "Caste_301",
+        "caption": "Mera  "
+    },
+    {
+        "value": "Caste_129",
+        "caption": "Meru Darji"
+    },
+    {
+        "value": "Caste_130",
+        "caption": "Mochi"
+    },
+    {
+        "value": "Caste_131",
+        "caption": "Modak"
+    },
+    {
+        "value": "Caste_263",
+        "caption": "Modh Brahmin  "
+    },
+    {
+        "value": "Caste_1016",
+        "caption": "Modh Ghanchi"
+    },
+    {
+        "value": "Caste_883",
+        "caption": "Modi"
+    },
+    {
+        "value": "Caste_767",
+        "caption": "Modikarlu"
+    },
+    {
+        "value": "Caste_132",
+        "caption": "Mogaveera"
+    },
+    {
+        "value": "Caste_282",
+        "caption": "Mohyal Brahmin  "
+    },
+    {
+        "value": "Caste_133",
+        "caption": "Mudaliyar"
+    },
+    {
+        "value": "Caste_134",
+        "caption": "Mudiraj"
+    },
+    {
+        "value": "Caste_135",
+        "caption": "Mukkulathor  "
+    },
+    {
+        "value": "Caste_121",
+        "caption": "Munnuru Kapu"
+    },
+    {
+        "value": "Caste_752",
+        "caption": "Musukama"
+    },
+    {
+        "value": "Caste_136",
+        "caption": "Muthuraja"
+    },
+    {
+        "value": "Caste_329",
+        "caption": "Naagavamsam"
+    },
+    {
+        "value": "Caste_761",
+        "caption": "Nabit"
+    },
+    {
+        "value": "Caste_137",
+        "caption": "Nadar"
+    },
+    {
+        "value": "Caste_264",
+        "caption": "Nagar Brahmin  "
+    },
+    {
+        "value": "Caste_330",
+        "caption": "Nagaralu"
+    },
+    {
+        "value": "Caste_138",
+        "caption": "Nai / Nayi Brahmin"
+    },
+    {
+        "value": "Caste_139",
+        "caption": "Naicker"
+    },
+    {
+        "value": "Caste_939",
+        "caption": "Naicker - Others"
+    },
+    {
+        "value": "Caste_814",
+        "caption": "Naicker - Vanniya Kula Kshatriyar"
+    },
+    {
+        "value": "Caste_140",
+        "caption": "Naidu"
+    },
+    {
+        "value": "Caste_141",
+        "caption": "Naik"
+    },
+    {
+        "value": "Caste_343",
+        "caption": "Naika  "
+    },
+    {
+        "value": "Caste_142",
+        "caption": "Nair"
+    },
+    {
+        "value": "Caste_143",
+        "caption": "Namasudra / Namassej"
+    },
+    {
+        "value": "Caste_331",
+        "caption": "Nambiar"
+    },
+    {
+        "value": "Caste_258",
+        "caption": "Namboodiri Brahmin  "
+    },
+    {
+        "value": "Caste_753",
+        "caption": "Namdarlu"
+    },
+    {
+        "value": "Caste_969",
+        "caption": "Nanjil Mudali"
+    },
+    {
+        "value": "Caste_1007",
+        "caption": "Nanjil Nattu Vellalar"
+    },
+    {
+        "value": "Caste_1008",
+        "caption": "Nanjil Vellalar"
+    },
+    {
+        "value": "Caste_973",
+        "caption": "Nanjil pillai"
+    },
+    {
+        "value": "Caste_970",
+        "caption": "Nankudi Vellalar"
+    },
+    {
+        "value": "Caste_144",
+        "caption": "Napit"
+    },
+    {
+        "value": "Caste_332",
+        "caption": "Narmadiya Brahmin  "
+    },
+    {
+        "value": "Caste_317",
+        "caption": "Nath  "
+    },
+    {
+        "value": "Caste_788",
+        "caption": "Nattu Gounder"
+    },
+    {
+        "value": "Caste_898",
+        "caption": "Nattukottai Chettiar"
+    },
+    {
+        "value": "Caste_145",
+        "caption": "Nayaka"
+    },
+    {
+        "value": "Caste_333",
+        "caption": "Neeli"
+    },
+    {
+        "value": "Caste_959",
+        "caption": "Neeli Saali"
+    },
+    {
+        "value": "Caste_871",
+        "caption": "Nema"
+    },
+    {
+        "value": "Caste_146",
+        "caption": "Nepali"
+    },
+    {
+        "value": "Caste_960",
+        "caption": "Nessi"
+    },
+    {
+        "value": "Caste_147",
+        "caption": "Nhavi"
+    },
+    {
+        "value": "Caste_1053",
+        "caption": "Niari"
+    },
+    {
+        "value": "Caste_292",
+        "caption": "Niyogi Brahmin  "
+    },
+    {
+        "value": "Caste_1046",
+        "caption": "Odan"
+    },
+    {
+        "value": "Caste_786",
+        "caption": "Ontari"
+    },
+    {
+        "value": "Caste_1009",
+        "caption": "Oraon"
+    },
+    {
+        "value": "Caste_148",
+        "caption": "Oswal"
+    },
+    {
+        "value": "Caste_334",
+        "caption": "Otari"
+    },
+    {
+        "value": "Caste_842",
+        "caption": "Othuvaar"
+    },
+    {
+        "value": "Caste_149",
+        "caption": "Padmasali"
+    },
+    {
+        "value": "Caste_888",
+        "caption": "Padmashali"
+    },
+    {
+        "value": "Caste_884",
+        "caption": "Padmavati Porwal"
+    },
+    {
+        "value": "Caste_754",
+        "caption": "Pagadala"
+    },
+    {
+        "value": "Caste_150",
+        "caption": "Pal"
+    },
+    {
+        "value": "Caste_845",
+        "caption": "Pallan / Devandra Kula Vellalan"
+    },
+    {
+        "value": "Caste_987",
+        "caption": "Panan"
+    },
+    {
+        "value": "Caste_151",
+        "caption": "Panchal"
+    },
+    {
+        "value": "Caste_289",
+        "caption": "Panda Brahmin  "
+    },
+    {
+        "value": "Caste_688",
+        "caption": "Pandaram"
+    },
+    {
+        "value": "Caste_246",
+        "caption": "Pandit Brahmin  "
+    },
+    {
+        "value": "Caste_971",
+        "caption": "Pandiya Vellalar"
+    },
+    {
+        "value": "Caste_152",
+        "caption": "Panicker"
+    },
+    {
+        "value": "Caste_899",
+        "caption": "Pannirandam Chettiar"
+    },
+    {
+        "value": "Caste_988",
+        "caption": "Paravan / Bharatar"
+    },
+    {
+        "value": "Caste_933",
+        "caption": "Parit"
+    },
+    {
+        "value": "Caste_153",
+        "caption": "Parkavakulam / Udayar"
+    },
+    {
+        "value": "Caste_154",
+        "caption": "Parsi"
+    },
+    {
+        "value": "Caste_335",
+        "caption": "Partraj"
+    },
+    {
+        "value": "Caste_769",
+        "caption": "Parvatha Rajakulam"
+    },
+    {
+        "value": "Caste_155",
+        "caption": "Pasi"
+    },
+    {
+        "value": "Caste_303",
+        "caption": "Paswan  "
+    },
+    {
+        "value": "Caste_976",
+        "caption": "Paswan / Dusadh"
+    },
+    {
+        "value": "Caste_156",
+        "caption": "Patel"
+    },
+    {
+        "value": "Caste_676",
+        "caption": "Pathare Prabhu"
+    },
+    {
+        "value": "Caste_808",
+        "caption": "Patil"
+    },
+    {
+        "value": "Caste_157",
+        "caption": "Patnaick/Sistakaranam"
+    },
+    {
+        "value": "Caste_158",
+        "caption": "Patra"
+    },
+    {
+        "value": "Caste_770",
+        "caption": "Pattinavar"
+    },
+    {
+        "value": "Caste_889",
+        "caption": "Pattusali"
+    },
+    {
+        "value": "Caste_872",
+        "caption": "Patwa"
+    },
+    {
+        "value": "Caste_336",
+        "caption": "Perika"
+    },
+    {
+        "value": "Caste_790",
+        "caption": "Perika/Puragiri Kshatriya"
+    },
+    {
+        "value": "Caste_159",
+        "caption": "Pillai"
+    },
+    {
+        "value": "Caste_1011",
+        "caption": "Poddar"
+    },
+    {
+        "value": "Caste_683",
+        "caption": "Poosala"
+    },
+    {
+        "value": "Caste_160",
+        "caption": "Porwal"
+    },
+    {
+        "value": "Caste_873",
+        "caption": "Porwal / Porwar"
+    },
+    {
+        "value": "Caste_989",
+        "caption": "Poundra"
+    },
+    {
+        "value": "Caste_161",
+        "caption": "Prajapati"
+    },
+    {
+        "value": "Caste_990",
+        "caption": "Pulaya / Cheruman"
+    },
+    {
+        "value": "Caste_337",
+        "caption": "Pushkarna Brahmin  "
+    },
+    {
+        "value": "Caste_1057",
+        "caption": "Radhi / Niari"
+    },
+    {
+        "value": "Caste_358",
+        "caption": "Raigar"
+    },
+    {
+        "value": "Caste_162",
+        "caption": "Rajaka / Vannar"
+    },
+    {
+        "value": "Caste_163",
+        "caption": "Rajastani"
+    },
+    {
+        "value": "Caste_686",
+        "caption": "Rajbhar"
+    },
+    {
+        "value": "Caste_164",
+        "caption": "Rajbonshi"
+    },
+    {
+        "value": "Caste_725",
+        "caption": "Rajpurohit"
+    },
+    {
+        "value": "Caste_165",
+        "caption": "Rajput"
+    },
+    {
+        "value": "Caste_1054",
+        "caption": "Raju / Kshatriya Raju"
+    },
+    {
+        "value": "Caste_726",
+        "caption": "Ramanandi"
+    },
+    {
+        "value": "Caste_166",
+        "caption": "Ramdasia"
+    },
+    {
+        "value": "Caste_167",
+        "caption": "Ramgariah"
+    },
+    {
+        "value": "Caste_727",
+        "caption": "Ramoshi"
+    },
+    {
+        "value": "Caste_256",
+        "caption": "Rarhi Brahmin  "
+    },
+    {
+        "value": "Caste_874",
+        "caption": "Rastogi"
+    },
+    {
+        "value": "Caste_885",
+        "caption": "Rathi"
+    },
+    {
+        "value": "Caste_875",
+        "caption": "Rauniar"
+    },
+    {
+        "value": "Caste_168",
+        "caption": "Ravidasia"
+    },
+    {
+        "value": "Caste_169",
+        "caption": "Rawat"
+    },
+    {
+        "value": "Caste_170",
+        "caption": "Reddy"
+    },
+    {
+        "value": "Caste_338",
+        "caption": "Relli"
+    },
+    {
+        "value": "Caste_284",
+        "caption": "Rigvedi Brahmin  "
+    },
+    {
+        "value": "Caste_191",
+        "caption": "Rohiri Sindhi  "
+    },
+    {
+        "value": "Caste_851",
+        "caption": "Rohit / Chamar"
+    },
+    {
+        "value": "Caste_728",
+        "caption": "Ror"
+    },
+    {
+        "value": "Caste_257",
+        "caption": "Rudraj Brahmin  "
+    },
+    {
+        "value": "Caste_176",
+        "caption": "SC"
+    },
+    {
+        "value": "Caste_197",
+        "caption": "SKP"
+    },
+    {
+        "value": "Caste_214",
+        "caption": "ST"
+    },
+    {
+        "value": "Caste_171",
+        "caption": "Sadgope"
+    },
+    {
+        "value": "Caste_771",
+        "caption": "Sadhu Chetty"
+    },
+    {
+        "value": "Caste_215",
+        "caption": "Sagara (Uppara)"
+    },
+    {
+        "value": "Caste_172",
+        "caption": "Saha"
+    },
+    {
+        "value": "Caste_192",
+        "caption": "Sahiti Sindhi  "
+    },
+    {
+        "value": "Caste_173",
+        "caption": "Sahu"
+    },
+    {
+        "value": "Caste_174",
+        "caption": "Saini"
+    },
+    {
+        "value": "Caste_843",
+        "caption": "Saiva Pillai Thanjavur"
+    },
+    {
+        "value": "Caste_810",
+        "caption": "Saiva Pillai Tirunelveli"
+    },
+    {
+        "value": "Caste_1012",
+        "caption": "Saiva Vellan chettiar"
+    },
+    {
+        "value": "Caste_268",
+        "caption": "Sakaldwipi Brahmin  "
+    },
+    {
+        "value": "Caste_193",
+        "caption": "Sakkhar Sindhi  "
+    },
+    {
+        "value": "Caste_175",
+        "caption": "Saliya"
+    },
+    {
+        "value": "Caste_1061",
+        "caption": "Saliyar"
+    },
+    {
+        "value": "Caste_991",
+        "caption": "Samagar"
+    },
+    {
+        "value": "Caste_852",
+        "caption": "Sambava"
+    },
+    {
+        "value": "Caste_247",
+        "caption": "Sanadya Brahmin  "
+    },
+    {
+        "value": "Caste_276",
+        "caption": "Sanketi Brahmin  "
+    },
+    {
+        "value": "Caste_259",
+        "caption": "Saraswat Brahmin  "
+    },
+    {
+        "value": "Caste_244",
+        "caption": "Saryuparin Brahmin  "
+    },
+    {
+        "value": "Caste_736",
+        "caption": "Sathwara"
+    },
+    {
+        "value": "Caste_992",
+        "caption": "Satnami"
+    },
+    {
+        "value": "Caste_340",
+        "caption": "Savji"
+    },
+    {
+        "value": "Caste_194",
+        "caption": "Sehwani Sindhi  "
+    },
+    {
+        "value": "Caste_177",
+        "caption": "Senai Thalaivar"
+    },
+    {
+        "value": "Caste_341",
+        "caption": "Senguntha Mudaliyar"
+    },
+    {
+        "value": "Caste_811",
+        "caption": "Sengunthar/Kaikolar"
+    },
+    {
+        "value": "Caste_293",
+        "caption": "Settibalija"
+    },
+    {
+        "value": "Caste_748",
+        "caption": "Setty Balija"
+    },
+    {
+        "value": "Caste_1027",
+        "caption": "Shah"
+    },
+    {
+        "value": "Caste_760",
+        "caption": "Shaw / Sahu/Teli"
+    },
+    {
+        "value": "Caste_961",
+        "caption": "Shettigar"
+    },
+    {
+        "value": "Caste_178",
+        "caption": "Shetty  "
+    },
+    {
+        "value": "Caste_195",
+        "caption": "Shikarpuri Sindhi  "
+    },
+    {
+        "value": "Caste_993",
+        "caption": "Shilpkar"
+    },
+    {
+        "value": "Caste_179",
+        "caption": "Shimpi/Namdev"
+    },
+    {
+        "value": "Caste_277",
+        "caption": "Shivhalli Brahmin  "
+    },
+    {
+        "value": "Caste_265",
+        "caption": "Shrimali Brahmin  "
+    },
+    {
+        "value": "Caste_681",
+        "caption": "Sikhwal Brahmin  "
+    },
+    {
+        "value": "Caste_180",
+        "caption": "Sindhi"
+    },
+    {
+        "value": "Caste_181",
+        "caption": "Sindhi-Amil"
+    },
+    {
+        "value": "Caste_182",
+        "caption": "Sindhi-Baibhand"
+    },
+    {
+        "value": "Caste_183",
+        "caption": "Sindhi-Bhanusali"
+    },
+    {
+        "value": "Caste_184",
+        "caption": "Sindhi-Bhatia"
+    },
+    {
+        "value": "Caste_185",
+        "caption": "Sindhi-Chhapru"
+    },
+    {
+        "value": "Caste_186",
+        "caption": "Sindhi-Dadu"
+    },
+    {
+        "value": "Caste_187",
+        "caption": "Sindhi-Hyderabadi"
+    },
+    {
+        "value": "Caste_188",
+        "caption": "Sindhi-Larai"
+    },
+    {
+        "value": "Caste_189",
+        "caption": "Sindhi-Larkana"
+    },
+    {
+        "value": "Caste_190",
+        "caption": "Sindhi-Lohana"
+    },
+    {
+        "value": "Caste_191",
+        "caption": "Sindhi-Rohiri"
+    },
+    {
+        "value": "Caste_192",
+        "caption": "Sindhi-Sahiti"
+    },
+    {
+        "value": "Caste_193",
+        "caption": "Sindhi-Sakkhar"
+    },
+    {
+        "value": "Caste_194",
+        "caption": "Sindhi-Sehwani"
+    },
+    {
+        "value": "Caste_195",
+        "caption": "Sindhi-Shikarpuri"
+    },
+    {
+        "value": "Caste_196",
+        "caption": "Sindhi-Thatai"
+    },
+    {
+        "value": "Caste_278",
+        "caption": "Smartha Brahmin  "
+    },
+    {
+        "value": "Caste_198",
+        "caption": "Sonar"
+    },
+    {
+        "value": "Caste_199",
+        "caption": "Soni"
+    },
+    {
+        "value": "Caste_994",
+        "caption": "Sonkar"
+    },
+    {
+        "value": "Caste_200",
+        "caption": "Sourashtra"
+    },
+    {
+        "value": "Caste_900",
+        "caption": "Sozhia Chetty"
+    },
+    {
+        "value": "Caste_342",
+        "caption": "Sozhiya Vellalar"
+    },
+    {
+        "value": "Caste_279",
+        "caption": "Sri Vaishnava Brahmin  "
+    },
+    {
+        "value": "Caste_682",
+        "caption": "Srisayana"
+    },
+    {
+        "value": "Caste_280",
+        "caption": "Stanika Brahmin  "
+    },
+    {
+        "value": "Caste_343",
+        "caption": "Sugali (Naika)"
+    },
+    {
+        "value": "Caste_344",
+        "caption": "Sunari"
+    },
+    {
+        "value": "Caste_201",
+        "caption": "Sundhi"
+    },
+    {
+        "value": "Caste_729",
+        "caption": "Surya Balija"
+    },
+    {
+        "value": "Caste_202",
+        "caption": "Suthar"
+    },
+    {
+        "value": "Caste_203",
+        "caption": "Swakula Sali"
+    },
+    {
+        "value": "Caste_1023",
+        "caption": "Swarnakar"
+    },
+    {
+        "value": "Caste_204",
+        "caption": "Tamboli"
+    },
+    {
+        "value": "Caste_1063",
+        "caption": "Tammali"
+    },
+    {
+        "value": "Caste_205",
+        "caption": "Tanti"
+    },
+    {
+        "value": "Caste_206",
+        "caption": "Tantubai"
+    },
+    {
+        "value": "Caste_207",
+        "caption": "Telaga"
+    },
+    {
+        "value": "Caste_208",
+        "caption": "Teli"
+    },
+    {
+        "value": "Caste_772",
+        "caption": "Telugupatti"
+    },
+    {
+        "value": "Caste_209",
+        "caption": "Thakkar"
+    },
+    {
+        "value": "Caste_675",
+        "caption": "Thakore"
+    },
+    {
+        "value": "Caste_210",
+        "caption": "Thakur"
+    },
+    {
+        "value": "Caste_995",
+        "caption": "Thandan"
+    },
+    {
+        "value": "Caste_1044",
+        "caption": "Tharakan"
+    },
+    {
+        "value": "Caste_196",
+        "caption": "Thatai Sindhi  "
+    },
+    {
+        "value": "Caste_211",
+        "caption": "Thigala"
+    },
+    {
+        "value": "Caste_212",
+        "caption": "Thiyya"
+    },
+    {
+        "value": "Caste_758",
+        "caption": "Thiyya Thandan"
+    },
+    {
+        "value": "Caste_791",
+        "caption": "Thogata Veera Kshatriya"
+    },
+    {
+        "value": "Caste_836",
+        "caption": "Thogata Veerakshathriya"
+    },
+    {
+        "value": "Caste_812",
+        "caption": "Thondai Mandala Vellalar"
+    },
+    {
+        "value": "Caste_756",
+        "caption": "Thota"
+    },
+    {
+        "value": "Caste_213",
+        "caption": "Tili"
+    },
+    {
+        "value": "Caste_346",
+        "caption": "Togata"
+    },
+    {
+        "value": "Caste_347",
+        "caption": "Tonk Kshatriya"
+    },
+    {
+        "value": "Caste_348",
+        "caption": "Turupu Kapu"
+    },
+    {
+        "value": "Caste_249",
+        "caption": "Tyagi Brahmin  "
+    },
+    {
+        "value": "Caste_876",
+        "caption": "Ummar / Umre / Bagaria"
+    },
+    {
+        "value": "Caste_696",
+        "caption": "Urali Gounder"
+    },
+    {
+        "value": "Caste_349",
+        "caption": "Urs"
+    },
+    {
+        "value": "Caste_356",
+        "caption": "Vada Balija"
+    },
+    {
+        "value": "Caste_901",
+        "caption": "Vadambar"
+    },
+    {
+        "value": "Caste_1050",
+        "caption": "Vadar"
+    },
+    {
+        "value": "Caste_216",
+        "caption": "Vaddera"
+    },
+    {
+        "value": "Caste_818",
+        "caption": "Vadugan"
+    },
+    {
+        "value": "Caste_285",
+        "caption": "Vaidiki Brahmin  "
+    },
+    {
+        "value": "Caste_687",
+        "caption": "Vaikhanasa Brahmin  "
+    },
+    {
+        "value": "Caste_217",
+        "caption": "Vaish"
+    },
+    {
+        "value": "Caste_218",
+        "caption": "Vaishnav"
+    },
+    {
+        "value": "Caste_853",
+        "caption": "Vaishnav Dishaval"
+    },
+    {
+        "value": "Caste_854",
+        "caption": "Vaishnav Kapol"
+    },
+    {
+        "value": "Caste_855",
+        "caption": "Vaishnav Khadyata"
+    },
+    {
+        "value": "Caste_856",
+        "caption": "Vaishnav Lad"
+    },
+    {
+        "value": "Caste_857",
+        "caption": "Vaishnav Modh"
+    },
+    {
+        "value": "Caste_858",
+        "caption": "Vaishnav Porvad"
+    },
+    {
+        "value": "Caste_859",
+        "caption": "Vaishnav Shrimali"
+    },
+    {
+        "value": "Caste_860",
+        "caption": "Vaishnav Sorathaiya"
+    },
+    {
+        "value": "Caste_861",
+        "caption": "Vaishnav Vania"
+    },
+    {
+        "value": "Caste_219",
+        "caption": "Vaishnava"
+    },
+    {
+        "value": "Caste_220",
+        "caption": "Vaishya"
+    },
+    {
+        "value": "Caste_221",
+        "caption": "Vaishya Vani"
+    },
+    {
+        "value": "Caste_1047",
+        "caption": "Valar"
+    },
+    {
+        "value": "Caste_350",
+        "caption": "Valluvan"
+    },
+    {
+        "value": "Caste_222",
+        "caption": "Valmiki"
+    },
+    {
+        "value": "Caste_1015",
+        "caption": "Valsad"
+    },
+    {
+        "value": "Caste_934",
+        "caption": "Vani"
+    },
+    {
+        "value": "Caste_877",
+        "caption": "Vani / Vaishya"
+    },
+    {
+        "value": "Caste_223",
+        "caption": "Vania"
+    },
+    {
+        "value": "Caste_730",
+        "caption": "Vanika Vyshya"
+    },
+    {
+        "value": "Caste_224",
+        "caption": "Vaniya"
+    },
+    {
+        "value": "Caste_902",
+        "caption": "Vaniya Chettiar"
+    },
+    {
+        "value": "Caste_225",
+        "caption": "Vanjara"
+    },
+    {
+        "value": "Caste_226",
+        "caption": "Vanjari"
+    },
+    {
+        "value": "Caste_227",
+        "caption": "Vankar"
+    },
+    {
+        "value": "Caste_228",
+        "caption": "Vannar"
+    },
+    {
+        "value": "Caste_229",
+        "caption": "Vannia Kula Kshatriyar"
+    },
+    {
+        "value": "Caste_1064",
+        "caption": "Vanyakulakshatriya"
+    },
+    {
+        "value": "Caste_351",
+        "caption": "Variar"
+    },
+    {
+        "value": "Caste_352",
+        "caption": "Varshney"
+    },
+    {
+        "value": "Caste_878",
+        "caption": "Varshney (Barahseni)"
+    },
+    {
+        "value": "Caste_230",
+        "caption": "Veera Saivam"
+    },
+    {
+        "value": "Caste_937",
+        "caption": "Veerakodi Vellala"
+    },
+    {
+        "value": "Caste_353",
+        "caption": "Velaan"
+    },
+    {
+        "value": "Caste_231",
+        "caption": "Velama"
+    },
+    {
+        "value": "Caste_354",
+        "caption": "Velanadu Brahmin  "
+    },
+    {
+        "value": "Caste_1043",
+        "caption": "Vellala Pillai"
+    },
+    {
+        "value": "Caste_232",
+        "caption": "Vellalar"
+    },
+    {
+        "value": "Caste_903",
+        "caption": "Vellan Chettiars"
+    },
+    {
+        "value": "Caste_233",
+        "caption": "Veluthedathu Nair"
+    },
+    {
+        "value": "Caste_355",
+        "caption": "Vettuva Gounder"
+    },
+    {
+        "value": "Caste_996",
+        "caption": "Vettuvan"
+    },
+    {
+        "value": "Caste_879",
+        "caption": "Vijayvargia"
+    },
+    {
+        "value": "Caste_821",
+        "caption": "Vilakithala Nair"
+    },
+    {
+        "value": "Caste_234",
+        "caption": "Vilakkithala Nair"
+    },
+    {
+        "value": "Caste_236",
+        "caption": "Vishwakarma"
+    },
+    {
+        "value": "Caste_235",
+        "caption": "Viswabrahmin"
+    },
+    {
+        "value": "Caste_237",
+        "caption": "Vokkaliga"
+    },
+    {
+        "value": "Caste_266",
+        "caption": "Vyas Brahmin  "
+    },
+    {
+        "value": "Caste_238",
+        "caption": "Vysya"
+    },
+    {
+        "value": "Caste_239",
+        "caption": "Yadav"
+    },
+    {
+        "value": "Caste_819",
+        "caption": "Yadava Naidu"
+    },
+    {
+        "value": "Caste_357",
+        "caption": "Yellapu"
+    },
+    {
+        "value": "Caste_998",
+        "caption": "Caste no bar"
+    }
+]
