@@ -1,6 +1,11 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 
+//Redux setup
+import {configureStore} from '@reduxjs/toolkit';
+import {Provider} from 'react-redux';
+
+
 //Common Css files
 import "tailwindcss/tailwind.css";
 import "antd/dist/antd.css";
