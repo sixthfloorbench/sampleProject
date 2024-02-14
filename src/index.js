@@ -1,14 +1,13 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 
-//Redux setup
-import {configureStore} from '@reduxjs/toolkit';
-import {Provider} from 'react-redux';
-
-
 //Common Css files
 import "tailwindcss/tailwind.css";
 import "antd/dist/antd.css";
+import "../src/index.css"
+import "@fontsource/open-sans"; // Defaults to weight 400
+import "@fontsource/open-sans/400.css"; // Specify weight
+import "@fontsource/open-sans/400-italic.css"; // Specify weight and style
 
 const rootNode = document.getElementById("root");
 const root = ReactDOM.createRoot(rootNode);
@@ -18,7 +17,7 @@ const AppComponent = lazy(() => import("./Container/App/index.js"));
 root.render(
   <React.StrictMode>
     <Suspense fallback={<div>Loading...</div>}>
-      <div className="flex justify-center p-4">
+      <div className="">
         <AppComponent />
       </div>
     </Suspense>

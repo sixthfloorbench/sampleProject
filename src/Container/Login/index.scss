@@ -1,0 +1,90 @@
+.login-container-mainwrapper {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/login/login-bg-tamil.jpg) no-repeat 45% 0px;
+    background-size: cover;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 480px;
+
+    .container-login-wrap {
+        max-width: 1179px;
+        padding: 10px 0 0;
+        margin: 0 auto;
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+
+            .lhs-banner-main-wrapper {
+                flex: 1;
+                // background: red;
+            }
+
+            .rhs-login-main-wrapper {
+                flex: 0 0 40%;
+
+                .login-formSection-wrap {
+                    background-color: #fff;
+                    border-radius: 10px;
+                    // max-width: 488px;
+                    margin-top: 10px;
+                    padding: 28px 34px 28px;
+
+                    .login-title {
+                        font-size: 22px;
+                        line-height: 30px;
+                        letter-spacing: 0.72px;
+                        font-weight: bold;
+                        text-align: left;
+                        margin-top: 0px;
+                        padding-left: 0px;
+                    }
+
+                    .login-form-wrapper {
+                        padding: 15px 0 0;
+
+                        .ant-form-item-label {
+                            label {
+                                font-size: 14px;
+                                font-weight: bold;
+                                line-height: 1.5;
+                                letter-spacing: 0.48px;
+                                text-align: left;
+                                color: #000000;
+                            }
+                        }
+
+                        .ant-checkbox-wrapper span {
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 1.5;
+                            letter-spacing: 0.48px;
+                            text-align: left;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.common-btn {
+    width: 256px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ff9800;
+    float: left;
+    border: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-input {
+    height: 48px;
+    border-radius: 8px;
+}
