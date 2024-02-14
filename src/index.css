@@ -1,0 +1,3614 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.hide {
+    display: none !important;
+}
+
+.innerblock1 {
+    background: #f3f3f3;
+    width: 100%;
+    text-align: left
+}
+
+body {
+    margin: 0 auto;
+    line-height: 15px;
+    font-family: "Open Sans";
+}
+
+
+form {
+    margin: 0;
+    padding: 0
+}
+
+input,
+label,
+select,
+textarea {
+    font-size: 100%
+}
+
+blockquote,
+button,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+ul.inline,
+ul.inline li {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0
+}
+
+input,
+select {
+    vertical-align: middle
+}
+
+a,
+a:visited {
+    color: #777;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer
+}
+
+a:hover {
+    text-decoration: underline;
+    outline: 0;
+    cursor: pointer
+}
+
+a img {
+    border: 0
+}
+
+.menunrml {
+    display: block;
+    background-position: 0 -506px;
+    display: block;
+    line-height: 15px;
+    color: #777;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    font-size: 13px
+}
+
+.helpline-icon {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/topnav-sprite.gif) no-repeat;
+    background-position: 0 -162px;
+    display: inline-block;
+    height: 35px;
+    padding-left: 38px
+}
+
+.hdot {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/h-dot.gif) repeat-x bottom;
+    height: 1px;
+    margin: 10px 0
+}
+
+.fleft {
+    float: left
+}
+
+.fright {
+    float: right
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    width: 1px
+}
+
+.smalltxt {
+    font-size: 11px
+}
+
+.mediumtxt {
+    font-size: 12px
+}
+
+.hdtxt {
+    font-size: 14px
+}
+
+.hdtxt1 {
+    font-size: 15px
+}
+
+.boldtxt {
+    font-weight: 700
+}
+
+.lheight16 {
+    line-height: 16px
+}
+
+.link {
+    color: #0274cb !important
+}
+
+.clr7 {
+    color: #777
+}
+
+.txt-center {
+    text-align: center
+}
+
+.txt-right {
+    text-align: right
+}
+
+.txt-left {
+    text-align: left
+}
+
+.paddr4 {
+    padding-right: 4px
+}
+
+.paddt5 {
+    padding-top: 5px
+}
+
+.paddr5 {
+    padding-right: 5px
+}
+
+.paddb5 {
+    padding-bottom: 5px
+}
+
+.paddl5 {
+    padding-left: 5px
+}
+
+.paddl8 {
+    padding-left: 8px
+}
+
+.padd8 {
+    padding: 8px
+}
+
+.paddt10 {
+    padding-top: 10px
+}
+
+.paddr10 {
+    padding-right: 10px
+}
+
+.paddb10 {
+    padding-bottom: 10px
+}
+
+.paddl10 {
+    padding-left: 10px
+}
+
+.paddt15 {
+    padding-top: 15px
+}
+
+.paddr15 {
+    padding-right: 15px
+}
+
+.paddb15 {
+    padding-bottom: 15px
+}
+
+.paddl15 {
+    padding-left: 15px
+}
+
+.paddt20 {
+    padding-top: 20px
+}
+
+.paddb20 {
+    padding-bottom: 20px
+}
+
+.paddl20 {
+    padding-left: 20px
+}
+
+.paddt30 {
+    padding-top: 30px
+}
+
+.small {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 3px 6px !important;
+    padding: 2px 0
+}
+
+.hp-txtBox {
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    color: #777;
+    padding: 7px;
+    font: bold 11px arial
+}
+
+.hp-button {
+    width: 63px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #ff7c0b;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    border: none !important;
+    display: inline-block;
+
+    margin: 0;
+    outline: medium none;
+    text-decoration: none
+}
+
+#quicksearchform select {
+    color: #777;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    height: 42px;
+    padding: 5px 5px 5px 8px;
+    border: 1px solid #aaa
+}
+
+.select-arw {
+    position: relative
+}
+
+#quicksearchform .select-arw:after,
+.select-arw:after {
+    content: " ";
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    right: 6px;
+    top: 12px;
+    padding: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top: 0 solid #a3a5a5
+}
+
+#quicksearchform .select-arw:before,
+.select-arw:before {
+    content: '';
+    right: 1px;
+    top: 1px;
+    width: 22px;
+    height: 26px;
+    background: #fff;
+    position: absolute;
+    pointer-events: none;
+    display: block
+}
+
+#quicksearchform .select-arw:before {
+    height: 33px;
+    width: 25px
+}
+
+#quicksearchform .select-arw:after {
+    top: 17px;
+    right: 10px
+}
+
+.select-arw select {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/small-sel-arw.jpg) no-repeat right !important;
+    background-position: 90% 15px !important;
+    background-color: #fcfcfc !important;
+    color: #000 !important;
+    font-weight: 700;
+    letter-spacing: .8px;
+    outline: 0;
+    border-radius: 6px
+}
+
+#quicksearchform .select-arw::before,
+.select-arw::before {
+    background: 0 0
+}
+
+.select-arw select option {
+    color: #000;
+    font-weight: 400;
+    padding: 3px 10px;
+    letter-spacing: .8px
+}
+
+.pos-relative {
+    position: relative
+}
+
+.hp-regbtn {
+    width: 114px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 34px
+}
+
+.hp-help-ttip {
+    position: absolute;
+    z-index: 9999;
+    right: -15px;
+    top: 40px;
+    text-align: left;
+    font-weight: 400;
+    display: none;
+    width: 500px
+}
+
+.hp-help-ttip-arw {
+    position: absolute;
+    padding-left: 466px;
+    padding-right: 15px;
+    z-index: 1001;
+    padding-top: 12px;
+    top: -25px
+}
+
+.hp-help-ttipbg {
+    background: #f0f0f0;
+    border: 1px solid #cfcfcf;
+    padding: 15px;
+    border-radius: 10px;
+    padding: 15px 15px 20px 15px
+}
+
+.hp-help-ttipbg b {
+    font-weight: 700;
+    letter-spacing: .8px
+}
+
+.hp-help-menu a.arrow {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/help-link-arw-icon.gif) no-repeat 0 9px;
+    padding: 5px 10px
+}
+
+.hp-help-arw {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/hp-help-arw.png) no-repeat;
+    display: inline-block;
+    height: 12px;
+    width: 17px;
+    position: relative;
+    top: 0
+}
+
+.errorbg {
+    border: 1px solid #ce3737 !important
+}
+
+.hp-regform-txtfield-new {
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    color: #777;
+    width: 230px;
+    padding-left: 10px;
+    height: 27px;
+    font: 12px arial
+}
+
+.hpmainwraper {
+    width: 100%;
+    margin: 0 auto
+}
+
+.innerwrapper {
+    width: 1000px;
+    margin: 0 auto
+}
+
+.bmlogo-width {
+    width: 150px
+}
+
+.mob-wdth100 {
+    width: auto
+}
+
+.dh-hdrwid {
+    width: 1100px;
+    padding-top: 25px
+}
+
+.dh-hdrmenu-rt {
+    padding-top: 14px;
+    width: 320px
+}
+
+.dh-form-width {
+    width: 1110px;
+    margin: 0 auto
+}
+
+.dh-frmwidth1 {
+    margin: 55px auto 0px;
+    width: 1100px;
+    margin-right: 45px
+}
+
+
+.dh-frmbdrno {
+    margin-top: 35px;
+    position: relative;
+    box-shadow: 0 0 7.5px 2.5px rgba(153, 153, 153, .15);
+    float: left;
+    border-radius: 10px
+}
+
+.dh-frmfield1no {
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 22px;
+    width: 180px;
+    height: 45px
+}
+
+.dh-frmfield2no {
+    background: #fff;
+    width: 208px;
+    padding: 22px 18px 14px 18px;
+    height: 53px
+}
+
+.dh-frmfield3no {
+    background: #fff;
+    padding: 22px 19px 16px 19px;
+    border-right: 1px solid #eee;
+    width: 200px;
+    height: 51px
+}
+
+.dh-ctry-codeno {
+    width: 68px !important;
+    float: left;
+    padding: 8px 0 5px 10px !important;
+    color: #333;
+    letter-spacing: .8px;
+    cursor: pointer;
+    height: 30px;
+    position: relative;
+    left: -10px
+}
+
+.dh-mob-numno {
+    float: left;
+    width: 130px;
+    border: 0;
+    height: 35px;
+    outline: 0;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: .8px
+}
+
+.dh-nametxtno {
+    width: 100%;
+    border: 0;
+    height: 24px;
+    outline: 0;
+    font-size: 14px;
+    padding-left: 0;
+    color: #333 !important
+}
+
+.dh-btnno {
+    width: 180px;
+    font-size: 16px;
+    height: 90px;
+
+    font-weight: 700;
+    padding: 23px 0 24px 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    letter-spacing: 1px;
+    background-image: linear-gradient(#f58320, #ff9902)
+}
+
+
+.dh-terms {
+    vertical-align: top;
+    margin-right: 235px
+}
+
+.desk-none {
+    display: none !important
+}
+
+
+
+.mobpad-findeq {
+    padding-top: 105px
+}
+
+.hp-brandbnr {
+    background: #eef0f3;
+    margin: 70px 0;
+    position: relative;
+    border-radius: 10px;
+    width: 1010px
+}
+
+.hp-brandbnr1 {
+    width: 720px;
+    margin: 0 auto;
+    padding: 57px 0
+}
+
+.hpbrnd2 {
+    width: 480px
+}
+
+.hp-brnd-btn {
+    width: 220px;
+    padding-top: 7px
+}
+
+.hp-sliderbg {
+    background: #f1f1f1;
+    width: 100%
+}
+
+.hp-sliderbgpad {
+    padding: 0
+}
+
+.hp-sli-widh {
+    width: 950px;
+    margin: 0 auto;
+    height: 513px
+}
+
+.hp-sli-hd {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    color: #000;
+    padding: 40px 0 40px 0;
+    position: relative
+}
+
+.hp-sli-btm {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    color: #000;
+    position: relative
+}
+
+.hp-slibtmpad {
+    padding: 25px 0 50px 0
+}
+
+.hp-slibtmpad button {
+    width: 180px;
+    height: 36px;
+    border-radius: 10px;
+    border: solid 1px #ff9902;
+    background-color: #ff9902;
+    font-size: 14px;
+    letter-spacing: .8px;
+    font-weight: 700;
+    color: #fff;
+
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+    position: relative
+}
+
+.hp-qs-bg {
+    background: #f1f1f1;
+
+    padding: 50px 0 70px
+}
+
+.hp-qs-frm {
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.hp-mm-left {
+    width: 490px;
+    margin-right: 18px;
+    background: url(//imgs.bharatmatrimony.com/bmimgs/bg-bdr1.png) no-repeat;
+    height: 207px
+}
+
+.hp-wed-right {
+    width: 490px;
+    background: url(//imgs.bharatmatrimony.com/bmimgs/bg-bdr2.png) no-repeat;
+    height: 207px
+}
+
+.hptxt1 {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 45px;
+    letter-spacing: 1.08px
+}
+
+.hp-padt30 {
+    padding-top: 30px;
+    padding-bottom: 40px
+}
+
+.hp-mmlogo {
+    width: 325px;
+    margin: 0 auto;
+    padding: 15px 0 72px 0
+}
+
+.mmlogo1 {
+    width: 120px
+}
+
+.mmlogo2 {
+    width: 205px
+}
+
+.hp-ws-txt {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    font-weight: 900;
+    padding-top: 45px
+}
+
+.ws-right {
+    width: 442px;
+    margin: 0 auto;
+    padding: 25px 0 35px 0
+}
+
+.wslogo1 {
+    width: 190px
+}
+
+.wslogo2 {
+    width: 250px
+}
+
+.helpdeskbdr {
+    border: 1px solid #cfd3dc;
+    height: 100px;
+    border-radius: 10px;
+    margin: 55px 0 !important
+}
+
+.helpdesktxt {
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 18px;
+
+    font-weight: 900
+}
+
+#subMenu {
+    width: inherit;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #f3f3f3;
+    box-shadow: 3px 4px 12px 2px #ccc
+}
+
+.login-text a:hover {
+    text-decoration: none
+}
+
+.nav-bg-wraper,
+.nav-bg-wraper1 {
+    background: #f5f2eb;
+    opacity: .7
+}
+
+.nav-bg-wraper1 {
+    height: 47px;
+    line-height: 43px
+}
+
+.nav-bg-wraper ul li,
+.nav-bg-wraper1 ul li {
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: none;
+    margin: 0 12px;
+    float: left;
+    opacity: 1
+}
+
+.nav-bg-wraper .innerwrapper ul li a,
+.nav-bg-wraper1 .innerwrapper ul li a {
+    color: #000
+}
+
+.loginoverlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .7);
+    transition: opacity .5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 99
+}
+
+.loginoverlay:target {
+    visibility: visible !important;
+    opacity: 1
+}
+
+.loginpopup {
+    padding: 29px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    width: 350px;
+    position: relative;
+    transition: all 5s ease-in-out;
+    position: absolute;
+    top: 20%;
+    left: 36%
+}
+
+.errortext {
+    font-size: 11px;
+    color: red
+}
+
+.hdr-link li a {
+
+    font-size: 14px;
+    color: #000;
+    letter-spacing: .8px
+}
+
+.nav-bg-wraper1 ul.hdr-link li {
+    line-height: 44px
+}
+
+.logotop {
+    position: absolute;
+    top: 18px;
+    z-index: 99
+}
+
+.logotxt {
+    font-size: 11px;
+    color: #777;
+    text-align: left;
+    padding-bottom: 2px
+}
+
+.dhoni-bg {
+    position: relative;
+    height: 658px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/trackybgnew-msdhoninew.webp) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 101vh;
+    margin-top: -1px
+}
+
+.dhoni-bg-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/trackybgnew-msdhoninew.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.fq-dhbg {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/dhoni-bannertxtimg.webp) no-repeat
+}
+
+.fq-dhbg-others {
+    background: url(//imgs.bharatmatrimony.com/bmimgs/dhoni-bannertxtimg.jpg) no-repeat
+}
+
+@media screen and (min-width:2560px) {
+    .dhoni-bg {
+        background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/trackybgnew-big-msdhoninew.jpg) no-repeat center center;
+        width: 100%;
+        background-size: cover;
+        min-height: 73vh
+    }
+}
+
+.dropdown-content {
+    padding: 10px 0 15px 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: auto;
+    overflow: auto;
+    z-index: 1;
+    top: 48px;
+    left: 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, .16)
+}
+
+.hp-tab-hd {
+    float: left;
+    width: 140px
+}
+
+.dropdown-content a {
+    display: block
+}
+
+.hptab-cnt {
+    float: left;
+    width: auto
+}
+
+.tabfleft {
+    float: left
+}
+
+.show {
+    display: block;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s
+}
+
+.overflw {
+    overflow: auto
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.mt-0 {
+    margin-top: 0 !important
+}
+
+.mb-0 {
+    margin-bottom: 0 !important
+}
+
+.pt-0 {
+    padding-top: 0 !important
+}
+
+.tablink {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+
+    padding: 15px 26px;
+    text-align: left;
+    cursor: pointer;
+    letter-spacing: .6px
+}
+
+.browselink ul li {
+    list-style: none;
+    text-align: left;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 700;
+
+    letter-spacing: .5px
+}
+
+.browselink ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: .6px;
+    font-size: 14px
+}
+
+.browselink ul li a:hover {
+    color: #00a03a
+}
+
+.bm-green {
+    color: #00a03a;
+    background: #f1f1f1
+}
+
+.bm-animate-fading {
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s
+}
+
+.dropbtn:after {
+    content: '';
+    background: url(//imgs.bharatmatrimony.com/bmimgs/bmhp-selectarw.png) no-repeat;
+    width: 12px;
+    height: 7px;
+    background-position: 0 0;
+    display: inline-block
+}
+
+.desp-labelno {
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: .8px;
+}
+
+.regdropdown {
+    width: 349px;
+    border: 1px solid #eee;
+    border-left: 0
+}
+
+.regdropdown li input[type=radio] {
+    display: none
+}
+
+.gendropdn li input[type=radio] {
+    display: none
+}
+
+.regdropdown li input[type=radio]+label {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+    letter-spacing: .8px
+}
+
+.regdropdown li input[type=radio]:checked+label {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: .8px
+}
+
+.gendropdn li input[type=radio]+label {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+    letter-spacing: .8px
+}
+
+.gendropdn li input[type=radio]:checked+label {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    font-size: 14px;
+    color: #ff7c0b;
+    letter-spacing: .8px
+}
+
+.gendropdn li {
+    list-style: none
+}
+
+.desp-drpdwn .regdropdown li label:hover {
+    color: #ff7c0b
+}
+
+.desp-drpdwn.active .regdropdown {
+    opacity: 1
+}
+
+.regdropdown li {
+    float: left;
+    width: 50px;
+    padding: 15px 30px 5px 23px;
+    text-align: center
+}
+
+.regdropdown {
+    cursor: default;
+    padding-left: 0
+}
+
+.desp-drpdwn {
+    position: relative;
+    width: 154px;
+    float: left;
+    background: #fff;
+    outline: 0;
+    color: #363636;
+    background: url(//imgs.bharatmatrimony.com/bmimgs/bmhp-selectarw.png) no-repeat;
+    background-position: 136px 20px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    padding: 15px 0 0 0
+}
+
+.desp-drpdwn .regdropdown {
+    position: absolute;
+    top: 45px;
+    left: -1px;
+    right: 0;
+    background: #fff;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+    list-style: none;
+    opacity: 0;
+    z-index: -1;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.gender-border {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.desp-drpdwn.active {
+    z-index: 999
+}
+
+.regisplacehold::-webkit-input-placeholder {
+    color: #333;
+    font-size: 14px;
+    letter-spacing: .8px
+}
+
+.regisplacehold::-moz-placeholder {
+    color: #333;
+    font-size: 14px;
+    letter-spacing: .8px
+}
+
+.regisplacehold:-ms-input-placeholder {
+    color: #333;
+    font-size: 14px;
+    letter-spacing: .8px
+}
+
+.regisplacehold:-moz-placeholder {
+    color: #333;
+    font-size: 14px;
+    letter-spacing: .8px
+}
+
+.regis-errno {
+    border: 1px solid #a40f0f !important
+}
+
+.regis-errtxtno {
+    font-size: 13px;
+    color: #a40f0f;
+    position: absolute;
+    left: 0;
+    top: -20px
+}
+
+.regis-errtxt-terms {
+    font-size: 13px;
+    color: #a40f0f;
+    position: absolute;
+    left: 0;
+    top: 110px
+}
+
+.gendropdn label:hover {
+    color: #ff7c0b !important
+}
+
+@-moz-document url-prefix() {
+    .mobselect select {
+        text-indent: -1.8px
+    }
+}
+
+.trackylink {
+    color: #000 !important;
+    text-decoration: none !important
+}
+
+.bm-cntry option {
+    padding: 3px 10px;
+    font-size: 14px;
+    letter-spacing: .8px;
+    color: #333 !important
+}
+
+.clear {
+    height: 0
+}
+
+.mobselect select {
+    border: 1px solid #000000;
+    font-size: 14px;
+    padding: 2px 0 8px 8px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: url(//imgs.bharatmatrimony.com/bmimgs/bmhp-selectarw.png) no-repeat;
+    background-position: 50px 14px;
+
+    color: #999
+}
+
+.hp-lheight21 {
+    line-height: 21px
+}
+
+.hppaddl20 {
+    padding-left: 20px
+}
+
+.hp-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.ftrpadtp {
+    padding-top: 3px;
+}
+
+.hp-lheight18 {
+    line-height: 18px;
+}
+
+.new-replace-bharat {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-bharat.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-bharat-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-bharat.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-bengali {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-bengali.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-bengali-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-bengali.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-tamil {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-tamil.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-tamil-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-tamil.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-kerala {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-kerala.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-kerala-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-kerala.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-kannada {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-kannada.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-kannada-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-kannada.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-telugu {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-telugu.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-telugu-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-telugu.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-marathi {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-marathi.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-marathi-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-marathi.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-hindi {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-hindi.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-hindi-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-hindi.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-gujarati {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-gujarati.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-gujarati-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-gujarati.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-oriya {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-oriya.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+.new-replace-oriya-others {
+    position: relative;
+    height: 652px;
+    background: #e3dacb url(//imgs.bharatmatrimony.com/bmimgs/dhoni-rep-oriya.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    min-height: 102vh;
+    margin-top: -1px
+}
+
+
+
+
+
+.dh-frmbdr {
+    margin-top: 0;
+    position: relative;
+    box-shadow: 0px 12px 23px 2px #7b7b7b;
+    float: left;
+    width: 352px;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+.mob-wdth100 {
+    width: 100%;
+}
+
+.regis-errtxt {
+    font-size: 13px;
+    color: #a40f0f;
+    position: absolute1;
+    left: 0;
+    top: 85px;
+    text-align: right !important;
+    padding-bottom: 0;
+    width: auto !important;
+    right: 0;
+    float: right;
+    margin-top: 10px;
+}
+
+.dh-frmfield1 {
+    background: 0 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mob-prof {
+    width: 88%;
+    background-color: #fff;
+    padding: 13px 20px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 7.5px 2.5px rgba(153, 153, 153, .08);
+    margin-top: 10px;
+    background-position: 96% 18px !important;
+}
+
+.dh-nametxt {
+    width: 88%;
+    height: auto;
+    outline: 0;
+    font-size: 14px;
+    color: #333 !important;
+    padding: 13px 20px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 7.5px 2.5px rgba(153, 153, 153, .08);
+    float: left;
+}
+
+.dh-frmfield2 {
+    background: 0 0;
+    width: 100%;
+    padding: 0;
+    height: auto;
+}
+
+.desp-label {
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: .8px;
+
+    padding-bottom: 15px;
+}
+
+.dh-ctry-code {
+    width: 22% !important;
+    float: left;
+    padding: 13px 11px !important;
+    color: #333;
+    letter-spacing: .8px;
+    cursor: pointer;
+    height: auto;
+    position: relative;
+    left: 0;
+    background-color: #fff !important;
+    margin-right: 3%;
+    border-radius: 7px;
+    background-position: 82% 18px !important;
+    margin-top: 7px;
+    background: url(//imgs.bharatmatrimony.com/bmimgs/bmhp-selectarw.png) no-repeat;
+}
+
+.dh-mob-num {
+    float: left;
+    width: 63%;
+    border: 1px solid #000000;
+    height: auto;
+    outline: 0;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: .8px;
+    padding: 13px 20px;
+    margin-top: 7px;
+    border-radius: 7px;
+}
+
+.dh-btn {
+    width: 100%;
+    font-size: 15px;
+    height: auto;
+
+    font-weight: 700;
+    padding: 0 30px;
+    border-radius: 15px !important;
+    letter-spacing: 1px;
+    height: 48px;
+    margin-top: 25px;
+    background: #e06506;
+}
+
+.gendropdn {
+    position: relative;
+    left: 1px;
+    top: 8px;
+    z-index: 99;
+    border: 1px solid #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.register-arrow-icon {
+    position: absolute;
+    margin-top: 44px;
+    margin-left: -100px
+}
+
+.terms-condition-text {
+    color: #818b96;
+    font-size: 12px;
+    margin-top: 20px;
+    float: left;
+    letter-spacing: 0.42px;
+}
+
+.faq-bg-new {
+    background: #f1f1f1;
+    padding: 60px 0px 30px;
+}
+
+.register.arrow.icon {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -104px;
+}
+
+.logo-login-pad {
+    box-shadow: 1px 2px 8px 1px #e7e6e6;
+    padding-bottom: 20px;
+    background: #fbfcff;
+}
+
+.logo-login-pad-region {
+    box-shadow: 1px 2px 8px 1px #e7e6e6;
+    padding-bottom: 30px;
+    background: #fbfcff;
+}
+
+.desp-drpdwn {
+    position: relative;
+    float: left;
+    color: #363636;
+    background: #fff url(https://imgs.bharatmatrimony.com/bmimgs/bmhp-selectarw.png) no-repeat;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.mouse-hoverhelp-items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+}
+
+.helptext-header {
+    font-size: 14px;
+    color: #1f1f1f;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.helpicon-dropdown {
+    margin-top: 3px;
+}
+
+.newform-position {
+    position: absolute;
+    margin-top: -6%;
+    right: 17%;
+}
+
+.createprofile-text {
+    background: #2daa62;
+    margin-top: -56px;
+    position: absolute;
+    width: 381px;
+    border-radius: 20px;
+    padding: 26px 26px;
+    color: #fff;
+    line-height: 0px;
+    height: 35px;
+    font-size: 22px;
+    letter-spacing: 0.66px;
+}
+
+.register-title-textnew {
+    font-size: 20px;
+    width: 330px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.top-title-textpad {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    padding-left: 10px;
+}
+
+.top-title-textnew {
+    font-size: 20px;
+    font-weight: bold;
+    color: #16a751;
+    letter-spacing: 0.9px;
+    margin-top: 4px;
+}
+
+.top-desc-textnew h1 {
+    font-size: 31px;
+    letter-spacing: normal;
+    line-height: 34px;
+    font-weight: 900;
+    padding-top: 0px;
+    color: #000000;
+}
+
+.top-content-textnew {
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.22px;
+    margin-top: 18px;
+    width: 495px;
+    line-height: 26px;
+    text-shadow: 0px 0px #000000;
+}
+
+.limca-records-divbg {
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.limca-records-bgoverelay {
+    background: #f7f8fb;
+    width: 100%;
+    margin-top: 83px;
+}
+
+.limca-records-div {
+    width: 100%;
+    margin: 34% auto 0px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-radius: 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.limca-records-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.limca-records-center {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.limca-records-center img {
+    width: 34px;
+    height: 38px;
+    margin-right: 15px;
+}
+
+.limca-records-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    color: #000000;
+    letter-spacing: 0.16px;
+    line-height: 19px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.limca-records-desc {
+    display: block;
+    font-size: 14px;
+    color: #1f1f1f;
+    letter-spacing: 0.14px;
+}
+
+.copyright-text {
+
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: .94px;
+    color: #999999;
+    margin: 0px 10px 20px 10px;
+}
+
+.desktop-none {
+    display: none;
+}
+
+.hp-help-ttip1 {
+    width: 300px !important;
+}
+
+.hp-help-ttip-arw1 {
+    padding-left: 266px !important;
+    padding-top: 10px !important;
+}
+
+.bg-sprite-image-bharat,
+.bg-sprite-image-tamil,
+.bg-sprite-image-kerala,
+.bg-sprite-image-telugu,
+.bg-sprite-image-kannada,
+.bg-sprite-image-gujarati,
+.bg-sprite-image-hindi,
+.bg-sprite-image-marathi,
+.bg-sprite-image-punjabi,
+.bg-sprite-image-oriya,
+.bg-sprite-image-urdu,
+.bg-sprite-image-marwadi,
+.bg-sprite-image-assamese,
+.bg-sprite-image-bengali,
+.bg-sprite-image-sindhi,
+.bg-sprite-image-rajasthani,
+.bg-sprite-image-bihari,
+.bg-sprite-image-bhojpuri,
+.bg-sprite-image-parsi {
+    display: flex;
+    flex-flow: wrap;
+    position: absolute;
+    margin-top: 24%;
+}
+
+.bg-sprite-image-bharat .img-1,
+.bg-sprite-image-bharat .img-2,
+.bg-sprite-image-bharat .img-3,
+.bg-sprite-image-bharat .img-4,
+.bg-sprite-image-bharat .img-5,
+.bg-sprite-image-bharat .img-6,
+.bg-sprite-image-bharat .img-7,
+.bg-sprite-image-bharat .img-8,
+.bg-sprite-image-bharat .img-9,
+.bg-sprite-image-bharat .img-10,
+.bg-sprite-image-bharat .img-11,
+.bg-sprite-image-bharat .img-12,
+.bg-sprite-image-bharat .img-13,
+.bg-sprite-image-bharat .img-14,
+.bg-sprite-image-bharat .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bharat.jpg) no-repeat;
+}
+
+.bg-sprite-image-tamil .img-1,
+.bg-sprite-image-tamil .img-2,
+.bg-sprite-image-tamil .img-3,
+.bg-sprite-image-tamil .img-4,
+.bg-sprite-image-tamil .img-5,
+.bg-sprite-image-tamil .img-6,
+.bg-sprite-image-tamil .img-7,
+.bg-sprite-image-tamil .img-8,
+.bg-sprite-image-tamil .img-9,
+.bg-sprite-image-tamil .img-10,
+.bg-sprite-image-tamil .img-11,
+.bg-sprite-image-tamil .img-12,
+.bg-sprite-image-tamil .img-13,
+.bg-sprite-image-tamil .img-14,
+.bg-sprite-image-tamil .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-tamil.jpg) no-repeat;
+}
+
+.bg-sprite-image-kerala .img-1,
+.bg-sprite-image-kerala .img-2,
+.bg-sprite-image-kerala .img-3,
+.bg-sprite-image-kerala .img-4,
+.bg-sprite-image-kerala .img-5,
+.bg-sprite-image-kerala .img-6,
+.bg-sprite-image-kerala .img-7,
+.bg-sprite-image-kerala .img-8,
+.bg-sprite-image-kerala .img-9,
+.bg-sprite-image-kerala .img-10,
+.bg-sprite-image-kerala .img-11,
+.bg-sprite-image-kerala .img-12,
+.bg-sprite-image-kerala .img-13,
+.bg-sprite-image-kerala .img-14,
+.bg-sprite-image-kerala .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-kerala.jpg) no-repeat;
+}
+
+.bg-sprite-image-telugu .img-1,
+.bg-sprite-image-telugu .img-2,
+.bg-sprite-image-telugu .img-3,
+.bg-sprite-image-telugu .img-4,
+.bg-sprite-image-telugu .img-5,
+.bg-sprite-image-telugu .img-6,
+.bg-sprite-image-telugu .img-7,
+.bg-sprite-image-telugu .img-8,
+.bg-sprite-image-telugu .img-9,
+.bg-sprite-image-telugu .img-10,
+.bg-sprite-image-telugu .img-11,
+.bg-sprite-image-telugu .img-12,
+.bg-sprite-image-telugu .img-13,
+.bg-sprite-image-telugu .img-14,
+.bg-sprite-image-telugu .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-telugu.jpg) no-repeat;
+}
+
+.bg-sprite-image-kannada .img-1,
+.bg-sprite-image-kannada .img-2,
+.bg-sprite-image-kannada .img-3,
+.bg-sprite-image-kannada .img-4,
+.bg-sprite-image-kannada .img-5,
+.bg-sprite-image-kannada .img-6,
+.bg-sprite-image-kannada .img-7,
+.bg-sprite-image-kannada .img-8,
+.bg-sprite-image-kannada .img-9,
+.bg-sprite-image-kannada .img-10,
+.bg-sprite-image-kannada .img-11,
+.bg-sprite-image-kannada .img-12,
+.bg-sprite-image-kannada .img-13,
+.bg-sprite-image-kannada .img-14,
+.bg-sprite-image-kannada .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-kannada.jpg) no-repeat;
+}
+
+.bg-sprite-image-gujarati .img-1,
+.bg-sprite-image-gujarati .img-2,
+.bg-sprite-image-gujarati .img-3,
+.bg-sprite-image-gujarati .img-4,
+.bg-sprite-image-gujarati .img-5,
+.bg-sprite-image-gujarati .img-6,
+.bg-sprite-image-gujarati .img-7,
+.bg-sprite-image-gujarati .img-8,
+.bg-sprite-image-gujarati .img-9,
+.bg-sprite-image-gujarati .img-10,
+.bg-sprite-image-gujarati .img-11,
+.bg-sprite-image-gujarati .img-12,
+.bg-sprite-image-gujarati .img-13,
+.bg-sprite-image-gujarati .img-14,
+.bg-sprite-image-gujarati .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-gujarati.jpg) no-repeat;
+}
+
+.bg-sprite-image-hindi .img-1,
+.bg-sprite-image-hindi .img-2,
+.bg-sprite-image-hindi .img-3,
+.bg-sprite-image-hindi .img-4,
+.bg-sprite-image-hindi .img-5,
+.bg-sprite-image-hindi .img-6,
+.bg-sprite-image-hindi .img-7,
+.bg-sprite-image-hindi .img-8,
+.bg-sprite-image-hindi .img-9,
+.bg-sprite-image-hindi .img-10,
+.bg-sprite-image-hindi .img-11,
+.bg-sprite-image-hindi .img-12,
+.bg-sprite-image-hindi .img-13,
+.bg-sprite-image-hindi .img-14,
+.bg-sprite-image-hindi .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-hindi.jpg) no-repeat;
+}
+
+.bg-sprite-image-marathi .img-1,
+.bg-sprite-image-marathi .img-2,
+.bg-sprite-image-marathi .img-3,
+.bg-sprite-image-marathi .img-4,
+.bg-sprite-image-marathi .img-5,
+.bg-sprite-image-marathi .img-6,
+.bg-sprite-image-marathi .img-7,
+.bg-sprite-image-marathi .img-8,
+.bg-sprite-image-marathi .img-9,
+.bg-sprite-image-marathi .img-10,
+.bg-sprite-image-marathi .img-11,
+.bg-sprite-image-marathi .img-12,
+.bg-sprite-image-marathi .img-13,
+.bg-sprite-image-marathi .img-14,
+.bg-sprite-image-marathi .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-marathi.jpg) no-repeat;
+}
+
+.bg-sprite-image-punjabi .img-1,
+.bg-sprite-image-punjabi .img-2,
+.bg-sprite-image-punjabi .img-3,
+.bg-sprite-image-punjabi .img-4,
+.bg-sprite-image-punjabi .img-5,
+.bg-sprite-image-punjabi .img-6,
+.bg-sprite-image-punjabi .img-7,
+.bg-sprite-image-punjabi .img-8,
+.bg-sprite-image-punjabi .img-9,
+.bg-sprite-image-punjabi .img-10,
+.bg-sprite-image-punjabi .img-11,
+.bg-sprite-image-punjabi .img-12,
+.bg-sprite-image-punjabi .img-13,
+.bg-sprite-image-punjabi .img-14,
+.bg-sprite-image-punjabi .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-punjabi.jpg) no-repeat;
+}
+
+.bg-sprite-image-oriya .img-1,
+.bg-sprite-image-oriya .img-2,
+.bg-sprite-image-oriya .img-3,
+.bg-sprite-image-oriya .img-4,
+.bg-sprite-image-oriya .img-5,
+.bg-sprite-image-oriya .img-6,
+.bg-sprite-image-oriya .img-7,
+.bg-sprite-image-oriya .img-8,
+.bg-sprite-image-oriya .img-9,
+.bg-sprite-image-oriya .img-10,
+.bg-sprite-image-oriya .img-11,
+.bg-sprite-image-oriya .img-12,
+.bg-sprite-image-oriya .img-13,
+.bg-sprite-image-oriya .img-14,
+.bg-sprite-image-oriya .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-oriya.jpg) no-repeat;
+}
+
+.bg-sprite-image-urdu .img-1,
+.bg-sprite-image-urdu .img-2,
+.bg-sprite-image-urdu .img-3,
+.bg-sprite-image-urdu .img-4,
+.bg-sprite-image-urdu .img-5,
+.bg-sprite-image-urdu .img-6,
+.bg-sprite-image-urdu .img-7,
+.bg-sprite-image-urdu .img-8,
+.bg-sprite-image-urdu .img-9,
+.bg-sprite-image-urdu .img-10,
+.bg-sprite-image-urdu .img-11,
+.bg-sprite-image-urdu .img-12,
+.bg-sprite-image-urdu .img-13,
+.bg-sprite-image-urdu .img-14,
+.bg-sprite-image-urdu .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-urdu.jpg) no-repeat;
+}
+
+.bg-sprite-image-marwadi .img-1,
+.bg-sprite-image-marwadi .img-2,
+.bg-sprite-image-marwadi .img-3,
+.bg-sprite-image-marwadi .img-4,
+.bg-sprite-image-marwadi .img-5,
+.bg-sprite-image-marwadi .img-6,
+.bg-sprite-image-marwadi .img-7,
+.bg-sprite-image-marwadi .img-8,
+.bg-sprite-image-marwadi .img-9,
+.bg-sprite-image-marwadi .img-10,
+.bg-sprite-image-marwadi .img-11,
+.bg-sprite-image-marwadi .img-12,
+.bg-sprite-image-marwadi .img-13,
+.bg-sprite-image-marwadi .img-14,
+.bg-sprite-image-marwadi .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-marwadi.jpg) no-repeat;
+}
+
+.bg-sprite-image-assamese .img-1,
+.bg-sprite-image-assamese .img-2,
+.bg-sprite-image-assamese .img-3,
+.bg-sprite-image-assamese .img-4,
+.bg-sprite-image-assamese .img-5,
+.bg-sprite-image-assamese .img-6,
+.bg-sprite-image-assamese .img-7,
+.bg-sprite-image-assamese .img-8,
+.bg-sprite-image-assamese .img-9,
+.bg-sprite-image-assamese .img-10,
+.bg-sprite-image-assamese .img-11,
+.bg-sprite-image-assamese .img-12,
+.bg-sprite-image-assamese .img-13,
+.bg-sprite-image-assamese .img-14,
+.bg-sprite-image-assamese .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-assamese.jpg) no-repeat;
+}
+
+.bg-sprite-image-bengali .img-1,
+.bg-sprite-image-bengali .img-2,
+.bg-sprite-image-bengali .img-3,
+.bg-sprite-image-bengali .img-4,
+.bg-sprite-image-bengali .img-5,
+.bg-sprite-image-bengali .img-6,
+.bg-sprite-image-bengali .img-7,
+.bg-sprite-image-bengali .img-8,
+.bg-sprite-image-bengali .img-9,
+.bg-sprite-image-bengali .img-10,
+.bg-sprite-image-bengali .img-11,
+.bg-sprite-image-bengali .img-12,
+.bg-sprite-image-bengali .img-13,
+.bg-sprite-image-bengali .img-14,
+.bg-sprite-image-bengali .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bengali.jpg) no-repeat;
+}
+
+.bg-sprite-image-sindhi .img-1,
+.bg-sprite-image-sindhi .img-2,
+.bg-sprite-image-sindhi .img-3,
+.bg-sprite-image-sindhi .img-4,
+.bg-sprite-image-sindhi .img-5,
+.bg-sprite-image-sindhi .img-6,
+.bg-sprite-image-sindhi .img-7,
+.bg-sprite-image-sindhi .img-8,
+.bg-sprite-image-sindhi .img-9,
+.bg-sprite-image-sindhi .img-10,
+.bg-sprite-image-sindhi .img-11,
+.bg-sprite-image-sindhi .img-12,
+.bg-sprite-image-sindhi .img-13,
+.bg-sprite-image-sindhi .img-14,
+.bg-sprite-image-sindhi .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-sindhi.jpg) no-repeat;
+}
+
+.bg-sprite-image-rajasthani .img-1,
+.bg-sprite-image-rajasthani .img-2,
+.bg-sprite-image-rajasthani .img-3,
+.bg-sprite-image-rajasthani .img-4,
+.bg-sprite-image-rajasthani .img-5,
+.bg-sprite-image-rajasthani .img-6,
+.bg-sprite-image-rajasthani .img-7,
+.bg-sprite-image-rajasthani .img-8,
+.bg-sprite-image-rajasthani .img-9,
+.bg-sprite-image-rajasthani .img-10,
+.bg-sprite-image-rajasthani .img-11,
+.bg-sprite-image-rajasthani .img-12,
+.bg-sprite-image-rajasthani .img-13,
+.bg-sprite-image-rajasthani .img-14,
+.bg-sprite-image-rajasthani .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-rajasthani.jpg) no-repeat;
+}
+
+.bg-sprite-image-bihari .img-1,
+.bg-sprite-image-bihari .img-2,
+.bg-sprite-image-bihari .img-3,
+.bg-sprite-image-bihari .img-4,
+.bg-sprite-image-bihari .img-5,
+.bg-sprite-image-bihari .img-6,
+.bg-sprite-image-bihari .img-7,
+.bg-sprite-image-bihari .img-8,
+.bg-sprite-image-bihari .img-9,
+.bg-sprite-image-bihari .img-10,
+.bg-sprite-image-bihari .img-11,
+.bg-sprite-image-bihari .img-12,
+.bg-sprite-image-bihari .img-13,
+.bg-sprite-image-bihari .img-14,
+.bg-sprite-image-bihari .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bihari.jpg) no-repeat;
+}
+
+.bg-sprite-image-bhojpuri .img-1,
+.bg-sprite-image-bhojpuri .img-2,
+.bg-sprite-image-bhojpuri .img-3,
+.bg-sprite-image-bhojpuri .img-4,
+.bg-sprite-image-bhojpuri .img-5,
+.bg-sprite-image-bhojpuri .img-6,
+.bg-sprite-image-bhojpuri .img-7,
+.bg-sprite-image-bhojpuri .img-8,
+.bg-sprite-image-bhojpuri .img-9,
+.bg-sprite-image-bhojpuri .img-10,
+.bg-sprite-image-bhojpuri .img-11,
+.bg-sprite-image-bhojpuri .img-12,
+.bg-sprite-image-bhojpuri .img-13,
+.bg-sprite-image-bhojpuri .img-14,
+.bg-sprite-image-bhojpuri .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bhojpuri.jpg) no-repeat;
+}
+
+.bg-sprite-image-parsi .img-1,
+.bg-sprite-image-parsi .img-2,
+.bg-sprite-image-parsi .img-3,
+.bg-sprite-image-parsi .img-4,
+.bg-sprite-image-parsi .img-5,
+.bg-sprite-image-parsi .img-6,
+.bg-sprite-image-parsi .img-7,
+.bg-sprite-image-parsi .img-8,
+.bg-sprite-image-parsi .img-9,
+.bg-sprite-image-parsi .img-10,
+.bg-sprite-image-parsi .img-11,
+.bg-sprite-image-parsi .img-12,
+.bg-sprite-image-parsi .img-13,
+.bg-sprite-image-parsi .img-14,
+.bg-sprite-image-parsi .img-15 {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-parsi.jpg) no-repeat;
+}
+
+
+.img-8 {
+    display: none !important;
+}
+
+.bg-sprite-image-bharat .img-1,
+.bg-sprite-image-tamil .img-1,
+.bg-sprite-image-kerala .img-1,
+.bg-sprite-image-kannada .img-1,
+.bg-sprite-image-telugu .img-1,
+.bg-sprite-image-gujarati .img-1,
+.bg-sprite-image-hindi .img-1,
+.bg-sprite-image-marathi .img-1,
+.bg-sprite-image-punjabi .img-1,
+.bg-sprite-image-oriya .img-1,
+.bg-sprite-image-urdu .img-1,
+.bg-sprite-image-marwadi .img-1,
+.bg-sprite-image-assamese .img-1,
+.bg-sprite-image-bengali .img-1,
+.bg-sprite-image-sindhi .img-1,
+.bg-sprite-image-rajasthani .img-1,
+.bg-sprite-image-bihari .img-1,
+.bg-sprite-image-bhojpuri .img-1,
+.bg-sprite-image-parsi .img-1 {
+    width: 128px;
+    height: 266px;
+    background-position: -71px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-2,
+.bg-sprite-image-tamil .img-2,
+.bg-sprite-image-kerala .img-2,
+.bg-sprite-image-kannada .img-2,
+.bg-sprite-image-telugu .img-2,
+.bg-sprite-image-gujarati .img-2,
+.bg-sprite-image-hindi .img-2,
+.bg-sprite-image-marathi .img-2,
+.bg-sprite-image-punjabi .img-2,
+.bg-sprite-image-oriya .img-2,
+.bg-sprite-image-urdu .img-2,
+.bg-sprite-image-marwadi .img-2,
+.bg-sprite-image-assamese .img-2,
+.bg-sprite-image-bengali .img-2,
+.bg-sprite-image-sindhi .img-2,
+.bg-sprite-image-rajasthani .img-2,
+.bg-sprite-image-bihari .img-2,
+.bg-sprite-image-bhojpuri .img-2,
+.bg-sprite-image-parsi .img-2 {
+    width: 195px;
+    height: 295px;
+    background-position: -200px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-3,
+.bg-sprite-image-tamil .img-3,
+.bg-sprite-image-kerala .img-3,
+.bg-sprite-image-kannada .img-3,
+.bg-sprite-image-telugu .img-3,
+.bg-sprite-image-gujarati .img-3,
+.bg-sprite-image-hindi .img-3,
+.bg-sprite-image-marathi .img-3,
+.bg-sprite-image-punjabi .img-3,
+.bg-sprite-image-oriya .img-3,
+.bg-sprite-image-urdu .img-3,
+.bg-sprite-image-marwadi .img-3,
+.bg-sprite-image-assamese .img-3,
+.bg-sprite-image-bengali .img-3,
+.bg-sprite-image-sindhi .img-3,
+.bg-sprite-image-rajasthani .img-3,
+.bg-sprite-image-bihari .img-3,
+.bg-sprite-image-bhojpuri .img-3,
+.bg-sprite-image-parsi .img-3 {
+    width: 190px;
+    height: 255px;
+    background-position: -397px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-4,
+.bg-sprite-image-tamil .img-4,
+.bg-sprite-image-kerala .img-4,
+.bg-sprite-image-kannada .img-4,
+.bg-sprite-image-telugu .img-4,
+.bg-sprite-image-gujarati .img-4,
+.bg-sprite-image-hindi .img-4,
+.bg-sprite-image-marathi .img-4,
+.bg-sprite-image-punjabi .img-4,
+.bg-sprite-image-oriya .img-4,
+.bg-sprite-image-urdu .img-4,
+.bg-sprite-image-marwadi .img-4,
+.bg-sprite-image-assamese .img-4,
+.bg-sprite-image-bengali .img-4,
+.bg-sprite-image-sindhi .img-4,
+.bg-sprite-image-rajasthani .img-4,
+.bg-sprite-image-bihari .img-4,
+.bg-sprite-image-bhojpuri .img-4,
+.bg-sprite-image-parsi .img-4 {
+    width: 208px;
+    height: 269px;
+    background-position: -589px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-5,
+.bg-sprite-image-tamil .img-5,
+.bg-sprite-image-kerala .img-5,
+.bg-sprite-image-kannada .img-5,
+.bg-sprite-image-telugu .img-5,
+.bg-sprite-image-gujarati .img-5,
+.bg-sprite-image-hindi .img-5,
+.bg-sprite-image-marathi .img-5,
+.bg-sprite-image-punjabi .img-5,
+.bg-sprite-image-oriya .img-5,
+.bg-sprite-image-urdu .img-5,
+.bg-sprite-image-marwadi .img-5,
+.bg-sprite-image-assamese .img-5,
+.bg-sprite-image-bengali .img-5,
+.bg-sprite-image-sindhi .img-5,
+.bg-sprite-image-rajasthani .img-5,
+.bg-sprite-image-bihari .img-5,
+.bg-sprite-image-bhojpuri .img-5,
+.bg-sprite-image-parsi .img-5 {
+    width: 190px;
+    height: 255px;
+    background-position: -800px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-6,
+.bg-sprite-image-tamil .img-6,
+.bg-sprite-image-kerala .img-6,
+.bg-sprite-image-kannada .img-6,
+.bg-sprite-image-telugu .img-6,
+.bg-sprite-image-gujarati .img-6,
+.bg-sprite-image-hindi .img-6,
+.bg-sprite-image-marathi .img-6,
+.bg-sprite-image-punjabi .img-6,
+.bg-sprite-image-oriya .img-6,
+.bg-sprite-image-urdu .img-6,
+.bg-sprite-image-marwadi .img-6,
+.bg-sprite-image-assamese .img-6,
+.bg-sprite-image-bengali .img-6,
+.bg-sprite-image-sindhi .img-6,
+.bg-sprite-image-rajasthani .img-6,
+.bg-sprite-image-bihari .img-6,
+.bg-sprite-image-bhojpuri .img-6,
+.bg-sprite-image-parsi .img-6 {
+    width: 210px;
+    height: 243px;
+    background-position: -993px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-7,
+.bg-sprite-image-tamil .img-7,
+.bg-sprite-image-kerala .img-7,
+.bg-sprite-image-kannada .img-7,
+.bg-sprite-image-telugu .img-7,
+.bg-sprite-image-gujarati .img-7,
+.bg-sprite-image-hindi .img-7,
+.bg-sprite-image-marathi .img-7,
+.bg-sprite-image-punjabi .img-7,
+.bg-sprite-image-oriya .img-7,
+.bg-sprite-image-urdu .img-7,
+.bg-sprite-image-marwadi .img-7,
+.bg-sprite-image-assamese .img-7,
+.bg-sprite-image-bengali .img-7,
+.bg-sprite-image-sindhi .img-7,
+.bg-sprite-image-rajasthani .img-7,
+.bg-sprite-image-bihari .img-7,
+.bg-sprite-image-bhojpuri .img-7,
+.bg-sprite-image-parsi .img-7 {
+    width: 200px;
+    height: 245px;
+    background-position: -1202px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-8,
+.bg-sprite-image-tamil .img-8,
+.bg-sprite-image-kerala .img-8,
+.bg-sprite-image-kannada .img-8,
+.bg-sprite-image-telugu .img-8,
+.bg-sprite-image-gujarati .img-8,
+.bg-sprite-image-hindi .img-8,
+.bg-sprite-image-marathi .img-8,
+.bg-sprite-image-punjabi .img-8,
+.bg-sprite-image-oriya .img-8,
+.bg-sprite-image-urdu .img-8,
+.bg-sprite-image-marwadi .img-8,
+.bg-sprite-image-assamese .img-8,
+.bg-sprite-image-bengali .img-8,
+.bg-sprite-image-sindhi .img-8,
+.bg-sprite-image-rajasthani .img-8,
+.bg-sprite-image-bihari .img-8,
+.bg-sprite-image-bhojpuri .img-8,
+.bg-sprite-image-parsi .img-8 {
+    width: 156px;
+    height: 273px;
+    background-position: -1403px 0px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-9,
+.bg-sprite-image-tamil .img-9,
+.bg-sprite-image-kerala .img-9,
+.bg-sprite-image-kannada .img-9,
+.bg-sprite-image-telugu .img-9,
+.bg-sprite-image-gujarati .img-9,
+.bg-sprite-image-hindi .img-9,
+.bg-sprite-image-marathi .img-9,
+.bg-sprite-image-punjabi .img-9,
+.bg-sprite-image-oriya .img-9,
+.bg-sprite-image-urdu .img-9,
+.bg-sprite-image-marwadi .img-9,
+.bg-sprite-image-assamese .img-9,
+.bg-sprite-image-bengali .img-9,
+.bg-sprite-image-sindhi .img-9,
+.bg-sprite-image-rajasthani .img-9,
+.bg-sprite-image-bihari .img-9,
+.bg-sprite-image-bhojpuri .img-9,
+.bg-sprite-image-parsi .img-9 {
+    width: 130px;
+    height: 233px;
+    background-position: -72px -268px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-10,
+.bg-sprite-image-tamil .img-10,
+.bg-sprite-image-kerala .img-10,
+.bg-sprite-image-kannada .img-10,
+.bg-sprite-image-telugu .img-10,
+.bg-sprite-image-gujarati .img-10,
+.bg-sprite-image-hindi .img-10,
+.bg-sprite-image-marathi .img-10,
+.bg-sprite-image-punjabi .img-10,
+.bg-sprite-image-oriya .img-10,
+.bg-sprite-image-urdu .img-10,
+.bg-sprite-image-marwadi .img-10,
+.bg-sprite-image-assamese .img-10,
+.bg-sprite-image-bengali .img-10,
+.bg-sprite-image-sindhi .img-10,
+.bg-sprite-image-rajasthani .img-10,
+.bg-sprite-image-bihari .img-10,
+.bg-sprite-image-bhojpuri .img-10,
+.bg-sprite-image-parsi .img-10 {
+    width: 200px;
+    height: 255px;
+    background-position: -204px -299px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-11,
+.bg-sprite-image-tamil .img-11,
+.bg-sprite-image-kerala .img-11,
+.bg-sprite-image-kannada .img-11,
+.bg-sprite-image-telugu .img-11,
+.bg-sprite-image-gujarati .img-11,
+.bg-sprite-image-hindi .img-11,
+.bg-sprite-image-marathi .img-11,
+.bg-sprite-image-punjabi .img-11,
+.bg-sprite-image-oriya .img-11,
+.bg-sprite-image-urdu .img-11,
+.bg-sprite-image-marwadi .img-11,
+.bg-sprite-image-assamese .img-11,
+.bg-sprite-image-bengali .img-11,
+.bg-sprite-image-sindhi .img-11,
+.bg-sprite-image-rajasthani .img-11,
+.bg-sprite-image-bihari .img-11,
+.bg-sprite-image-bhojpuri .img-11,
+.bg-sprite-image-parsi .img-11 {
+    width: 199px;
+    height: 255px;
+    background-position: -406px -264px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-12,
+.bg-sprite-image-tamil .img-12,
+.bg-sprite-image-kerala .img-12,
+.bg-sprite-image-kannada .img-12,
+.bg-sprite-image-telugu .img-12,
+.bg-sprite-image-gujarati .img-12,
+.bg-sprite-image-hindi .img-12,
+.bg-sprite-image-marathi .img-12,
+.bg-sprite-image-punjabi .img-12,
+.bg-sprite-image-oriya .img-12,
+.bg-sprite-image-urdu .img-12,
+.bg-sprite-image-marwadi .img-12,
+.bg-sprite-image-assamese .img-12,
+.bg-sprite-image-bengali .img-12,
+.bg-sprite-image-sindhi .img-12,
+.bg-sprite-image-rajasthani .img-12,
+.bg-sprite-image-bihari .img-12,
+.bg-sprite-image-bhojpuri .img-12,
+.bg-sprite-image-parsi .img-12 {
+    width: 198px;
+    height: 255px;
+    background-position: -607px -282px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-13,
+.bg-sprite-image-tamil .img-13,
+.bg-sprite-image-kerala .img-13,
+.bg-sprite-image-kannada .img-13,
+.bg-sprite-image-telugu .img-13,
+.bg-sprite-image-gujarati .img-13,
+.bg-sprite-image-hindi .img-13,
+.bg-sprite-image-marathi .img-13,
+.bg-sprite-image-punjabi .img-13,
+.bg-sprite-image-oriya .img-13,
+.bg-sprite-image-urdu .img-13,
+.bg-sprite-image-marwadi .img-13,
+.bg-sprite-image-assamese .img-13,
+.bg-sprite-image-bengali .img-13,
+.bg-sprite-image-sindhi .img-13,
+.bg-sprite-image-rajasthani .img-13,
+.bg-sprite-image-bihari .img-13,
+.bg-sprite-image-bhojpuri .img-13,
+.bg-sprite-image-parsi .img-13 {
+    width: 199px;
+    height: 255px;
+    background-position: -807px -262px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-14,
+.bg-sprite-image-tamil .img-14,
+.bg-sprite-image-kerala .img-14,
+.bg-sprite-image-kannada .img-14,
+.bg-sprite-image-telugu .img-14,
+.bg-sprite-image-gujarati .img-14,
+.bg-sprite-image-hindi .img-14,
+.bg-sprite-image-marathi .img-14,
+.bg-sprite-image-punjabi .img-14,
+.bg-sprite-image-oriya .img-14,
+.bg-sprite-image-urdu .img-14,
+.bg-sprite-image-marwadi .img-14,
+.bg-sprite-image-assamese .img-14,
+.bg-sprite-image-bengali .img-14,
+.bg-sprite-image-sindhi .img-14,
+.bg-sprite-image-rajasthani .img-14,
+.bg-sprite-image-bihari .img-14,
+.bg-sprite-image-bhojpuri .img-14,
+.bg-sprite-image-parsi .img-14 {
+    width: 190px;
+    height: 255px;
+    background-position: -1016px -257px;
+    opacity: 0.4;
+}
+
+.bg-sprite-image-bharat .img-15,
+.bg-sprite-image-tamil .img-15,
+.bg-sprite-image-kerala .img-15,
+.bg-sprite-image-kannada .img-15,
+.bg-sprite-image-telugu .img-15,
+.bg-sprite-image-gujarati .img-15,
+.bg-sprite-image-hindi .img-15,
+.bg-sprite-image-marathi .img-15,
+.bg-sprite-image-punjabi .img-15,
+.bg-sprite-image-oriya .img-15,
+.bg-sprite-image-urdu .img-15,
+.bg-sprite-image-marwadi .img-15,
+.bg-sprite-image-assamese .img-15,
+.bg-sprite-image-bengali .img-15,
+.bg-sprite-image-sindhi .img-15,
+.bg-sprite-image-rajasthani .img-15,
+.bg-sprite-image-bihari .img-15,
+.bg-sprite-image-bhojpuri .img-15,
+.bg-sprite-image-parsi .img-15 {
+    width: 192px;
+    height: 255px;
+    background-position: -1209px -259px;
+    opacity: 0.4;
+}
+
+/* .img-1:hover, .img-2:hover, .img-3:hover, .img-4:hover, .img-5:hover, .img-6:hover, .img-7:hover, .img-8:hover, .img-9:hover, .img-10:hover, .img-11:hover, .img-12:hover, .img-13:hover, .img-14:hover, .img-15:hover {background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-tamil.jpg) no-repeat;} */
+
+.bg-sprite-image-bharat .img-1:hover,
+.bg-sprite-image-bharat .img-2:hover,
+.bg-sprite-image-bharat .img-3:hover,
+.bg-sprite-image-bharat .img-4:hover,
+.bg-sprite-image-bharat .img-5:hover,
+.bg-sprite-image-bharat .img-6:hover,
+.bg-sprite-image-bharat .img-7:hover,
+.bg-sprite-image-bharat .img-8:hover,
+.bg-sprite-image-bharat .img-9:hover,
+.bg-sprite-image-bharat .img-10:hover,
+.bg-sprite-image-bharat .img-11:hover,
+.bg-sprite-image-bharat .img-12:hover,
+.bg-sprite-image-bharat .img-13:hover,
+.bg-sprite-image-bharat .img-14:hover,
+.bg-sprite-bharat-bharat .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bharat.jpg) no-repeat;
+}
+
+.bg-sprite-image-tamil .img-1:hover,
+.bg-sprite-image-tamil .img-2:hover,
+.bg-sprite-image-tamil .img-3:hover,
+.bg-sprite-image-tamil .img-4:hover,
+.bg-sprite-image-tamil .img-5:hover,
+.bg-sprite-image-tamil .img-6:hover,
+.bg-sprite-image-tamil .img-7:hover,
+.bg-sprite-image-tamil .img-8:hover,
+.bg-sprite-image-tamil .img-9:hover,
+.bg-sprite-image-tamil .img-10:hover,
+.bg-sprite-image-tamil .img-11:hover,
+.bg-sprite-image-tamil .img-12:hover,
+.bg-sprite-image-tamil .img-13:hover,
+.bg-sprite-image-tamil .img-14:hover,
+.bg-sprite-image-tamil .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-tamil.jpg) no-repeat;
+}
+
+.bg-sprite-image-kerala .img-1:hover,
+.bg-sprite-image-kerala .img-2:hover,
+.bg-sprite-image-kerala .img-3:hover,
+.bg-sprite-image-kerala .img-4:hover,
+.bg-sprite-image-kerala .img-5:hover,
+.bg-sprite-image-kerala .img-6:hover,
+.bg-sprite-image-kerala .img-7:hover,
+.bg-sprite-image-kerala .img-8:hover,
+.bg-sprite-image-kerala .img-9:hover,
+.bg-sprite-image-kerala .img-10:hover,
+.bg-sprite-image-kerala .img-11:hover,
+.bg-sprite-image-kerala .img-12:hover,
+.bg-sprite-image-kerala .img-13:hover,
+.bg-sprite-image-kerala .img-14:hover,
+.bg-sprite-image-kerala .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-kerala.jpg) no-repeat;
+}
+
+.bg-sprite-image-telugu .img-1:hover,
+.bg-sprite-image-telugu .img-2:hover,
+.bg-sprite-image-telugu .img-3:hover,
+.bg-sprite-image-telugu .img-4:hover,
+.bg-sprite-image-telugu .img-5:hover,
+.bg-sprite-image-telugu .img-6:hover,
+.bg-sprite-image-telugu .img-7:hover,
+.bg-sprite-image-telugu .img-8:hover,
+.bg-sprite-image-telugu .img-9:hover,
+.bg-sprite-image-telugu .img-10:hover,
+.bg-sprite-image-telugu .img-11:hover,
+.bg-sprite-image-telugu .img-12:hover,
+.bg-sprite-image-telugu .img-13:hover,
+.bg-sprite-image-telugu .img-14:hover,
+.bg-sprite-image-telugu .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-telugu.jpg) no-repeat;
+}
+
+.bg-sprite-image-kannada .img-1:hover,
+.bg-sprite-image-kannada .img-2:hover,
+.bg-sprite-image-kannada .img-3:hover,
+.bg-sprite-image-kannada .img-4:hover,
+.bg-sprite-image-kannada .img-5:hover,
+.bg-sprite-image-kannada .img-6:hover,
+.bg-sprite-image-kannada .img-7:hover,
+.bg-sprite-image-kannada .img-8:hover,
+.bg-sprite-image-kannada .img-9:hover,
+.bg-sprite-image-kannada .img-10:hover,
+.bg-sprite-image-kannada .img-11:hover,
+.bg-sprite-image-kannada .img-12:hover,
+.bg-sprite-image-kannada .img-13:hover,
+.bg-sprite-image-kannada .img-14:hover,
+.bg-sprite-image-kannada .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-kannada.jpg) no-repeat;
+}
+
+.bg-sprite-image-gujarati .img-1:hover,
+.bg-sprite-image-gujarati .img-2:hover,
+.bg-sprite-image-gujarati .img-3:hover,
+.bg-sprite-image-gujarati .img-4:hover,
+.bg-sprite-image-gujarati .img-5:hover,
+.bg-sprite-image-gujarati .img-6:hover,
+.bg-sprite-image-gujarati .img-7:hover,
+.bg-sprite-image-gujarati .img-8:hover,
+.bg-sprite-image-gujarati .img-9:hover,
+.bg-sprite-image-gujarati .img-10:hover,
+.bg-sprite-image-gujarati .img-11:hover,
+.bg-sprite-image-gujarati .img-12:hover,
+.bg-sprite-image-gujarati .img-13:hover,
+.bg-sprite-image-gujarati .img-14:hover,
+.bg-sprite-image-gujarati .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-gujarati.jpg) no-repeat;
+}
+
+.bg-sprite-image-hindi .img-1:hover,
+.bg-sprite-image-hindi .img-2:hover,
+.bg-sprite-image-hindi .img-3:hover,
+.bg-sprite-image-hindi .img-4:hover,
+.bg-sprite-image-hindi .img-5:hover,
+.bg-sprite-image-hindi .img-6:hover,
+.bg-sprite-image-hindi .img-7:hover,
+.bg-sprite-image-hindi .img-8:hover,
+.bg-sprite-image-hindi .img-9:hover,
+.bg-sprite-image-hindi .img-10:hover,
+.bg-sprite-image-hindi .img-11:hover,
+.bg-sprite-image-hindi .img-12:hover,
+.bg-sprite-image-hindi .img-13:hover,
+.bg-sprite-image-hindi .img-14:hover,
+.bg-sprite-image-hindi .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-hindi.jpg) no-repeat;
+}
+
+.bg-sprite-image-marathi .img-1:hover,
+.bg-sprite-image-marathi .img-2:hover,
+.bg-sprite-image-marathi .img-3:hover,
+.bg-sprite-image-marathi .img-4:hover,
+.bg-sprite-image-marathi .img-5:hover,
+.bg-sprite-image-marathi .img-6:hover,
+.bg-sprite-image-marathi .img-7:hover,
+.bg-sprite-image-marathi .img-8:hover,
+.bg-sprite-image-marathi .img-9:hover,
+.bg-sprite-image-marathi .img-10:hover,
+.bg-sprite-image-marathi .img-11:hover,
+.bg-sprite-image-marathi .img-12:hover,
+.bg-sprite-image-marathi .img-13:hover,
+.bg-sprite-image-marathi .img-14:hover,
+.bg-sprite-image-marathi .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-marathi.jpg) no-repeat;
+}
+
+.bg-sprite-image-punjabi .img-1:hover,
+.bg-sprite-image-punjabi .img-2:hover,
+.bg-sprite-image-punjabi .img-3:hover,
+.bg-sprite-image-punjabi .img-4:hover,
+.bg-sprite-image-punjabi .img-5:hover,
+.bg-sprite-image-punjabi .img-6:hover,
+.bg-sprite-image-punjabi .img-7:hover,
+.bg-sprite-image-punjabi .img-8:hover,
+.bg-sprite-image-punjabi .img-9:hover,
+.bg-sprite-image-punjabi .img-10:hover,
+.bg-sprite-image-punjabi .img-11:hover,
+.bg-sprite-image-punjabi .img-12:hover,
+.bg-sprite-image-punjabi .img-13:hover,
+.bg-sprite-image-punjabi .img-14:hover,
+.bg-sprite-image-punjabi .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-punjabi.jpg) no-repeat;
+}
+
+.bg-sprite-image-oriya .img-1:hover,
+.bg-sprite-image-oriya .img-2:hover,
+.bg-sprite-image-oriya .img-3:hover,
+.bg-sprite-image-oriya .img-4:hover,
+.bg-sprite-image-oriya .img-5:hover,
+.bg-sprite-image-oriya .img-6:hover,
+.bg-sprite-image-oriya .img-7:hover,
+.bg-sprite-image-oriya .img-8:hover,
+.bg-sprite-image-oriya .img-9:hover,
+.bg-sprite-image-oriya .img-10:hover,
+.bg-sprite-image-oriya .img-11:hover,
+.bg-sprite-image-oriya .img-12:hover,
+.bg-sprite-image-oriya .img-13:hover,
+.bg-sprite-image-oriya .img-14:hover,
+.bg-sprite-image-oriya .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-oriya.jpg) no-repeat;
+}
+
+.bg-sprite-image-urdu .img-1:hover,
+.bg-sprite-image-urdu .img-2:hover,
+.bg-sprite-image-urdu .img-3:hover,
+.bg-sprite-image-urdu .img-4:hover,
+.bg-sprite-image-urdu .img-5:hover,
+.bg-sprite-image-urdu .img-6:hover,
+.bg-sprite-image-urdu .img-7:hover,
+.bg-sprite-image-urdu .img-8:hover,
+.bg-sprite-image-urdu .img-9:hover,
+.bg-sprite-image-urdu .img-10:hover,
+.bg-sprite-image-urdu .img-11:hover,
+.bg-sprite-image-urdu .img-12:hover,
+.bg-sprite-image-urdu .img-13:hover,
+.bg-sprite-image-urdu .img-14:hover,
+.bg-sprite-image-urdu .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-urdu.jpg) no-repeat;
+}
+
+.bg-sprite-image-marwadi .img-1:hover,
+.bg-sprite-image-marwadi .img-2:hover,
+.bg-sprite-image-marwadi .img-3:hover,
+.bg-sprite-image-marwadi .img-4:hover,
+.bg-sprite-image-marwadi .img-5:hover,
+.bg-sprite-image-marwadi .img-6:hover,
+.bg-sprite-image-marwadi .img-7:hover,
+.bg-sprite-image-marwadi .img-8:hover,
+.bg-sprite-image-marwadi .img-9:hover,
+.bg-sprite-image-marwadi .img-10:hover,
+.bg-sprite-image-marwadi .img-11:hover,
+.bg-sprite-image-marwadi .img-12:hover,
+.bg-sprite-image-marwadi .img-13:hover,
+.bg-sprite-image-marwadi .img-14:hover,
+.bg-sprite-image-marwadi .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-marwadi.jpg) no-repeat;
+}
+
+.bg-sprite-image-assamese .img-1:hover,
+.bg-sprite-image-assamese .img-2:hover,
+.bg-sprite-image-assamese .img-3:hover,
+.bg-sprite-image-assamese .img-4:hover,
+.bg-sprite-image-assamese .img-5:hover,
+.bg-sprite-image-assamese .img-6:hover,
+.bg-sprite-image-assamese .img-7:hover,
+.bg-sprite-image-assamese .img-8:hover,
+.bg-sprite-image-assamese .img-9:hover,
+.bg-sprite-image-assamese .img-10:hover,
+.bg-sprite-image-assamese .img-11:hover,
+.bg-sprite-image-assamese .img-12:hover,
+.bg-sprite-image-assamese .img-13:hover,
+.bg-sprite-image-assamese .img-14:hover,
+.bg-sprite-image-assamese .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-assamese.jpg) no-repeat;
+}
+
+.bg-sprite-image-bengali .img-1:hover,
+.bg-sprite-image-bengali .img-2:hover,
+.bg-sprite-image-bengali .img-3:hover,
+.bg-sprite-image-bengali .img-4:hover,
+.bg-sprite-image-bengali .img-5:hover,
+.bg-sprite-image-bengali .img-6:hover,
+.bg-sprite-image-bengali .img-7:hover,
+.bg-sprite-image-bengali .img-8:hover,
+.bg-sprite-image-bengali .img-9:hover,
+.bg-sprite-image-bengali .img-10:hover,
+.bg-sprite-image-bengali .img-11:hover,
+.bg-sprite-image-bengali .img-12:hover,
+.bg-sprite-image-bengali .img-13:hover,
+.bg-sprite-image-bengali .img-14:hover,
+.bg-sprite-image-bengali .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bengali.jpg) no-repeat;
+}
+
+.bg-sprite-image-sindhi .img-1:hover,
+.bg-sprite-image-sindhi .img-2:hover,
+.bg-sprite-image-sindhi .img-3:hover,
+.bg-sprite-image-sindhi .img-4:hover,
+.bg-sprite-image-sindhi .img-5:hover,
+.bg-sprite-image-sindhi .img-6:hover,
+.bg-sprite-image-sindhi .img-7:hover,
+.bg-sprite-image-sindhi .img-8:hover,
+.bg-sprite-image-sindhi .img-9:hover,
+.bg-sprite-image-sindhi .img-10:hover,
+.bg-sprite-image-sindhi .img-11:hover,
+.bg-sprite-image-sindhi .img-12:hover,
+.bg-sprite-image-sindhi .img-13:hover,
+.bg-sprite-image-sindhi .img-14:hover,
+.bg-sprite-image-sindhi .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-sindhi.jpg) no-repeat;
+}
+
+.bg-sprite-image-rajasthani .img-1:hover,
+.bg-sprite-image-rajasthani .img-2:hover,
+.bg-sprite-image-rajasthani .img-3:hover,
+.bg-sprite-image-rajasthani .img-4:hover,
+.bg-sprite-image-rajasthani .img-5:hover,
+.bg-sprite-image-rajasthani .img-6:hover,
+.bg-sprite-image-rajasthani .img-7:hover,
+.bg-sprite-image-rajasthani .img-8:hover,
+.bg-sprite-image-rajasthani .img-9:hover,
+.bg-sprite-image-rajasthani .img-10:hover,
+.bg-sprite-image-rajasthani .img-11:hover,
+.bg-sprite-image-rajasthani .img-12:hover,
+.bg-sprite-image-rajasthani .img-13:hover,
+.bg-sprite-image-rajasthani .img-14:hover,
+.bg-sprite-image-rajasthani .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-rajasthani.jpg) no-repeat;
+}
+
+.bg-sprite-image-bihari .img-1:hover,
+.bg-sprite-image-bihari .img-2:hover,
+.bg-sprite-image-bihari .img-3:hover,
+.bg-sprite-image-bihari .img-4:hover,
+.bg-sprite-image-bihari .img-5:hover,
+.bg-sprite-image-bihari .img-6:hover,
+.bg-sprite-image-bihari .img-7:hover,
+.bg-sprite-image-bihari .img-8:hover,
+.bg-sprite-image-bihari .img-9:hover,
+.bg-sprite-image-bihari .img-10:hover,
+.bg-sprite-image-bihari .img-11:hover,
+.bg-sprite-image-bihari .img-12:hover,
+.bg-sprite-image-bihari .img-13:hover,
+.bg-sprite-image-bihari .img-14:hover,
+.bg-sprite-image-bihari .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bihari.jpg) no-repeat;
+}
+
+.bg-sprite-image-bhojpuri .img-1:hover,
+.bg-sprite-image-bhojpuri .img-2:hover,
+.bg-sprite-image-bhojpuri .img-3:hover,
+.bg-sprite-image-bhojpuri .img-4:hover,
+.bg-sprite-image-bhojpuri .img-5:hover,
+.bg-sprite-image-bhojpuri .img-6:hover,
+.bg-sprite-image-bhojpuri .img-7:hover,
+.bg-sprite-image-bhojpuri .img-8:hover,
+.bg-sprite-image-bhojpuri .img-9:hover,
+.bg-sprite-image-bhojpuri .img-10:hover,
+.bg-sprite-image-bhojpuri .img-11:hover,
+.bg-sprite-image-bhojpuri .img-12:hover,
+.bg-sprite-image-bhojpuri .img-13:hover,
+.bg-sprite-image-bhojpuri .img-14:hover,
+.bg-sprite-image-bhojpuri .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bhojpuri.jpg) no-repeat;
+}
+
+.bg-sprite-image-parsi .img-1:hover,
+.bg-sprite-image-parsi .img-2:hover,
+.bg-sprite-image-parsi .img-3:hover,
+.bg-sprite-image-parsi .img-4:hover,
+.bg-sprite-image-parsi .img-5:hover,
+.bg-sprite-image-parsi .img-6:hover,
+.bg-sprite-image-parsi .img-7:hover,
+.bg-sprite-image-parsi .img-8:hover,
+.bg-sprite-image-parsi .img-9:hover,
+.bg-sprite-image-parsi .img-10:hover,
+.bg-sprite-image-parsi .img-11:hover,
+.bg-sprite-image-parsi .img-12:hover,
+.bg-sprite-image-parsi .img-13:hover,
+.bg-sprite-image-parsi .img-14:hover,
+.bg-sprite-image-parsi .img-15:hover {
+    background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-parsi.jpg) no-repeat;
+}
+
+
+.bg-sprite-image-bharat .img-1:hover,
+.bg-sprite-image-tamil .img-1:hover,
+.bg-sprite-image-kerala .img-1:hover,
+.bg-sprite-image-kannada .img-1:hover,
+.bg-sprite-image-telugu .img-1:hover,
+.bg-sprite-image-gujarati .img-1:hover,
+.bg-sprite-image-hindi .img-1:hover,
+.bg-sprite-image-marathi .img-1:hover,
+.bg-sprite-image-punjabi .img-1:hover,
+.bg-sprite-image-oriya .img-1:hover,
+.bg-sprite-image-urdu .img-1:hover,
+.bg-sprite-image-marwadi .img-1:hover,
+.bg-sprite-image-assamese .img-1:hover,
+.bg-sprite-image-bengali .img-1:hover,
+.bg-sprite-image-sindhi .img-1:hover,
+.bg-sprite-image-rajasthani .img-1:hover,
+.bg-sprite-image-bihari .img-1:hover,
+.bg-sprite-image-bhojpuri .img-1:hover,
+.bg-sprite-image-parsi .img-1:hover {
+    width: 128px;
+    height: 266px;
+    display: inline-block;
+    background-position: -71px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-2:hover,
+.bg-sprite-image-tamil .img-2:hover,
+.bg-sprite-image-kerala .img-2:hover,
+.bg-sprite-image-kannada .img-2:hover,
+.bg-sprite-image-telugu .img-2:hover,
+.bg-sprite-image-gujarati .img-2:hover,
+.bg-sprite-image-hindi .img-2:hover,
+.bg-sprite-image-marathi .img-2:hover,
+.bg-sprite-image-punjabi .img-2:hover,
+.bg-sprite-image-oriya .img-2:hover,
+.bg-sprite-image-urdu .img-2:hover,
+.bg-sprite-image-marwadi .img-2:hover,
+.bg-sprite-image-assamese .img-2:hover,
+.bg-sprite-image-bengali .img-2:hover,
+.bg-sprite-image-sindhi .img-2:hover,
+.bg-sprite-image-rajasthani .img-2:hover,
+.bg-sprite-image-bihari .img-2:hover,
+.bg-sprite-image-bhojpuri .img-2:hover,
+.bg-sprite-image-parsi .img-2:hover {
+    width: 195px;
+    height: 295px;
+    display: inline-block;
+    background-position: -200px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-3:hover,
+.bg-sprite-image-tamil .img-3:hover,
+.bg-sprite-image-kerala .img-3:hover,
+.bg-sprite-image-kannada .img-3:hover,
+.bg-sprite-image-telugu .img-3:hover,
+.bg-sprite-image-gujarati .img-3:hover,
+.bg-sprite-image-hindi .img-3:hover,
+.bg-sprite-image-marathi .img-3:hover,
+.bg-sprite-image-punjabi .img-3:hover,
+.bg-sprite-image-oriya .img-3:hover,
+.bg-sprite-image-urdu .img-3:hover,
+.bg-sprite-image-marwadi .img-3:hover,
+.bg-sprite-image-assamese .img-3:hover,
+.bg-sprite-image-bengali .img-3:hover,
+.bg-sprite-image-sindhi .img-3:hover,
+.bg-sprite-image-rajasthani .img-3:hover,
+.bg-sprite-image-bihari .img-3:hover,
+.bg-sprite-image-bhojpuri .img-3:hover,
+.bg-sprite-image-parsi .img-3:hover {
+    width: 190px;
+    height: 255px;
+    display: inline-block;
+    background-position: -397px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-4:hover,
+.bg-sprite-image-tamil .img-4:hover,
+.bg-sprite-image-kerala .img-4:hover,
+.bg-sprite-image-kannada .img-4:hover,
+.bg-sprite-image-telugu .img-4:hover,
+.bg-sprite-image-gujarati .img-4:hover,
+.bg-sprite-image-hindi .img-4:hover,
+.bg-sprite-image-marathi .img-4:hover,
+.bg-sprite-image-punjabi .img-4:hover,
+.bg-sprite-image-oriya .img-4:hover,
+.bg-sprite-image-urdu .img-4:hover,
+.bg-sprite-image-marwadi .img-4:hover,
+.bg-sprite-image-assamese .img-4:hover,
+.bg-sprite-image-bengali .img-4:hover,
+.bg-sprite-image-sindhi .img-4:hover,
+.bg-sprite-image-rajasthani .img-4:hover,
+.bg-sprite-image-bihari .img-4:hover,
+.bg-sprite-image-bhojpuri .img-4:hover,
+.bg-sprite-image-parsi .img-4:hover {
+    width: 208px;
+    height: 269px;
+    display: inline-block;
+    background-position: -589px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-5:hover,
+.bg-sprite-image-tamil .img-5:hover,
+.bg-sprite-image-kerala .img-5:hover,
+.bg-sprite-image-kannada .img-5:hover,
+.bg-sprite-image-telugu .img-5:hover,
+.bg-sprite-image-gujarati .img-5:hover,
+.bg-sprite-image-hindi .img-5:hover,
+.bg-sprite-image-marathi .img-5:hover,
+.bg-sprite-image-punjabi .img-5:hover,
+.bg-sprite-image-oriya .img-5:hover,
+.bg-sprite-image-urdu .img-5:hover,
+.bg-sprite-image-marwadi .img-5:hover,
+.bg-sprite-image-assamese .img-5:hover,
+.bg-sprite-image-bengali .img-5:hover,
+.bg-sprite-image-sindhi .img-5:hover,
+.bg-sprite-image-rajasthani .img-5:hover,
+.bg-sprite-image-bihari .img-5:hover,
+.bg-sprite-image-bhojpuri .img-5:hover,
+.bg-sprite-image-parsi .img-5:hover {
+    width: 190px;
+    height: 255px;
+    display: inline-block;
+    background-position: -800px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-6:hover,
+.bg-sprite-image-tamil .img-6:hover,
+.bg-sprite-image-kerala .img-6:hover,
+.bg-sprite-image-kannada .img-6:hover,
+.bg-sprite-image-telugu .img-6:hover,
+.bg-sprite-image-gujarati .img-6:hover,
+.bg-sprite-image-hindi .img-6:hover,
+.bg-sprite-image-marathi .img-6:hover,
+.bg-sprite-image-punjabi .img-6:hover,
+.bg-sprite-image-oriya .img-6:hover,
+.bg-sprite-image-urdu .img-6:hover,
+.bg-sprite-image-marwadi .img-6:hover,
+.bg-sprite-image-assamese .img-6:hover,
+.bg-sprite-image-bengali .img-6:hover,
+.bg-sprite-image-sindhi .img-6:hover,
+.bg-sprite-image-rajasthani .img-6:hover,
+.bg-sprite-image-bihari .img-6:hover,
+.bg-sprite-image-bhojpuri .img-6:hover,
+.bg-sprite-image-parsi .img-6:hover {
+    width: 210px;
+    height: 243px;
+    display: inline-block;
+    background-position: -993px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-7:hover,
+.bg-sprite-image-tamil .img-7:hover,
+.bg-sprite-image-kerala .img-7:hover,
+.bg-sprite-image-kannada .img-7:hover,
+.bg-sprite-image-telugu .img-7:hover,
+.bg-sprite-image-gujarati .img-7:hover,
+.bg-sprite-image-hindi .img-7:hover,
+.bg-sprite-image-marathi .img-7:hover,
+.bg-sprite-image-punjabi .img-7:hover,
+.bg-sprite-image-oriya .img-7:hover,
+.bg-sprite-image-urdu .img-7:hover,
+.bg-sprite-image-marwadi .img-7:hover,
+.bg-sprite-image-assamese .img-7:hover,
+.bg-sprite-image-bengali .img-7:hover,
+.bg-sprite-image-sindhi .img-7:hover,
+.bg-sprite-image-rajasthani .img-7:hover,
+.bg-sprite-image-bihari .img-7:hover,
+.bg-sprite-image-bhojpuri .img-7:hover,
+.bg-sprite-image-parsi .img-7:hover {
+    width: 200px;
+    height: 245px;
+    display: inline-block;
+    background-position: -1202px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-8:hover,
+.bg-sprite-image-tamil .img-8:hover,
+.bg-sprite-image-kerala .img-8:hover,
+.bg-sprite-image-kannada .img-8:hover,
+.bg-sprite-image-telugu .img-8:hover,
+.bg-sprite-image-gujarati .img-8:hover,
+.bg-sprite-image-hindi .img-8:hover,
+.bg-sprite-image-marathi .img-8:hover,
+.bg-sprite-image-punjabi .img-8:hover,
+.bg-sprite-image-oriya .img-8:hover,
+.bg-sprite-image-urdu .img-8:hover,
+.bg-sprite-image-marwadi .img-8:hover,
+.bg-sprite-image-assamese .img-8:hover,
+.bg-sprite-image-bengali .img-8:hover,
+.bg-sprite-image-sindhi .img-8:hover,
+.bg-sprite-image-rajasthani .img-8:hover,
+.bg-sprite-image-bihari .img-8:hover,
+.bg-sprite-image-bhojpuri .img-8:hover,
+.bg-sprite-image-parsi .img-8:hover {
+    width: 156px;
+    height: 274px;
+    display: inline-block;
+    background-position: -1403px 0px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-9:hover,
+.bg-sprite-image-tamil .img-9:hover,
+.bg-sprite-image-kerala .img-9:hover,
+.bg-sprite-image-kannada .img-9:hover,
+.bg-sprite-image-telugu .img-9:hover,
+.bg-sprite-image-gujarati .img-9:hover,
+.bg-sprite-image-hindi .img-9:hover,
+.bg-sprite-image-marathi .img-9:hover,
+.bg-sprite-image-punjabi .img-9:hover,
+.bg-sprite-image-oriya .img-9:hover,
+.bg-sprite-image-urdu .img-9:hover,
+.bg-sprite-image-marwadi .img-9:hover,
+.bg-sprite-image-assamese .img-9:hover,
+.bg-sprite-image-bengali .img-9:hover,
+.bg-sprite-image-sindhi .img-9:hover,
+.bg-sprite-image-rajasthani .img-9:hover,
+.bg-sprite-image-bihari .img-9:hover,
+.bg-sprite-image-bhojpuri .img-9:hover,
+.bg-sprite-image-parsi .img-9:hover {
+    width: 130px;
+    height: 233px;
+    display: inline-block;
+    background-position: -72px -268px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-10:hover,
+.bg-sprite-image-tamil .img-10:hover,
+.bg-sprite-image-kerala .img-10:hover,
+.bg-sprite-image-kannada .img-10:hover,
+.bg-sprite-image-telugu .img-10:hover,
+.bg-sprite-image-gujarati .img-10:hover,
+.bg-sprite-image-hindi .img-10:hover,
+.bg-sprite-image-marathi .img-10:hover,
+.bg-sprite-image-punjabi .img-10:hover,
+.bg-sprite-image-oriya .img-10:hover,
+.bg-sprite-image-urdu .img-10:hover,
+.bg-sprite-image-marwadi .img-10:hover,
+.bg-sprite-image-assamese .img-10:hover,
+.bg-sprite-image-bengali .img-10:hover,
+.bg-sprite-image-sindhi .img-10:hover,
+.bg-sprite-image-rajasthani .img-10:hover,
+.bg-sprite-image-bihari .img-10:hover,
+.bg-sprite-image-bhojpuri .img-10:hover,
+.bg-sprite-image-parsi .img-10:hover {
+    width: 200px;
+    height: 255px;
+    display: inline-block;
+    background-position: -204px -299px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-11:hover,
+.bg-sprite-image-tamil .img-11:hover,
+.bg-sprite-image-kerala .img-11:hover,
+.bg-sprite-image-kannada .img-11:hover,
+.bg-sprite-image-telugu .img-11:hover,
+.bg-sprite-image-gujarati .img-11:hover,
+.bg-sprite-image-hindi .img-11:hover,
+.bg-sprite-image-marathi .img-11:hover,
+.bg-sprite-image-punjabi .img-11:hover,
+.bg-sprite-image-oriya .img-11:hover,
+.bg-sprite-image-urdu .img-11:hover,
+.bg-sprite-image-marwadi .img-11:hover,
+.bg-sprite-image-assamese .img-11:hover,
+.bg-sprite-image-bengali .img-11:hover,
+.bg-sprite-image-sindhi .img-11:hover,
+.bg-sprite-image-rajasthani .img-11:hover,
+.bg-sprite-image-bihari .img-11:hover,
+.bg-sprite-image-bhojpuri .img-11:hover,
+.bg-sprite-image-parsi .img-11:hover {
+    width: 199px;
+    height: 255px;
+    display: inline-block;
+    background-position: -406px -264px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-12:hover,
+.bg-sprite-image-tamil .img-12:hover,
+.bg-sprite-image-kerala .img-12:hover,
+.bg-sprite-image-kannada .img-12:hover,
+.bg-sprite-image-telugu .img-12:hover,
+.bg-sprite-image-gujarati .img-12:hover,
+.bg-sprite-image-hindi .img-12:hover,
+.bg-sprite-image-marathi .img-12:hover,
+.bg-sprite-image-punjabi .img-12:hover,
+.bg-sprite-image-oriya .img-12:hover,
+.bg-sprite-image-urdu .img-12:hover,
+.bg-sprite-image-marwadi .img-12:hover,
+.bg-sprite-image-assamese .img-12:hover,
+.bg-sprite-image-bengali .img-12:hover,
+.bg-sprite-image-sindhi .img-12:hover,
+.bg-sprite-image-rajasthani .img-12:hover,
+.bg-sprite-image-bihari .img-12:hover,
+.bg-sprite-image-bhojpuri .img-12:hover,
+.bg-sprite-image-parsi .img-12:hover {
+    width: 198px;
+    height: 255px;
+    display: inline-block;
+    background-position: -607px -282px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-13:hover,
+.bg-sprite-image-tamil .img-13:hover,
+.bg-sprite-image-kerala .img-13:hover,
+.bg-sprite-image-kannada .img-13:hover,
+.bg-sprite-image-telugu .img-13:hover,
+.bg-sprite-image-gujarati .img-13:hover,
+.bg-sprite-image-hindi .img-13:hover,
+.bg-sprite-image-marathi .img-13:hover,
+.bg-sprite-image-punjabi .img-13:hover,
+.bg-sprite-image-oriya .img-13:hover,
+.bg-sprite-image-urdu .img-13:hover,
+.bg-sprite-image-marwadi .img-13:hover,
+.bg-sprite-image-assamese .img-13:hover,
+.bg-sprite-image-bengali .img-13:hover,
+.bg-sprite-image-sindhi .img-13:hover,
+.bg-sprite-image-rajasthani .img-13:hover,
+.bg-sprite-image-bihari .img-13:hover,
+.bg-sprite-image-bhojpuri .img-13:hover,
+.bg-sprite-image-parsi .img-13:hover {
+    width: 199px;
+    height: 255px;
+    display: inline-block;
+    background-position: -807px -262px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-14:hover,
+.bg-sprite-image-tamil .img-14:hover,
+.bg-sprite-image-kerala .img-14:hover,
+.bg-sprite-image-kannada .img-14:hover,
+.bg-sprite-image-telugu .img-14:hover,
+.bg-sprite-image-gujarati .img-14:hover,
+.bg-sprite-image-hindi .img-14:hover,
+.bg-sprite-image-marathi .img-14:hover,
+.bg-sprite-image-punjabi .img-14:hover,
+.bg-sprite-image-oriya .img-14:hover,
+.bg-sprite-image-urdu .img-14:hover,
+.bg-sprite-image-marwadi .img-14:hover,
+.bg-sprite-image-assamese .img-14:hover,
+.bg-sprite-image-bengali .img-14:hover,
+.bg-sprite-image-sindhi .img-14:hover,
+.bg-sprite-image-rajasthani .img-14:hover,
+.bg-sprite-image-bihari .img-14:hover,
+.bg-sprite-image-bhojpuri .img-14:hover,
+.bg-sprite-image-parsi .img-14:hover {
+    width: 190px;
+    height: 255px;
+    display: inline-block;
+    background-position: -1016px -257px;
+    opacity: 1;
+}
+
+.bg-sprite-image-bharat .img-15:hover,
+.bg-sprite-image-tamil .img-15:hover,
+.bg-sprite-image-kerala .img-15:hover,
+.bg-sprite-image-kannada .img-15:hover,
+.bg-sprite-image-telugu .img-15:hover,
+.bg-sprite-image-gujarati .img-15:hover,
+.bg-sprite-image-hindi .img-15:hover,
+.bg-sprite-image-marathi .img-15:hover,
+.bg-sprite-image-punjabi .img-15:hover,
+.bg-sprite-image-oriya .img-15:hover,
+.bg-sprite-image-urdu .img-15:hover,
+.bg-sprite-image-marwadi .img-15:hover,
+.bg-sprite-image-assamese .img-15:hover,
+.bg-sprite-image-bengali .img-15:hover,
+.bg-sprite-image-sindhi .img-15:hover,
+.bg-sprite-image-rajasthani .img-15:hover,
+.bg-sprite-image-bihari .img-15:hover,
+.bg-sprite-image-bhojpuri .img-15:hover,
+.bg-sprite-image-parsi .img-15:hover {
+    width: 192px;
+    height: 255px;
+    display: inline-block;
+    background-position: -1209px -259px;
+    opacity: 1;
+}
+
+
+
+@media only screen and (min-width:1390px) {
+    .bg-sprite-image-bharat {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bharat.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 26%;
+    }
+
+    .bg-sprite-image-tamil {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-tamil.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-kerala {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-kerala.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-telugu {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-telugu.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-kannada {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-kannada.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-gujarati {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-gujarati.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-hindi {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-hindi.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-marathi {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-marathi.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-punjabi {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-punjabi.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-oriya {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-oriya.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-urdu {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-urdu.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-marwadi {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-marwadi.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-assamese {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-assamese.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-bengali {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bengali.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-sindhi {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-sindhi.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-rajasthani {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-rajasthani.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-bihari {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bihari.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-bhojpuri {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-bhojpuri.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-parsi {
+        background: url(https://imgs.bharatmatrimony.com/bmimgs/homepage-revamp-images/bg-home-grop-img-parsi.jpg) no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        height: 544px;
+        margin-top: 24%;
+    }
+
+    .newform-position {
+        margin-top: -6%;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6,
+    .img-7,
+    .img-8,
+    .img-9,
+    .img-10,
+    .img-11,
+    .img-12,
+    .img-13,
+    .img-14,
+    .img-15 {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:1590px) {
+    .bg-sprite-image-bharat {
+        margin-top: 24%;
+    }
+
+    .bg-sprite-image-tamil,
+    .bg-sprite-image-kerala,
+    .bg-sprite-image-telugu,
+    .bg-sprite-image-kannada,
+    .bg-sprite-image-gujarati,
+    .bg-sprite-image-hindi,
+    .bg-sprite-image-marathi,
+    .bg-sprite-image-punjabi,
+    .bg-sprite-image-oriya,
+    .bg-sprite-image-urdu,
+    .bg-sprite-image-marwadi,
+    .bg-sprite-image-assamese,
+    .bg-sprite-image-bengali,
+    .bg-sprite-image-sindhi,
+    .bg-sprite-image-rajasthani,
+    .bg-sprite-image-bihari,
+    .bg-sprite-image-bhojpuri,
+    .bg-sprite-image-parsi {
+        margin-top: 22%;
+    }
+
+    .ss-quotaion-img img {
+        margin-left: 18%;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6,
+    .img-7,
+    .img-8,
+    .img-9,
+    .img-10,
+    .img-11,
+    .img-12,
+    .img-13,
+    .img-14,
+    .img-15 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1910px) {
+    .bg-sprite-image-bharat {
+        height: 650px;
+        margin-top: 20%;
+    }
+
+    .bg-sprite-image-tamil,
+    .bg-sprite-image-kerala,
+    .bg-sprite-image-telugu,
+    .bg-sprite-image-kannada,
+    .bg-sprite-image-gujarati,
+    .bg-sprite-image-hindi,
+    .bg-sprite-image-marathi,
+    .bg-sprite-image-punjabi,
+    .bg-sprite-image-oriya,
+    .bg-sprite-image-urdu,
+    .bg-sprite-image-marwadi,
+    .bg-sprite-image-assamese,
+    .bg-sprite-image-bengali,
+    .bg-sprite-image-sindhi,
+    .bg-sprite-image-rajasthani,
+    .bg-sprite-image-bihari,
+    .bg-sprite-image-bhojpuri,
+    .bg-sprite-image-parsi {
+        height: 650px;
+        margin-top: 18%;
+    }
+
+    .newform-position {
+        margin-top: -4%;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6,
+    .img-7,
+    .img-8,
+    .img-9,
+    .img-10,
+    .img-11,
+    .img-12,
+    .img-13,
+    .img-14,
+    .img-15 {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:2550px) {
+    .bg-sprite-image-bharat {
+        height: 870px;
+        margin-top: 16%;
+    }
+
+    .bg-sprite-image-tamil,
+    .bg-sprite-image-kerala,
+    .bg-sprite-image-telugu,
+    .bg-sprite-image-kannada,
+    .bg-sprite-image-gujarati,
+    .bg-sprite-image-hindi,
+    .bg-sprite-image-marathi,
+    .bg-sprite-image-punjabi,
+    .bg-sprite-image-oriya,
+    .bg-sprite-image-urdu,
+    .bg-sprite-image-marwadi,
+    .bg-sprite-image-assamese,
+    .bg-sprite-image-bengali,
+    .bg-sprite-image-sindhi,
+    .bg-sprite-image-rajasthani,
+    .bg-sprite-image-bihari,
+    .bg-sprite-image-bhojpuri,
+    .bg-sprite-image-parsi {
+        height: 870px;
+        margin-top: 14%;
+    }
+
+    .newform-position {
+        margin-top: -3%;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6,
+    .img-7,
+    .img-8,
+    .img-9,
+    .img-10,
+    .img-11,
+    .img-12,
+    .img-13,
+    .img-14,
+    .img-15 {
+        display: none;
+    }
+
+    .ss-quotaion-img img {
+        margin-left: 26%;
+    }
+}

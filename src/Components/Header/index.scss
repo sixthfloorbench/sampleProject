@@ -1,0 +1,61 @@
+.common-header-main-wrapper {
+    box-shadow: 1px 2px 8px 1px #e7e6e6;
+    padding: 15px;
+    background: #fbfcff;
+    width: 100%;
+    margin: 0 auto;
+
+    .common-header-wrapper {
+        margin: 0 20px;
+
+        .rhs-wrapper {
+            display: flex;
+            justify-content: flex-end;
+
+            .right-hand-login {
+                display: flex;
+
+                .already-mem-wrapper {
+                    color: rgb(0, 0, 0);
+                    font-weight: 700;
+                    padding-right: 10px;
+                    font-size: 14px;
+                    padding-top: 8px;
+                    letter-spacing: 0.7px;
+                }
+
+                .login-wrapper {
+
+                    .btn-login {
+                        background: transparent;
+                        color: rgb(255, 153, 2);
+                        text-decoration: none;
+                        padding: 7px 26px;
+                        border-radius: 7px;
+                        font-size: 11px;
+                        font-weight: 900;
+                        border: 1px solid rgb(255, 153, 2);
+                        letter-spacing: 0.7px;
+                        display: inline-block;
+                        margin-right: 10px;
+                        position: relative;
+                    }
+                }
+
+                .help-wrapper {
+                    font-size: 14px;
+                    color: #1f1f1f;
+                    padding-left: 5px;
+                    padding-right: 5px;
+
+                    .question-ico {
+                        font-size: 21px;
+                        color: rgb(0, 136, 204);
+                        margin: 5px 8px;
+                    }
+                }
+            }
+        }
+
+    }
+}

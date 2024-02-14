@@ -11,6 +11,9 @@ import LoginPage from "../Login";
 import Registration from "../Registration";
 import NotFound from "../NotFound";
 
+//Components
+import Header from "../../Components/Header";
+
 const RoutePage = () => {
   let routes = useRoutes([
     { path: "/", element: <LoginPage /> },
@@ -51,6 +54,7 @@ const App = () => {
   return (
     <>
       <Provider store={store}>
+        <Header />
         <Router>
           <RoutePage />
         </Router>
