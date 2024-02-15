@@ -82,6 +82,13 @@
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+
+    &:hover,
+    &:visited,
+    &:active,
+    &:focus {
+        background-color: #ff9800;
+    }
 }
 
 .login-input {

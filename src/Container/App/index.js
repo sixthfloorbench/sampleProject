@@ -5,11 +5,13 @@ import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 import produce from 'immer';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
+import Store from "../../Utils/Store"
 
 //Container Pages
 import LoginPage from "../Login";
 import Registration from "../Registration";
 import NotFound from "../NotFound";
+import Home from "../Home";
 
 //Components
 import Header from "../../Components/Header";
@@ -19,43 +21,20 @@ const RoutePage = () => {
     { path: "/", element: <LoginPage /> },
     { path: "/login", element: <LoginPage /> },
     { path: "registration", element: <Registration /> },
+    { path: "home", element: <Home /> },
     { path: "*", element: <NotFound /> },
     // ...
   ]);
   return routes;
 };
 
-const store = configureStore({
-  reducer,
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({
-      immutableCheck: false,
-      serializableCheck: false,
-    }),
-});
-
-function reducer(state = { 'user': 'sampleUSer' }, action) {
-  return produce(state, (draft) => {
-    switch (action.type) {
-      case 'SAMPLE': {
-        if (action.payload) {
-          //action
-        }
-        break;
-      }
-      default: {
-        return state;
-      }
-    }
-  })
-}
 
 const App = () => {
   return (
     <>
-      <Provider store={store}>
-        <Header />
+      <Provider store={Store}>
         <Router>
+          <Header />
           <RoutePage />
         </Router>
       </Provider>

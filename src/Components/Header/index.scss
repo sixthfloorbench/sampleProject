@@ -12,6 +12,14 @@
             display: flex;
             justify-content: flex-end;
 
+            .post-login-wrapper {
+                flex: 0 0 55%;
+
+                .head-icon svg {
+                    font-size: 21px;
+                }
+            }
+
             .right-hand-login {
                 display: flex;
 
