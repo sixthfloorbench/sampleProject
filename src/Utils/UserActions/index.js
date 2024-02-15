@@ -7,7 +7,7 @@ const initialState = {
     isLoading: false,
     isError: false,
     isSuccess: false,
-    error: null,
+    error: null
 };
 
 export const fetchAllUsers = createAsyncThunk(
@@ -29,7 +29,7 @@ export const addUser = createAsyncThunk(
             const { name, description } = product;
             const response = await axiosClient.post(`/product/create`, {
                 name,
-                description,
+                description
             });
             return response.data;
         } catch (error) {
@@ -56,7 +56,9 @@ export const userActions = createSlice({
     initialState,
     reducers: {
         clearState: () => initialState,
-        clearSuccess: () => (initialState.isSuccess = false),
+        clearSuccess: () => {
+            return { ...initialState, isSuccess: false };
+        }
     },
     extraReducers: (builder) => {
         builder.addCase(fetchAllUsers.pending, (state) => {
@@ -88,7 +90,7 @@ export const userActions = createSlice({
             let index = state.findIndex(({ id }) => id === action.payload.id);
             state.splice(index, 1);
         });
-    },
+    }
 });
 
 export const { clearState, clearSuccess } = userActions.actions;
