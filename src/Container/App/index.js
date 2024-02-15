@@ -2,10 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 
 //Redux setup
-import produce from 'immer';
-import { configureStore } from '@reduxjs/toolkit';
-import { Provider } from 'react-redux';
-import Store from "../../Utils/Store"
+import { Provider } from "react-redux";
+import Store from "../../Utils/Store";
 
 //Container Pages
 import LoginPage from "../Login";
@@ -22,12 +20,11 @@ const RoutePage = () => {
     { path: "/login", element: <LoginPage /> },
     { path: "registration", element: <Registration /> },
     { path: "home", element: <Home /> },
-    { path: "*", element: <NotFound /> },
+    { path: "*", element: <NotFound /> }
     // ...
   ]);
   return routes;
 };
-
 
 const App = () => {
   return (

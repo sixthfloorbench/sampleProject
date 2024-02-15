@@ -6,14 +6,14 @@ const initialState = {
     isLoading: false,
     isSuccess: false,
     isError: false,
-    error: null,
+    error: null
 };
 
 export const loginUser = createAsyncThunk(
     "auth/loginUser",
     async (apiData, thunkAPI) => {
         try {
-            const { mobile = '' } = apiData
+            const { mobile = "" } = apiData;
             // let response = await axiosClient.get(`/search_or?Mobile=${mobile}`);
             // let data = await response.data;
             // console.log(response, 'response')
@@ -34,6 +34,9 @@ export const authSlice = createSlice({
     initialState,
     reducers: {
         clearState: () => initialState,
+        clearSuccess: () => {
+            return { ...initialState, isSuccess: false };
+        }
     },
     extraReducers: (builder) => {
         builder.addCase(loginUser.pending, (state) => {
@@ -51,8 +54,8 @@ export const authSlice = createSlice({
             state.isSuccess = false;
             state.error = action.payload.error;
         });
-    },
+    }
 });
 
-export const { clearState } = authSlice.actions;
+export const { clearState, clearSuccess } = authSlice.actions;
 export default authSlice.reducer;

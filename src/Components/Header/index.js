@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { clearState, clearSuccess } from "../../Utils/Authentication";
 
-//css
+//css and styling
 import { Button, Modal, Form, Input, Menu } from "antd";
 import "./index.scss";
 
@@ -12,6 +13,7 @@ import {
     BellFilled,
     SearchOutlined,
     TeamOutlined,
+    LogoutOutlined,
     HomeOutlined
 } from "@ant-design/icons";
 
@@ -64,8 +66,9 @@ const items = [
                         key: "setting:3"
                     },
                     {
-                        label: "Option 4",
-                        key: "setting:4"
+                        label: "Logout",
+                        key: "logout",
+                        icon: <LogoutOutlined />
                     }
                 ]
             }
@@ -76,6 +79,7 @@ const items = [
 const Header = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const navigate = useNavigate();
+    const dispatch = useDispatch();
     const { isSuccess, isError, error, isLoading, data } = useSelector(
         (state) => state.auth
     );
@@ -92,9 +96,15 @@ const Header = () => {
 
     const [current, setCurrent] = useState("mail");
     const onClick = (e) => {
-        console.log("click ", e);
-        navigate(e.key);
-        setCurrent(e.key);
+        if (e.key === "logout") {
+            console.log("click logout", e);
+            dispatch(clearState());
+            dispatch(clearSuccess());
+            navigate("/");
+        } else {
+            navigate(e.key);
+            setCurrent(e.key);
+        }
     };
 
     const LoginForm = () => {
