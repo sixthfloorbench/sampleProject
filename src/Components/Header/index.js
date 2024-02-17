@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { clearState, clearSuccess } from "../../Utils/Authentication";
 
 //css and styling
-import { Button, Modal, Form, Input, Menu } from "antd";
+import { Button, Modal, Form, Input, Menu, Spin } from "antd";
 import "./index.scss";
 
 import {
@@ -16,6 +16,7 @@ import {
     LogoutOutlined,
     HomeOutlined
 } from "@ant-design/icons";
+
 
 const items = [
     {
@@ -78,6 +79,7 @@ const items = [
 
 const Header = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const currentLocation = window.location.pathname
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const { isSuccess, isError, error, isLoading, data } = useSelector(
@@ -85,10 +87,16 @@ const Header = () => {
     );
 
     const showModal = () => {
-        setIsModalOpen((flag) => !flag);
+        if (currentLocation === '/registration') {
+            navigate("/")
+        } else {
+            setIsModalOpen((flag) => !flag);
+        }
     };
+
     const handleOk = () => {
         setIsModalOpen(false);
+        navigate("/registration")
     };
     const handleCancel = () => {
         setIsModalOpen(false);
@@ -110,8 +118,8 @@ const Header = () => {
     const LoginForm = () => {
         return (
             <Modal
-                title="Register"
-                visible={isModalOpen}
+                title="Create a Matrimony Profile"
+                open={isModalOpen}
                 onOk={handleOk}
                 onCancel={handleCancel}
             >
@@ -121,11 +129,11 @@ const Header = () => {
                         layout: []
                     }}
                 >
-                    <Form.Item label="Mobile No. / E-mail">
-                        <Input placeholder="Enter your mobile or email" />
+                    <Form.Item label="Enter Name">
+                        <Input placeholder="Enter your name" />
                     </Form.Item>
-                    <Form.Item label="Password">
-                        <Input.Password placeholder="Enter your password" />
+                    <Form.Item label="Enter Mobile">
+                        <Input placeholder="Enter your mobile" />
                     </Form.Item>
                 </Form>
             </Modal>
@@ -148,15 +156,16 @@ const Header = () => {
                             </div>
                         ) : (
                             <div className="right-hand-login">
+                                {/* TODO: Make this modular */}
                                 <div className="already-mem-wrapper">
-                                    <div>Haven't Registered ?</div>
+                                    <div>{currentLocation === '/registration' ? "Already Registered ?" : "Haven't Registered ?"}</div>
                                 </div>
                                 <div className="login-wrapper">
                                     <Button onClick={showModal} className="btn-login">
-                                        REGISTER FREE
+                                        {currentLocation === '/registration' ? "LOGIN" : "REGISTER FREE"}
                                     </Button>
-                                    <LoginForm />
                                 </div>
+                                <LoginForm />
                                 <div className="help-wrapper">
                                     <QuestionCircleOutlined className="question-ico" />
                                     <span>Help</span>
@@ -165,6 +174,7 @@ const Header = () => {
                         )}
                     </div>
                 </div>
+                <Spin spinning={isLoading} fullscreen={true} />
             </div>
         </>
     );

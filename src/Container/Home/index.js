@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Avatar, List } from "antd";
 
-const data = [
+const listData = [
     {
         title: "User 1"
     },
@@ -18,16 +18,18 @@ const data = [
 ];
 
 function Home(props) {
-    const reduxdata = useSelector((state) => state.auth);
+    const { data = [{ 'Name': 'as Guest !!' }] } = useSelector((state) => state.auth);
 
     return (
         <>
-            <h1 className="font-black p-10 text-5xl">This is Home Page</h1>
-            {JSON.stringify(reduxdata)}
+            <h1 className="font-black p-10 text-5xl">Welcome {data[0]?.['Name'] || 'as Guest !!'}</h1>
+            <pre>
+                {JSON.stringify(data)}
+            </pre>
             <div className=" mx-auto w-3/5 py-5">
                 <List
                     itemLayout="horizontal"
-                    dataSource={data}
+                    dataSource={listData}
                     renderItem={(item, index) => (
                         <List.Item>
                             <List.Item.Meta
