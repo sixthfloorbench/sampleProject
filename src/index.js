@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 //Common Css files
 import "tailwindcss/tailwind.css";
-import "antd/dist/antd.css";
+// import "antd/dist/antd.css";
 import "../src/index.css"
 import "@fontsource/open-sans"; // Defaults to weight 400
 import "@fontsource/open-sans/400.css"; // Specify weight

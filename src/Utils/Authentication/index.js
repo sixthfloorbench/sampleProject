@@ -14,13 +14,14 @@ export const loginUser = createAsyncThunk(
     async (apiData, thunkAPI) => {
         try {
             const { mobile = "" } = apiData;
-            // let response = await axiosClient.get(`/search_or?Mobile=${mobile}`);
-            // let data = await response.data;
-            // console.log(response, 'response')
-            if (apiData) {
+            let response = await axiosClient.get(`/search_or?Mobile=${mobile}`);
+            //API issue on returing 200 for all string
+            let data = await response.data;
+            console.log(response, 'response')
+            if (data && data.length) {
                 // localStorage.setItem("token", data.token);
                 // localStorage.setItem("user", JSON.stringify(data));
-                return apiData;
+                return data;
             }
         } catch (error) {
             // console.log(response, 'response')
