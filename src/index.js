@@ -2,12 +2,12 @@ import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 
 //Common Css files
-import "tailwindcss/tailwind.css";
-// import "antd/dist/antd.css";
-import "../src/index.css"
 import "@fontsource/open-sans"; // Defaults to weight 400
 import "@fontsource/open-sans/400.css"; // Specify weight
 import "@fontsource/open-sans/400-italic.css"; // Specify weight and style
+import "tailwindcss/tailwind.css";
+import "../src/index.css"
+
 
 const rootNode = document.getElementById("root");
 const root = ReactDOM.createRoot(rootNode);
