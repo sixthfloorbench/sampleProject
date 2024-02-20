@@ -10,6 +10,7 @@ import LoginPage from "../Login";
 import Registration from "../Registration";
 import NotFound from "../NotFound";
 import Home from "../Home";
+import Matches from "../Matches";
 
 //Components
 import Header from "../../Components/Header";
@@ -17,10 +18,12 @@ import Header from "../../Components/Header";
 const RoutePage = () => {
   let routes = useRoutes([
     { path: "/", element: <LoginPage /> },
-    { path: "/login", element: <LoginPage /> },
+    { path: "login", element: <LoginPage /> },
     { path: "registration", element: <Registration /> },
+    { path: "matches", element: <Matches /> },
     { path: "home", element: <Home /> },
     { path: "*", element: <NotFound /> }
+
     // ...
   ]);
   return routes;
