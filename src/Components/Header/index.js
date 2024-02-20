@@ -9,6 +9,7 @@ import "./index.scss";
 
 import {
     QuestionCircleOutlined,
+    CrownFilled,
     UserOutlined,
     BellFilled,
     SearchOutlined,
@@ -144,8 +145,15 @@ const Header = () => {
         <>
             <div className="common-header-main-wrapper">
                 <div className="common-header-wrapper">
+                    <div className="lhs-wrapper">
+
+                        <div className="demo-logo">
+                            <CrownFilled />
+                            <span>Dummy Title</span>
+                        </div>
+                    </div>
                     <div className="rhs-wrapper">
-                        {isSuccess ? (
+                        {!isSuccess ? (
                             <div className="post-login-wrapper">
                                 <Menu
                                     onClick={onClick}
