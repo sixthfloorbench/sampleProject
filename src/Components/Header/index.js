@@ -153,7 +153,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="rhs-wrapper">
-                        {!isSuccess ? (
+                        {isSuccess ? (
                             <div className="post-login-wrapper">
                                 <Menu
                                     onClick={onClick}
