@@ -1,0 +1,13 @@
+.matches-title {
+  font-size: 40px;
+  margin: 10px 25px 25px;
+  text-align: left;
+}
+
+.matches-table-wrapper {
+  width: 75%;
+  margin: 0 auto;
+  .ant-table-body {
+    overflow: auto !important;
+  }
+}

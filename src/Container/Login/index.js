@@ -43,7 +43,9 @@ function LoginPage(props) {
                   layout="vertical"
                   className="login-form-wrapper"
                   initialValues={{
-                    remember: true
+                    remember: true,
+                    mobile: 8888888888,
+                    password: "&^!^@&%*&*@@",
                   }}
                   onFinish={handleLoginSubmit}
                 >
@@ -53,8 +55,8 @@ function LoginPage(props) {
                     rules={[
                       {
                         required: true,
-                        message: "Please input your Mobile No!"
-                      }
+                        message: "Please input your Mobile No!",
+                      },
                     ]}
                   >
                     <Input
@@ -69,8 +71,8 @@ function LoginPage(props) {
                     rules={[
                       {
                         required: true,
-                        message: "Please input your password!"
-                      }
+                        message: "Please input your password!",
+                      },
                     ]}
                   >
                     <Input.Password
