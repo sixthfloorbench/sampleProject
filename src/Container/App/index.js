@@ -11,6 +11,7 @@ import Registration from "../Registration";
 import NotFound from "../NotFound";
 import Home from "../Home";
 import Matches from "../Matches";
+import Profile from "../Profile";
 
 //Components
 import Header from "../../Components/Header";
@@ -22,7 +23,8 @@ const RoutePage = () => {
     { path: "registration", element: <Registration /> },
     { path: "matches", element: <Matches /> },
     { path: "home", element: <Home /> },
-    { path: "*", element: <NotFound /> }
+    { path: "profile/:id", element: <Profile /> },
+    { path: "*", element: <NotFound /> },
 
     // ...
   ]);
