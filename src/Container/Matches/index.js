@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { useNavigate, useLocation } from "react-router-dom";
+
+import { fetchAllUsers } from "../../Utils/UserActions";
 
 //css and styling
 import { Table } from "antd";
@@ -7,6 +10,7 @@ import "./index.scss";
 
 //custom component
 import SideBar from "../../Components/SideBar";
+import Profile from "../Profile";
 
 const matchesOptions = [
   {
@@ -31,40 +35,67 @@ const matchesOptions = [
   },
 ];
 
-const columns = [
-  {
-    title: "Name",
-    dataIndex: "name",
-    key: "name",
-    width: 150,
-  },
-  {
-    title: "Date",
-    dataIndex: "date",
-    key: "date",
-    sorter: true,
-    width: 150,
-  },
-  {
-    title: "Mobile",
-    dataIndex: "mobile",
-    key: "mobile",
-    width: 150,
-  },
-];
-
 function Matches(props) {
-  const { data } = useSelector((state) => state.auth);
-
+  const dispatch = useDispatch();
+  const { auth, users, data = {} } = useSelector((state) => state);
   const [matchItems, setMatchItems] = useState({});
   const [tableData, setTableData] = useState([]);
   const [columnData, setColumnData] = useState([]);
   const [title, setTitle] = useState(false);
+  const [viewUser, setViewUser] = useState({});
+  const navigate = useNavigate();
 
   useEffect(() => {
-    const content = data["matchesData"] || {};
+    dispatch(fetchAllUsers());
+  }, [dispatch]);
+
+  const columns = [
+    {
+      title: "Name",
+      dataIndex: "name",
+      key: "name",
+      width: 150,
+    },
+    {
+      title: "Date",
+      dataIndex: "date",
+      key: "date",
+      sorter: true,
+      width: 150,
+    },
+    {
+      title: "Mobile",
+      dataIndex: "mobile",
+      key: "mobile",
+      width: 150,
+    },
+    {
+      title: "View",
+      dataIndex: "view",
+      key: "view",
+      render: (text) => (
+        <a id={text} onClick={handleProfileView}>
+          View
+        </a>
+      ),
+      width: 150,
+    },
+  ];
+
+  const handleProfileView = (event) => {
+    const matrimonyId = "MAT128888"; //event.target.id;
+    //NOTE: Make a API call to get the user based on ID
+    const response = users?.data?.response;
+    setViewUser(response);
+    navigate(`/profile/${matrimonyId}`, {
+      state: { id: matrimonyId, data: response },
+    });
+  };
+
+  useEffect(() => {
+    const content = auth?.data?.response?.matchesData || {};
     setMatchItems(content);
-  }, [data]);
+  }, [auth]);
 
   const handleSideBar = (event) => {
     const title = matchesOptions.find((i) => i.key == event.key).label;
@@ -99,6 +130,7 @@ function Matches(props) {
                 columns={columnData}
                 dataSource={tableData}
               />
+              {/* <Profile currentUser={viewUser} /> */}
             </div>
           )}
         </div>

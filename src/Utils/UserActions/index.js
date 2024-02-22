@@ -1,10 +1,10 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 import axiosClient from "../Config";
-import jsonData from "../JSON/index.json";
+import viewUserProfile from "../JSON/viewUser.json";
 
 const initialState = {
-  data: jsonData,
+  data: {},
   isLoading: false,
   isError: false,
   isSuccess: false,
@@ -15,10 +15,10 @@ export const fetchAllUsers = createAsyncThunk(
   "product/fetchAllUsers",
   async (thunkAPI) => {
     try {
-      const response = await axiosClient.get(`/products`);
-      return response.data;
+      //   const response = await axiosClient.get(`/products`);
+      return viewUserProfile;
     } catch (error) {
-      return thunkAPI.rejectWithValue(error.response.data);
+      return thunkAPI.rejectWithValue({ error: true });
     }
   },
 );
@@ -66,7 +66,6 @@ export const userActions = createSlice({
       state.isLoading = true;
     });
     builder.addCase(fetchAllUsers.fulfilled, (state, action) => {
-      debugger;
       state.isLoading = false;
       state.isSuccess = true;
       state.data = action.payload;

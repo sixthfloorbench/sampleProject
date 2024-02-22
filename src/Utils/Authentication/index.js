@@ -1,9 +1,9 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axiosClient from "../Config";
-import jsonData from "../JSON/index.json";
+import myProfileData from "../JSON/viewProfile.json";
 
 const initialState = {
-  data: jsonData,
+  data: {},
   isLoading: false,
   isSuccess: false,
   isError: false,
@@ -22,7 +22,7 @@ export const loginUser = createAsyncThunk(
       if (apiData) {
         // localStorage.setItem("token", data.token);
         // localStorage.setItem("user", JSON.stringify(data));
-        return apiData;
+        return myProfileData;
       }
     } catch (error) {
       // console.log(response, 'response')
@@ -48,7 +48,7 @@ export const authSlice = createSlice({
       state.isLoading = false;
       state.isError = false;
       state.isSuccess = true;
-      state.data = { ...initialState.data.response, loginData: action.payload };
+      state.data = action.payload;
     });
     builder.addCase(loginUser.rejected, (state, action) => {
       state.isLoading = false;
