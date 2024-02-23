@@ -1,44 +1,62 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Image } from "antd";
 
-function Profile(props) {
-  const { state, key } = useLocation();
-  const [userData, setUserData] = useState(state?.data?.[0]);
+function Profile({ currentUser = [] }) {
+  const { state = {}, key } = useLocation();
+  const [userData, setUserData] = useState(
+    (state && state.data) || currentUser,
+  );
 
-  const ConstructProfile = () => {
-    //TODO: Handle json response for nested objects
-    const keys = Object.entries(userData).filter(
-      (i) => i[0] !== "personalDetails",
-    );
+  useEffect(() => {
+    if (currentUser.length) {
+      setUserData(currentUser);
+    }
+  }, [currentUser]);
 
-    const collection = keys.map((i) => {
-      const title = i[0];
-      const value = i[1];
-
-      return title === "photo" ? (
-        <Image
-          width={200}
-          src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
-          preview={{
-            src: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
-          }}
-        />
-      ) : (
-        <div>
-          <span className="capitalize">{title}</span> : <span>{value}</span>
+  const ProfileDetails = ({ data }) => {
+    const profileItems = Object.entries(data).map(([key, value]) => {
+      const items = (
+        <>
+          <span className="capitalize">{key}</span> : <span>{value}</span>
+        </>
+      );
+      return (
+        <div key={key}>
+          {key === "photo" ? <ProfileImage src={value} /> : items}
         </div>
       );
     });
 
     return (
-      <div className="profile-details-wrapper leading-6">{collection}</div>
+      <div className="profile-details-wrapper leading-6">{profileItems}</div>
+    );
+  };
+
+  const ProfileImage = ({ src }) => (
+    <Image width={200} src={src} preview={{ src }} />
+  );
+
+  const CreateProfile = () => {
+    const personalDetails = userData[0]?.personalDetails;
+    const userDetails = userData.map(({ personalDetails, ...rest }) => rest);
+
+    return (
+      <div>
+        <ProfileDetails data={userDetails[0]} />
+        {personalDetails && (
+          <div>
+            <div>Personal Details</div>
+            <ProfileDetails data={personalDetails} />
+          </div>
+        )}
+      </div>
     );
   };
 
   return (
     <div className="profile-section-wrapper m-10" key={key}>
-      <ConstructProfile />
+      <CreateProfile />
     </div>
   );
 }

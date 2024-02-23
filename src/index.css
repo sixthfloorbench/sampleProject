@@ -1,38 +1,37 @@
 * {
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0;
 }
 
 .hide {
-    display: none !important;
+  display: none !important;
 }
 
 html,
 body {
-    height: 100%;
-    margin: 0px;
+  height: 100%;
+  margin: 0px;
 }
-
 
 body {
-    margin: 0 auto;
-    line-height: 15px;
-    font-family: "Open Sans";
-    background: #fbfbfb;
-    height: 100%;
+  margin: 0 auto;
+  line-height: 15px;
+  font-family: 'Open Sans';
+  background: #fbfbfb;
+  height: 100%;
+  max-width: 1440px;
 }
 
-
 form {
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0;
 }
 
 input,
 label,
 select,
 textarea {
-    font-size: 100%
+  font-size: 100%;
 }
 
 blockquote,
@@ -60,37 +59,42 @@ td,
 textarea,
 th,
 ul {
-    margin: 0;
-    padding: 0
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  word-break: break-word;
+  text-wrap: pretty;
 }
 
 ul.inline,
 ul.inline li {
-    list-style: none;
-    display: inline;
-    margin: 0;
-    padding: 0
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 input,
 select {
-    vertical-align: middle
+  vertical-align: middle;
 }
 
 a,
 a:visited {
-    color: #777;
-    text-decoration: none;
-    outline: 0;
-    cursor: pointer
+  color: #777;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
 }
 
 a:hover {
-    text-decoration: underline;
-    outline: 0;
-    cursor: pointer
+  text-decoration: underline;
+  outline: 0;
+  cursor: pointer;
 }
 
 a img {
-    border: 0
+  border: 0;
 }

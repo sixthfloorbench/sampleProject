@@ -23,27 +23,17 @@ function Home(props) {
 
   const { auth, users } = useSelector((state) => state);
 
-  const { data = [{ Name: "as Guest !!" }] } = auth;
+  const { name = "as Guest !!" } = auth?.data?.response;
 
   useEffect(() => {
     dispatch(fetchAllUsers());
-    const i = users;
   }, [dispatch]);
-
-  useEffect(() => {
-    const i = users;
-    console.log(i);
-  }, [users]);
 
   return (
     <>
-      <h1 className="font-black p-10 text-5xl">
-        Welcome {data[0]?.["Name"] || "as Guest !!"}
-      </h1>
+      <h1 className="font-black p-10 text-5xl">Welcome {name}</h1>
       <pre style={{ textWrap: "wrap" }}>{JSON.stringify(auth)}</pre>
       -----------------------------------
-      <br />
-      <pre style={{ textWrap: "wrap" }}>{JSON.stringify(users)}</pre>
       <div className=" mx-auto w-3/5 py-5">
         <List
           itemLayout="horizontal"
