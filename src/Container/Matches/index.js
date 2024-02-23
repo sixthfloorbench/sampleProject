@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import { fetchAllUsers } from "../../Utils/UserActions";
+import { fetchAllUsers, searchProfilebyID } from "../../Utils/UserActions";
 
 //css and styling
-import { Table } from "antd";
+import { Table, Button, Modal, Spin } from "antd";
 import "./index.scss";
 
 //custom component
@@ -43,6 +43,8 @@ function Matches(props) {
   const [columnData, setColumnData] = useState([]);
   const [title, setTitle] = useState(false);
   const [viewUser, setViewUser] = useState({});
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -57,7 +59,7 @@ function Matches(props) {
       width: 150,
     },
     {
-      title: "Date",
+      title: "Viewed Date",
       dataIndex: "date",
       key: "date",
       sorter: true,
@@ -70,7 +72,7 @@ function Matches(props) {
       width: 150,
     },
     {
-      title: "View",
+      title: "View Profile",
       dataIndex: "view",
       key: "view",
       render: (text) => (
@@ -78,18 +80,36 @@ function Matches(props) {
           View
         </a>
       ),
-      width: 150,
+      width: 50,
     },
   ];
 
   const handleProfileView = (event) => {
-    const matrimonyId = "MAT128888"; //event.target.id;
-    //NOTE: Make a API call to get the user based on ID
-    const response = users?.data?.response;
-    setViewUser(response);
-    navigate(`/profile/${matrimonyId}`, {
-      state: { id: matrimonyId, data: response },
-    });
+    const matrimonyId = event.target.id;
+    setIsLoading(true);
+    const response = dispatch(searchProfilebyID({ id: matrimonyId }));
+    try {
+      response.then((data) => {
+        setViewUser([...data.payload.data]);
+        setIsModalOpen(true);
+        setIsLoading(false);
+      });
+    } catch (error) {
+      console.error(error);
+      setIsLoading(false);
+    }
+
+    //NOTE: Below code will take to different page
+    // navigate(`/profile/${matrimonyId}`, {
+    //   state: { id: matrimonyId, data: response },
+    // });
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
   };
 
   useEffect(() => {
@@ -130,10 +150,18 @@ function Matches(props) {
                 columns={columnData}
                 dataSource={tableData}
               />
-              {/* <Profile currentUser={viewUser} /> */}
+              <Modal
+                title="View Profile"
+                open={isModalOpen}
+                onOk={handleOk}
+                onCancel={handleCancel}
+              >
+                <Profile currentUser={viewUser} />
+              </Modal>
             </div>
           )}
         </div>
+        <Spin spinning={isLoading} fullscreen={true} />
       </div>
     </>
   );

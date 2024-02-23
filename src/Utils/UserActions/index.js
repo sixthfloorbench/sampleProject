@@ -11,6 +11,26 @@ const initialState = {
   error: null,
 };
 
+export const searchProfilebyID = createAsyncThunk(
+  "product/searchProfilebyID",
+  async (apiData, thunkAPI) => {
+    debugger;
+    try {
+      const { id = false } = apiData;
+      let response = await axiosClient.get(`exec?id=${id}`);
+      let data = await response.data;
+      console.log(response, "response");
+      debugger;
+      if (data) {
+        return data;
+      }
+    } catch (error) {
+      // console.log(response, 'response')
+      return thunkAPI.rejectWithValue({ error: true });
+    }
+  },
+);
+
 export const fetchAllUsers = createAsyncThunk(
   "product/fetchAllUsers",
   async (thunkAPI) => {
@@ -62,6 +82,19 @@ export const userActions = createSlice({
     },
   },
   extraReducers: (builder) => {
+    builder.addCase(searchProfilebyID.pending, (state) => {
+      state.isLoading = true;
+    });
+    builder.addCase(searchProfilebyID.fulfilled, (state, action) => {
+      state.isLoading = false;
+      state.isSuccess = true;
+      state.data = action.payload;
+    });
+    builder.addCase(searchProfilebyID.rejected, (state, action) => {
+      state.isLoading = false;
+      state.error = action.payload.error;
+      state.isError = false;
+    });
     builder.addCase(fetchAllUsers.pending, (state) => {
       state.isLoading = true;
     });

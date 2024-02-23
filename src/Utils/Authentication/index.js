@@ -3,9 +3,12 @@ import axiosClient from "../Config";
 import myProfileData from "../JSON/viewProfile.json";
 
 const initialState = {
-  data: {},
-  isLoading: false,
+  //NOTE: for testing in prod uncomment below two and remove
   isSuccess: false,
+  data: {},
+  //   data: myProfileData,
+  //   isSuccess: true,
+  isLoading: false,
   isError: false,
   error: null,
 };
@@ -15,10 +18,10 @@ export const loginUser = createAsyncThunk(
   async (apiData, thunkAPI) => {
     try {
       const { mobile = "" } = apiData;
-      // let response = await axiosClient.get(`/search_or?Mobile=${mobile}`);
-      //API issue on returing 200 for all string
-      // let data = await response.data;
-      // console.log(response, 'response')
+      //   let response = await axiosClient.get(`exec`);
+      //   API issue on returing 200 for all string
+      //   let data = await response.data;
+      //   console.log(response, "response");
       if (apiData) {
         // localStorage.setItem("token", data.token);
         // localStorage.setItem("user", JSON.stringify(data));
