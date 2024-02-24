@@ -113,8 +113,15 @@ function Matches(props) {
   };
 
   useEffect(() => {
-    const content = auth?.data?.response?.matchesData || {};
-    setMatchItems(content);
+    const { profileContacted, profileInterested, profileLiked, profileTaken } =
+      auth?.data.data[0] || {};
+    const matchesData = {
+      profileInterested: profileInterested,
+      profileContacted: profileContacted,
+      profileLiked: profileLiked,
+      profileTaken: profileTaken,
+    };
+    setMatchItems(matchesData);
   }, [auth]);
 
   const handleSideBar = (event) => {
