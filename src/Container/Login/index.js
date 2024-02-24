@@ -44,7 +44,7 @@ function LoginPage(props) {
                   className="login-form-wrapper"
                   initialValues={{
                     remember: true,
-                    mobile: 8888888888,
+                    mobile: 12345,
                     password: "&^!^@&%*&*@@",
                   }}
                   onFinish={handleLoginSubmit}

@@ -23,11 +23,11 @@ function Home(props) {
 
   const { auth, users } = useSelector((state) => state);
 
-  const { name = "as Guest !!" } = auth?.data?.response;
+  const { name = "as Guest !!" } = auth?.data?.data[0];
 
-  useEffect(() => {
-    dispatch(fetchAllUsers());
-  }, [dispatch]);
+  //   useEffect(() => {
+  //     dispatch(fetchAllUsers());
+  //   }, [dispatch]);
 
   return (
     <>
