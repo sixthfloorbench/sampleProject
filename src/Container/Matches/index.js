@@ -53,6 +53,12 @@ function Matches(props) {
 
   const columns = [
     {
+      title: "ID",
+      dataIndex: "key",
+      key: "key",
+      width: 150,
+    },
+    {
       title: "Name",
       dataIndex: "name",
       key: "name",
@@ -64,6 +70,9 @@ function Matches(props) {
       key: "date",
       sorter: true,
       width: 150,
+      render: (text) => (
+        <a>{new Date(text.toLocaleString()).toLocaleString()}</a>
+      ),
     },
     {
       title: "Mobile",
@@ -114,7 +123,7 @@ function Matches(props) {
 
   useEffect(() => {
     const { profileContacted, profileInterested, profileLiked, profileTaken } =
-      auth?.data.data[0] || {};
+      auth?.data.data?.[0] || {};
     const matchesData = {
       profileInterested: profileInterested,
       profileContacted: profileContacted,
@@ -131,6 +140,8 @@ function Matches(props) {
     const i = matchItems[event.key];
 
     const colData = columns.filter((x) => Object.keys(i[0]).includes(x.key));
+
+    debugger;
 
     setColumnData(colData);
     setTableData([...i]);
