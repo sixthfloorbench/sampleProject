@@ -23,7 +23,11 @@ function Profile({ currentUser = [] }) {
       );
       return (
         <div key={key}>
-          {key === "photo" ? <ProfileImage src={value} /> : items}
+          {key === "photo" || key === "birthChart" ? (
+            <ProfileImage src={value} />
+          ) : (
+            items
+          )}
         </div>
       );
     });
