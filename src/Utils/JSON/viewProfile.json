@@ -1,10 +1,10 @@
 {
-    "response": {
+    "data": [{
         "id": "MAT12345",
         "name": "Lawrence",
         "gender": "Male",
-        "phonePrimary": "123-456-7890",
-        "phoneSecondary": "123-456-7999",
+        "mobile": "123-456-7890",
+        "mobileSecondary": "123-456-7999",
         "email": "110kglawerence@example.com",
         "encryptedPassKey": "&^&ASGHJHGAS",
         "personalDetails": {
@@ -26,127 +26,125 @@
             "marriageStatus": "unmarried",
             "anyDisability": "married"
         },
-        "matchesData": {
-            "profileLiked": [{
-                "key": "MAT0001",
-                "name": "Female 1",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }, {
-                "key": "MAT0002",
-                "name": "Female 2",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }, {
-                "key": "MAT0003",
-                "name": "Female 3",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }, {
-                "key": "MAT0004",
-                "name": "Female 4",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }],
-            "profileTaken": [{
-                "key": "MAT0001",
-                "name": "Female 1",
-                "mobile": "8128172878",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }, {
-                "key": "MAT0002",
-                "name": "Female 2",
-                "mobile": "8128172878",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }, {
-                "key": "MAT0003",
-                "name": "Female 3",
-                "mobile": "8128172878",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }, {
-                "key": "MAT0004",
-                "name": "Female 4",
-                "mobile": "8128172878",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
-            }],
-            "profileContacted": [{
-                "key": "MAT0001",
-                "name": "Female 1",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
-                "view": "MAT0001"
-            }, {
-                "key": "MAT0002",
-                "name": "Female 2",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
-                "view": "MAT0002"
-            }, {
-                "key": "MAT0003",
-                "name": "Female 3",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
-                "view": "MAT0003"
-            }, {
-                "key": "MAT0004",
-                "name": "Female 4",
-                "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
-                "view": "MAT0004"
-            }],
-            "profileInterested": [{
-                    "key": "123",
-                    "name": "John Brown",
-                    "date": "2024-02-21T10:43:11.000Z"
-                },
-                {
-                    "key": "124",
-                    "name": "John Doe",
-                    "date": "2024-02-21T10:43:12.000Z"
-                },
-                {
-                    "key": "125",
-                    "name": "Jane Smith",
-                    "date": "2024-02-21T10:43:13.000Z"
-                },
-                {
-                    "key": "126",
-                    "name": "Alice Johnson",
-                    "date": "2024-02-21T10:43:14.000Z"
-                },
-                {
-                    "key": "127",
-                    "name": "David Clark",
-                    "date": "2024-02-21T10:43:15.000Z"
-                },
-                {
-                    "key": "128",
-                    "name": "Emma Lee",
-                    "date": "2024-02-21T10:43:16.000Z"
-                },
-                {
-                    "key": "129",
-                    "name": "Michael Wang",
-                    "date": "2024-02-21T10:43:17.000Z"
-                },
-                {
-                    "key": "130",
-                    "name": "Sarah Garcia",
-                    "date": "2024-02-21T10:43:18.000Z"
-                },
-                {
-                    "key": "131",
-                    "name": "Ryan Martinez",
-                    "date": "2024-02-21T10:43:19.000Z"
-                },
-                {
-                    "key": "132",
-                    "name": "Olivia Hernandez",
-                    "date": "2024-02-21T10:43:20.000Z"
-                },
-                {
-                    "key": "133",
-                    "name": "Daniel Lopez",
-                    "date": "2024-02-21T10:43:21.000Z"
-                },
-                {
-                    "key": "134",
-                    "name": "Sophia Gonzalez",
-                    "date": "2024-02-21T10:43:22.000Z"
-                }
-            ]
-        }
-    }
+        "profileLiked": [{
+            "key": "MAT0001",
+            "name": "Female 1",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }, {
+            "key": "MAT0002",
+            "name": "Female 2",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }, {
+            "key": "MAT0003",
+            "name": "Female 3",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }, {
+            "key": "MAT0004",
+            "name": "Female 4",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }],
+        "profileTaken": [{
+            "key": "MAT0001",
+            "name": "Female 1",
+            "mobile": "8128172878",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }, {
+            "key": "MAT0002",
+            "name": "Female 2",
+            "mobile": "8128172878",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }, {
+            "key": "MAT0003",
+            "name": "Female 3",
+            "mobile": "8128172878",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }, {
+            "key": "MAT0004",
+            "name": "Female 4",
+            "mobile": "8128172878",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)"
+        }],
+        "profileContacted": [{
+            "key": "MAT0001",
+            "name": "Female 1",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
+            "view": "MAT0001"
+        }, {
+            "key": "MAT0002",
+            "name": "Female 2",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
+            "view": "MAT0002"
+        }, {
+            "key": "MAT0003",
+            "name": "Female 3",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
+            "view": "MAT0003"
+        }, {
+            "key": "MAT0004",
+            "name": "Female 4",
+            "date": "Wed Feb 21 2024 10:43:11 GMT+0530 (India Standard Time)",
+            "view": "MAT0004"
+        }],
+        "profileInterested": [{
+                "key": "123",
+                "name": "John Brown",
+                "date": "2024-02-21T10:43:11.000Z"
+            },
+            {
+                "key": "124",
+                "name": "John Doe",
+                "date": "2024-02-21T10:43:12.000Z"
+            },
+            {
+                "key": "125",
+                "name": "Jane Smith",
+                "date": "2024-02-21T10:43:13.000Z"
+            },
+            {
+                "key": "126",
+                "name": "Alice Johnson",
+                "date": "2024-02-21T10:43:14.000Z"
+            },
+            {
+                "key": "127",
+                "name": "David Clark",
+                "date": "2024-02-21T10:43:15.000Z"
+            },
+            {
+                "key": "128",
+                "name": "Emma Lee",
+                "date": "2024-02-21T10:43:16.000Z"
+            },
+            {
+                "key": "129",
+                "name": "Michael Wang",
+                "date": "2024-02-21T10:43:17.000Z"
+            },
+            {
+                "key": "130",
+                "name": "Sarah Garcia",
+                "date": "2024-02-21T10:43:18.000Z"
+            },
+            {
+                "key": "131",
+                "name": "Ryan Martinez",
+                "date": "2024-02-21T10:43:19.000Z"
+            },
+            {
+                "key": "132",
+                "name": "Olivia Hernandez",
+                "date": "2024-02-21T10:43:20.000Z"
+            },
+            {
+                "key": "133",
+                "name": "Daniel Lopez",
+                "date": "2024-02-21T10:43:21.000Z"
+            },
+            {
+                "key": "134",
+                "name": "Sophia Gonzalez",
+                "date": "2024-02-21T10:43:22.000Z"
+            }
+        ]
+    }]
 }
