@@ -4,10 +4,12 @@ import axiosClient from "../Config";
 import viewUserProfile from "../JSON/viewUser.json";
 
 const initialState = {
-  data: {},
+  data: viewUserProfile,
+  isSuccess: true,
+  //   data: {},
+  //   isSuccess: false,
   isLoading: false,
   isError: false,
-  isSuccess: false,
   error: null,
 };
 

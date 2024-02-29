@@ -1,12 +1,12 @@
 {
-    "response": [{
+    "data": [{
         "id": "MAT128888",
         "personalDetails": {
             "photo": "https://images.nightcafe.studio/jobs/C1v0ksVIRMmqYWTrUQhc/C1v0ksVIRMmqYWTrUQhc--4--0y1ga_6x.jpg",
             "name": "Vidhya",
             "gender": "Female",
-            "maskedPhonePrimary": "123-xxx-xxx",
-            "maskedPhoneSecondary": "123-xxx-xxx",
+            "mobile": "123-xxx-xxx",
+            "mobileSecondary": "123-xxx-xxx",
             "email": "xxxxxx@example.com",
             "age": 25,
             "dob": "12-12-1212",
