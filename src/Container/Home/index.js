@@ -1,8 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchAllUsers } from "../../Utils/UserActions";
 import { Avatar, List } from "antd";
 import Filter from "../../Components/Filter";
+import { useCollection } from "../../Firebase/Hooks/useCollection";
+import { collection, getDocs } from "firebase/firestore";
+import { dbConfig } from "../../Firebase/config"; 
+
+
 
 const listData = [
   {
@@ -20,11 +25,19 @@ const listData = [
 ];
 
 function Home(props) {
+
+  useEffect(()=>{
+    const dataUsers = useCollection();
+    console.log("dataUsers", dataUsers)
+  },[])
+
   const dispatch = useDispatch();
 
   const { auth, users } = useSelector((state) => state);
 
   const { name = "as Guest !!" } = auth?.data?.data[0];
+
+   //const usersData = useCollection();
 
   //   useEffect(() => {
   //     dispatch(fetchAllUsers());
@@ -54,9 +67,15 @@ function Home(props) {
               </List.Item>
             )}
           />
+          
         </div>
         <Filter />
       </div>
+      <p> "fdfdf"
+          {
+            //JSON.stringify(dataUsers)
+          }
+          </p>
     </>
   );
 }
