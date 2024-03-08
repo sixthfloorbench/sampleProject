@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
-
 import { fetchAllUsers, searchProfilebyID } from "../../Utils/UserActions";
+import { collection, getDocs } from "firebase/firestore";
+import { dbConfig } from "../../Firebase/config"; 
 
 //css and styling
 import { Table, Button, Modal, Spin } from "antd";
@@ -46,11 +47,21 @@ function Matches(props) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
+  const [datau, setDatau] = useState(null);
+
+useEffect(()=>{
+  let results=[];
+  const querySnapshot = getDocs(collection(dbConfig, "userData"));
+  querySnapshot.then(doc => doc.forEach((data)=> results.push(data.data().userName)))
+  let iop = results;
+  console.log(iop, "iop");
+  setDatau(iop);
+  console.log(datau);
+}, [])
 
   useEffect(() => {
     dispatch(fetchAllUsers());
   }, [dispatch]);
-
   const columns = [
     {
       title: "ID",
