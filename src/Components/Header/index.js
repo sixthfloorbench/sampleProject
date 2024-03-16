@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { clearState, clearSuccess } from "../../Utils/Authentication";
@@ -79,6 +79,7 @@ const items = [
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const registrationRef = useRef(null);
   const currentLocation = window.location.pathname;
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -100,7 +101,10 @@ const Header = () => {
 
   const handleOk = () => {
     setIsModalOpen(false);
-    navigate("/registration");
+    const formData = registrationRef.current.getFieldsValue();
+    navigate("/registration", {
+      state: { data: formData },
+    });
   };
   const handleCancel = () => {
     setIsModalOpen(false);
@@ -129,14 +133,16 @@ const Header = () => {
       >
         <Form
           layout="vertical"
+          ref={registrationRef}
           initialValues={{
-            layout: [],
+            name: "",
+            mobile: "",
           }}
         >
-          <Form.Item label="Enter Name">
+          <Form.Item label="Enter Name" name="name">
             <Input placeholder="Enter your name" />
           </Form.Item>
-          <Form.Item label="Enter Mobile">
+          <Form.Item label="Enter Mobile" name="mobile">
             <Input placeholder="Enter your mobile" />
           </Form.Item>
         </Form>

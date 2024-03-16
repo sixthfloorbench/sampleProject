@@ -1,0 +1,22 @@
+.registration-form {
+  box-shadow: 1px 2px 8px 1px #e7e6e6;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 5px;
+  margin: 25px auto;
+}
+
+.registration-form {
+  --scrollbar-color-thumb: unset;
+  --scrollbar-color-track: unset;
+  --scrollbar-width: thin;
+  --scrollbar-width-legacy: 10px;
+}
+
+/* Modern browsers with `scrollbar-*` support */
+@supports (scrollbar-width: auto) {
+  .registration-form {
+    scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
+    scrollbar-width: var(--scrollbar-width);
+  }
+}

@@ -4,10 +4,10 @@ import myProfileData from "../JSON/viewProfile.json";
 
 const initialState = {
   //NOTE: for testing in prod uncomment below two and remove
-  //   isSuccess: false,
-  //   data: {},
-  data: myProfileData,
-  isSuccess: true,
+  isSuccess: false,
+  data: {},
+  // data: myProfileData,
+  // isSuccess: true,
   isLoading: false,
   isError: false,
   error: null,
